@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fil B Public Hub</title>
-    <link>http://localhost:1313/publichub/</link>
+    <link>https://filbezerianos.github.io/publichub/</link>
     <description>Recent content on Fil B Public Hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 20:57:58 +0100</lastBuildDate><atom:link href="http://localhost:1313/publichub/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jun 2024 20:57:58 +0100</lastBuildDate><atom:link href="https://filbezerianos.github.io/publichub/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Behind the Scences</title>
-      <link>http://localhost:1313/publichub/about/</link>
+      <link>https://filbezerianos.github.io/publichub/about/</link>
       <pubDate>Sun, 30 Jun 2024 20:57:58 +0100</pubDate>
       
-      <guid>http://localhost:1313/publichub/about/</guid>
+      <guid>https://filbezerianos.github.io/publichub/about/</guid>
       
       <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>First Post</title>
-      <link>http://localhost:1313/publichub/posts/first-post/</link>
+      <link>https://filbezerianos.github.io/publichub/posts/first-post/</link>
       <pubDate>Sun, 30 Jun 2024 20:52:12 +0100</pubDate>
       
-      <guid>http://localhost:1313/publichub/posts/first-post/</guid>
+      <guid>https://filbezerianos.github.io/publichub/posts/first-post/</guid>
       
       <description></description>
       

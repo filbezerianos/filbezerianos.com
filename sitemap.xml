@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/publichub/about/</loc>
+    <loc>https://filbezerianos.github.io/publichub/about/</loc>
     <lastmod>2024-06-30T20:57:58+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publichub/</loc>
+    <loc>https://filbezerianos.github.io/publichub/</loc>
     <lastmod>2024-06-30T20:57:58+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publichub/posts/first-post/</loc>
+    <loc>https://filbezerianos.github.io/publichub/posts/first-post/</loc>
     <lastmod>2024-06-30T20:52:12+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publichub/posts/</loc>
+    <loc>https://filbezerianos.github.io/publichub/posts/</loc>
     <lastmod>2024-06-30T20:52:12+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publichub/categories/</loc>
+    <loc>https://filbezerianos.github.io/publichub/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/publichub/tags/</loc>
+    <loc>https://filbezerianos.github.io/publichub/tags/</loc>
   </url>
 </urlset>
