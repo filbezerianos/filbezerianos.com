@@ -1,18 +1,18 @@
 {
     "name": "Fil B Public Hub",
     "short_name": "Fil B Public Hub",
-    "start_url": "https://filbezerianos.github.io/publichub/",
+    "start_url": "https://filbezerianos.com/",
     "theme_color": "#434648",
     "background_color": "#ffffff",
     "display": "standalone",
     "icons": [
         {
-            "src": "/publichub/icons/android-chrome-192x192.png",
+            "src": "/icons/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/publichub/icons/android-chrome-512x512.png",
+            "src": "/icons/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
