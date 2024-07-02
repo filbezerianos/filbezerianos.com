@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data and AI on Fil B - Public Hub</title>
+    <link>http://localhost:1313/tags/data-and-ai/</link>
+    <description>Recent content in Data and AI on Fil B - Public Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jul 2024 16:14:29 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/data-and-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convergence of AI and Traditional Product Management</title>
+      <link>http://localhost:1313/posts/ai-product-management/</link>
+      <pubDate>Tue, 02 Jul 2024 16:14:29 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/ai-product-management/</guid>
+      
+      <description>Product Management Lifecycle Stages The Product Management Lifecycle covers the entire lifecycle of a product from inception, through design and engineering, to service and retirement. Generally it has the stages below:
+Conceive: This stage involves identifying market opportunities and developing a concept for a new product. Plan: During that phase the plans for the product development are created (incl. timelines, resources, budgets etc.) Develop: This is the phase the actual design and development of the product takes place (engineering, prototyping, testing etc.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

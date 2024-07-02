@@ -5,6 +5,20 @@
     <link>https://filbezerianos.com/</link>
     <description>Recent content on Fil B - Public Hub</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://filbezerianos.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jul 2024 16:14:29 +0100</lastBuildDate><atom:link href="https://filbezerianos.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Behind the Scences</title>
+      <link>https://filbezerianos.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/about/</guid>
+      
+      <description>Passionate about solving complex challenges and empowering teams to reach their full potential.
+As a professional I stand at the intersection of technology and business, specialising in designing, developing and implementing solutions to drive tangible business outcomes. I work with industry-leading enterprises and exceptionally talented individuals to transform technical potential into substantial business value and reshaping entire organisations.
+I am deeply committed to continuous learning - for a list of courses and certifications see my Credly Profile and LinkedIn.</description>
+      
+    </item>
+    
   </channel>
 </rss>
