@@ -2,20 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://filbezerianos.com/about/</loc>
-    <lastmod>2024-06-30T20:57:58+01:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://filbezerianos.com/</loc>
-    <lastmod>2024-06-30T20:57:58+01:00</lastmod>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://filbezerianos.com/posts/first-post/</loc>
-    <lastmod>2024-06-30T20:52:12+01:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/posts/</loc>
-    <lastmod>2024-06-30T20:52:12+01:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/categories/</loc>
-  </url><url>
-    <loc>https://filbezerianos.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
