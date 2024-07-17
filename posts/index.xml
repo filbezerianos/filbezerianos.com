@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Fil B - Public Hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A.I. = Accelerator of Inefficiencies</title>
+      <link>https://filbezerianos.com/posts/ai-challenges-accelerator/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/posts/ai-challenges-accelerator/</guid>
+      
+      <description>AI is transforming the business and technology landscape, promising efficiency, innovation and better decision-making. However, for organisations already struggling with technology-business misalignment, structural and operational inefficiencies and lack of governance, AI will accelerate and amplify these challenges.
+In this article, we will explore how AI can accelerate some challenges currently faced by the organisations and outline some approaches to avoid and address these.
+Challenges There are multiple gaps and inefficiencies that AI can amplify and accelerate if these are not considered and addressed during the adoption journey.</description>
+      
+    </item>
+    
     <item>
       <title>Blending AI and Product Management</title>
       <link>https://filbezerianos.com/posts/ai-product-management/</link>
@@ -14,8 +27,8 @@
       
       <guid>https://filbezerianos.com/posts/ai-product-management/</guid>
       
-      <description>The introduction of AI into product development represents a transformative shift in how products are developed, managed and evolved. AI is integrating into various stages of the product management lifecycle and it not only accelerates the pace of innovation but also introduces new capabilities and challenges.
-The role of Product Manager must also evolve alongside the changes posed by AI to ensure that they understand the potential, limitations and risks of AI.</description>
+      <description>The introduction of AI into product development represents a transformative shift in how products are developed, managed and evolved. AI product phases are integrating into various stages of the product management lifecycle. Successfully aligning and integrating the AI product management phases into product management lifecycle, will accelerate the pace of innovation and introduce new capabilities, but may also introduce new challenges.
+In addition, the role of Product Manager must evolve alongside the changes posed by AI to ensure that they understand the potential, limitations and risks of AI.</description>
       
     </item>
     

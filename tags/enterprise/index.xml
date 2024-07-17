@@ -2,23 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Enterprise on Fil B - Public Hub</title>
-    <link>http://localhost:1313/tags/enterprise/</link>
+    <link>https://filbezerianos.com/tags/enterprise/</link>
     <description>Recent content in Enterprise on Fil B - Public Hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/enterprise/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/tags/enterprise/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ai Mistake Acceleration</title>
-      <link>http://localhost:1313/posts/ai-mistake-acceleration/</link>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      <title>A.I. = Accelerator of Inefficiencies</title>
+      <link>https://filbezerianos.com/posts/ai-challenges-accelerator/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/ai-mistake-acceleration/</guid>
+      <guid>https://filbezerianos.com/posts/ai-challenges-accelerator/</guid>
       
-      <description>Heading 1 Heading 2 Heading 3 bold
-italics
-strikethrough
-Quote
-bullet bullet bullet Ordered Ordered Code Column 1 Column 2 Row 1 Row 1 Row 2 Row 2 Row 3 Row 3 Linked text</description>
+      <description>AI is transforming the business and technology landscape, promising efficiency, innovation and better decision-making. However, for organisations already struggling with technology-business misalignment, structural and operational inefficiencies and lack of governance, AI will accelerate and amplify these challenges.
+In this article, we will explore how AI can accelerate some challenges currently faced by the organisations and outline some approaches to avoid and address these.
+Challenges There are multiple gaps and inefficiencies that AI can amplify and accelerate if these are not considered and addressed during the adoption journey.</description>
       
     </item>
     
