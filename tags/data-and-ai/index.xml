@@ -6,7 +6,21 @@
     <description>Recent content in Data and AI on Fil B - Public Hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/tags/data-and-ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/tags/data-and-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Implementation and User Experience</title>
+      <link>https://filbezerianos.com/posts/ai-implementation-and-user-experience/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/posts/ai-implementation-and-user-experience/</guid>
+      
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/ai-and-ux.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
+&lt;p&gt;Many organisations have rushed into &amp;ldquo;integrating&amp;rdquo; AI into their processes and products. However the successful integration of AI into existing workflows requires careful planning and an intentional approach. Without this, organisations risking disrupting the user experience, potentially becoming an additional tool that users must manage, rather than genuinely helpful enhancement.&lt;/p&gt;
+&lt;p&gt;A common implementation approach involves deploying chatbots, which require users&amp;rsquo; input queries and validation of AI-generated responses. While this can be effective for certain workflows, it is often not the ideal approach across all contexts.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Embedding AI Into Enterprise</title>
       <link>https://filbezerianos.com/posts/embedding-ai-into-enterprise-workflows/</link>
@@ -14,8 +28,8 @@
       
       <guid>https://filbezerianos.com/posts/embedding-ai-into-enterprise-workflows/</guid>
       
-      <description>Embedding AI into enterprise workflows can be a complex and presents several unique challenges, with of them being AI&amp;rsquo;s non-deterministic nature. Unlike traditional systems that produce predictable, rule-based outputs, AI systems operate with a level of uncertainty and variability. This non-determinism can introduce issues when integrating AI into established workflows. The adoption approach and the leadership team play an important role in successfully adopting AI within the organisation.
-The non-deterministic nature of AI AI operates on probabilistic model and ML algorithms that predict outcomes based on data patterns.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/embedding-ai-into-enterprise.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Embedding AI into enterprise workflows can be a complex and presents several unique challenges, with of them being &lt;strong&gt;AI&amp;rsquo;s non-deterministic nature&lt;/strong&gt;. Unlike traditional systems that produce predictable, rule-based outputs, AI systems operate with a level of uncertainty and variability. This non-determinism can introduce issues when integrating AI into established workflows. The adoption approach and the leadership team play an important role in successfully adopting AI within the organisation.&lt;/p&gt;</description>
       
     </item>
     
@@ -26,9 +40,11 @@ The non-deterministic nature of AI AI operates on probabilistic model and ML alg
       
       <guid>https://filbezerianos.com/posts/ai-dominant-strategy/</guid>
       
-      <description>One of the most classic examples of Game Theory is the Prisoner&amp;rsquo;s Dilemma, which illustrates the conflict between individual rationality and collective rationality.
-In this article, we will explore what game theory acn teach us about AI adoption and how the dominant strategy may lead to a race to the bottom.
-The Prisoner&amp;rsquo;s Dilemma The Prisoner&amp;rsquo;s Dilemma involves two prisoners suspected of committing a crime together. They are interrogated in separate rooms and cannot communicate with each other.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/ai-dominant-strategy.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One of the most classic examples of &lt;a href=&#34;https://en.wikipedia.org/wiki/Game_theory&#34;&gt;Game Theory&lt;/a&gt; is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Prisoner%27s_dilemma&#34;&gt;Prisoner&amp;rsquo;s Dilemma&lt;/a&gt;, which illustrates the conflict between individual rationality and collective rationality.&lt;/p&gt;
+&lt;p&gt;In this article, we will explore what game theory acn teach us about AI adoption and how the dominant strategy may lead to a race to the bottom.&lt;/p&gt;
+&lt;h2 id=&#34;the-prisoners-dilemma&#34;&gt;The Prisoner&amp;rsquo;s Dilemma&lt;/h2&gt;
+&lt;p&gt;The Prisoner&amp;rsquo;s Dilemma involves two prisoners suspected of committing a crime together. They are interrogated in separate rooms and cannot communicate with each other. Each prisoner has two options: to remain silent or confess. The potential outcomes are as follows:&lt;/p&gt;</description>
       
     </item>
     
@@ -39,9 +55,11 @@ The Prisoner&amp;rsquo;s Dilemma The Prisoner&amp;rsquo;s Dilemma involves two p
       
       <guid>https://filbezerianos.com/posts/ai-challenges-accelerator/</guid>
       
-      <description>AI is transforming the business and technology landscape, promising efficiency, innovation and better decision-making. However, for organisations already struggling with technology-business misalignment, structural and operational inefficiencies and lack of governance, AI will accelerate and amplify these challenges.
-In this article, we will explore how AI can accelerate some challenges currently faced by the organisations and outline some approaches to avoid and address these.
-Challenges There are multiple gaps and inefficiencies that AI can amplify and accelerate if these are not considered and addressed during the adoption journey.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/ai-challenges-accelerator.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;AI is transforming the business and technology landscape, promising efficiency, innovation and better decision-making. However, for organisations already struggling with technology-business misalignment, structural and operational inefficiencies and lack of governance, AI will accelerate and amplify these challenges.&lt;/p&gt;
+&lt;p&gt;In this article, we will explore how AI can accelerate some challenges currently faced by the organisations and outline some approaches to avoid and address these.&lt;/p&gt;
+&lt;h1 id=&#34;challenges&#34;&gt;Challenges&lt;/h1&gt;
+&lt;p&gt;There are multiple gaps and inefficiencies that AI can amplify and accelerate if these are not considered and addressed during the adoption journey. This has occurred in that past with the adoption of other technologies, such as Cloud, which required a change in strategy to pivot later in the journey and re-align the goals and objectives.&lt;/p&gt;</description>
       
     </item>
     
@@ -52,8 +70,9 @@ Challenges There are multiple gaps and inefficiencies that AI can amplify and ac
       
       <guid>https://filbezerianos.com/posts/ai-product-management/</guid>
       
-      <description>The introduction of AI into product development represents a transformative shift in how products are developed, managed and evolved. AI product phases are integrating into various stages of the product management lifecycle. Successfully aligning and integrating the AI product management phases into product management lifecycle, will accelerate the pace of innovation and introduce new capabilities, but may also introduce new challenges.
-In addition, the role of Product Manager must evolve alongside the changes posed by AI to ensure that they understand the potential, limitations and risks of AI.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/ai-product-management-stages.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The introduction of AI into product development represents a transformative shift in how products are developed, managed and evolved. AI product phases are integrating into various stages of the product management lifecycle. Successfully aligning and integrating the AI product management phases into product management lifecycle, will accelerate the pace of innovation and introduce new capabilities, but may also introduce new challenges.&lt;/p&gt;
+&lt;p&gt;In addition, the role of Product Manager must evolve alongside the changes posed by AI to ensure that they understand the potential, limitations and risks of AI.&lt;/p&gt;</description>
       
     </item>
     

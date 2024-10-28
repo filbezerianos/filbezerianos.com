@@ -6,7 +6,21 @@
     <description>Recent content on Fil B - Public Hub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Implementation and User Experience</title>
+      <link>https://filbezerianos.com/posts/ai-implementation-and-user-experience/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/posts/ai-implementation-and-user-experience/</guid>
+      
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/ai-and-ux.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;
+&lt;p&gt;Many organisations have rushed into &amp;ldquo;integrating&amp;rdquo; AI into their processes and products. However the successful integration of AI into existing workflows requires careful planning and an intentional approach. Without this, organisations risking disrupting the user experience, potentially becoming an additional tool that users must manage, rather than genuinely helpful enhancement.&lt;/p&gt;
+&lt;p&gt;A common implementation approach involves deploying chatbots, which require users&amp;rsquo; input queries and validation of AI-generated responses. While this can be effective for certain workflows, it is often not the ideal approach across all contexts.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Embedding AI Into Enterprise</title>
       <link>https://filbezerianos.com/posts/embedding-ai-into-enterprise-workflows/</link>
@@ -14,8 +28,8 @@
       
       <guid>https://filbezerianos.com/posts/embedding-ai-into-enterprise-workflows/</guid>
       
-      <description>Embedding AI into enterprise workflows can be a complex and presents several unique challenges, with of them being AI&amp;rsquo;s non-deterministic nature. Unlike traditional systems that produce predictable, rule-based outputs, AI systems operate with a level of uncertainty and variability. This non-determinism can introduce issues when integrating AI into established workflows. The adoption approach and the leadership team play an important role in successfully adopting AI within the organisation.
-The non-deterministic nature of AI AI operates on probabilistic model and ML algorithms that predict outcomes based on data patterns.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/embedding-ai-into-enterprise.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Embedding AI into enterprise workflows can be a complex and presents several unique challenges, with of them being &lt;strong&gt;AI&amp;rsquo;s non-deterministic nature&lt;/strong&gt;. Unlike traditional systems that produce predictable, rule-based outputs, AI systems operate with a level of uncertainty and variability. This non-determinism can introduce issues when integrating AI into established workflows. The adoption approach and the leadership team play an important role in successfully adopting AI within the organisation.&lt;/p&gt;</description>
       
     </item>
     
@@ -26,9 +40,11 @@ The non-deterministic nature of AI AI operates on probabilistic model and ML alg
       
       <guid>https://filbezerianos.com/posts/ai-dominant-strategy/</guid>
       
-      <description>One of the most classic examples of Game Theory is the Prisoner&amp;rsquo;s Dilemma, which illustrates the conflict between individual rationality and collective rationality.
-In this article, we will explore what game theory acn teach us about AI adoption and how the dominant strategy may lead to a race to the bottom.
-The Prisoner&amp;rsquo;s Dilemma The Prisoner&amp;rsquo;s Dilemma involves two prisoners suspected of committing a crime together. They are interrogated in separate rooms and cannot communicate with each other.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/ai-dominant-strategy.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;One of the most classic examples of &lt;a href=&#34;https://en.wikipedia.org/wiki/Game_theory&#34;&gt;Game Theory&lt;/a&gt; is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Prisoner%27s_dilemma&#34;&gt;Prisoner&amp;rsquo;s Dilemma&lt;/a&gt;, which illustrates the conflict between individual rationality and collective rationality.&lt;/p&gt;
+&lt;p&gt;In this article, we will explore what game theory acn teach us about AI adoption and how the dominant strategy may lead to a race to the bottom.&lt;/p&gt;
+&lt;h2 id=&#34;the-prisoners-dilemma&#34;&gt;The Prisoner&amp;rsquo;s Dilemma&lt;/h2&gt;
+&lt;p&gt;The Prisoner&amp;rsquo;s Dilemma involves two prisoners suspected of committing a crime together. They are interrogated in separate rooms and cannot communicate with each other. Each prisoner has two options: to remain silent or confess. The potential outcomes are as follows:&lt;/p&gt;</description>
       
     </item>
     
@@ -39,9 +55,11 @@ The Prisoner&amp;rsquo;s Dilemma The Prisoner&amp;rsquo;s Dilemma involves two p
       
       <guid>https://filbezerianos.com/posts/ai-challenges-accelerator/</guid>
       
-      <description>AI is transforming the business and technology landscape, promising efficiency, innovation and better decision-making. However, for organisations already struggling with technology-business misalignment, structural and operational inefficiencies and lack of governance, AI will accelerate and amplify these challenges.
-In this article, we will explore how AI can accelerate some challenges currently faced by the organisations and outline some approaches to avoid and address these.
-Challenges There are multiple gaps and inefficiencies that AI can amplify and accelerate if these are not considered and addressed during the adoption journey.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/ai-challenges-accelerator.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;AI is transforming the business and technology landscape, promising efficiency, innovation and better decision-making. However, for organisations already struggling with technology-business misalignment, structural and operational inefficiencies and lack of governance, AI will accelerate and amplify these challenges.&lt;/p&gt;
+&lt;p&gt;In this article, we will explore how AI can accelerate some challenges currently faced by the organisations and outline some approaches to avoid and address these.&lt;/p&gt;
+&lt;h1 id=&#34;challenges&#34;&gt;Challenges&lt;/h1&gt;
+&lt;p&gt;There are multiple gaps and inefficiencies that AI can amplify and accelerate if these are not considered and addressed during the adoption journey. This has occurred in that past with the adoption of other technologies, such as Cloud, which required a change in strategy to pivot later in the journey and re-align the goals and objectives.&lt;/p&gt;</description>
       
     </item>
     
@@ -52,8 +70,9 @@ Challenges There are multiple gaps and inefficiencies that AI can amplify and ac
       
       <guid>https://filbezerianos.com/posts/ai-product-management/</guid>
       
-      <description>The introduction of AI into product development represents a transformative shift in how products are developed, managed and evolved. AI product phases are integrating into various stages of the product management lifecycle. Successfully aligning and integrating the AI product management phases into product management lifecycle, will accelerate the pace of innovation and introduce new capabilities, but may also introduce new challenges.
-In addition, the role of Product Manager must evolve alongside the changes posed by AI to ensure that they understand the potential, limitations and risks of AI.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/ai-product-management-stages.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The introduction of AI into product development represents a transformative shift in how products are developed, managed and evolved. AI product phases are integrating into various stages of the product management lifecycle. Successfully aligning and integrating the AI product management phases into product management lifecycle, will accelerate the pace of innovation and introduce new capabilities, but may also introduce new challenges.&lt;/p&gt;
+&lt;p&gt;In addition, the role of Product Manager must evolve alongside the changes posed by AI to ensure that they understand the potential, limitations and risks of AI.&lt;/p&gt;</description>
       
     </item>
     
@@ -64,9 +83,12 @@ In addition, the role of Product Manager must evolve alongside the changes posed
       
       <guid>https://filbezerianos.com/about/</guid>
       
-      <description>Passionate about solving complex challenges and empowering teams to reach their full potential.
-As a professional I stand at the intersection of technology and business, specialising in designing, developing and implementing solutions to drive tangible business outcomes. I work with industry-leading enterprises and exceptionally talented individuals to transform technical potential into substantial business value and reshaping entire organisations.
-I am deeply committed to continuous learning - for a list of courses and certifications visit Credentials, my Credly profile or LinkedIn.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/filb-about.jpg&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Passionate about solving complex challenges and empowering teams to reach their full potential.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As a professional I stand at the intersection of technology and business, specialising in designing, developing and implementing solutions to drive tangible business outcomes. I work with industry-leading enterprises and exceptionally talented individuals to transform technical potential into substantial business value and reshaping entire organisations.&lt;/p&gt;
+&lt;p&gt;I am deeply committed to continuous learning - for a list of courses and certifications visit &lt;a href=&#34;../credentials/&#34;&gt;Credentials&lt;/a&gt;, my &lt;a href=&#34;https://www.credly.com/users/fil-bezerianos/badges?sort=-state_updated_at&amp;amp;page=1&#34;&gt;Credly&lt;/a&gt; profile or &lt;a href=&#34;https://www.linkedin.com/in/filbezerianos/&#34;&gt;LinkedIn&lt;/a&gt;. I strongly believe that technology is not a standalone solution in itself, but a component of a broader strategy, that includes its integration within the organisation and enhancing user experience. This belief drives my effort to stay up to date with technological advancements, understand business and market shifts and delve into user experience and technology adoption. Through this blog, I aim to share valuable perspectives and insights across these topics, which also helps me organise my thoughts and deepen my understanding.&lt;/p&gt;</description>
       
     </item>
     
@@ -77,9 +99,48 @@ I am deeply committed to continuous learning - for a list of courses and certifi
       
       <guid>https://filbezerianos.com/credentials/</guid>
       
-      <description>I am continuously striving to expand my knowledge and skills, acquiring a diverse array of academic qualifications and professional certifications. I view each step in my educational journey not just as a milestone, but a foundation for further growth.
-From prestigious universities to industry-leading certifications, the credentials below represent my pursuit and deep commitment to lifelong learning.
-Institution Subject Cornell University AI Strategy, eCornell MIT Technology and Innovation Acceleration Program, MIT xPro MIT Digital Transformation: Platform Strategies for Success, MIT Sloan Executive Education MIT Organisational Design for Digital Transformation, MIT Sloan School of Management Columbia Business School Digital Strategies for Business: Leading the Next Generation Enterprise City University of London Risk Management in Banking and Finance Imperial College MSc In Electrical Engineering, Control Systems Throughout my career, I have pursued and achieved multiple technical and business certifications, consistently seeking opportunities to expand my skills.</description>
+      <description>&lt;p&gt;I am continuously striving to expand my knowledge and skills, acquiring a diverse array of academic qualifications and professional certifications. I view each step in my educational journey not just as a milestone, but a foundation for further growth.&lt;/p&gt;
+&lt;p&gt;From &lt;strong&gt;prestigious universities&lt;/strong&gt; to &lt;strong&gt;industry-leading certifications&lt;/strong&gt;, the credentials below represent my pursuit and deep commitment to lifelong learning.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Institution&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Subject&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Cornell University&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;AI Strategy, eCornell&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;MIT&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Technology and Innovation Acceleration Program, MIT xPro&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;MIT&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Digital Transformation: Platform Strategies for Success, MIT Sloan Executive Education&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;MIT&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Organisational Design for Digital Transformation, MIT Sloan School of Management&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Columbia Business School&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Digital Strategies for Business: Leading the Next Generation Enterprise&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;City University of London&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Risk Management in Banking and Finance&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Imperial College&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;MSc In Electrical Engineering, Control Systems&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;p&gt;Throughout my career, I have pursued and achieved multiple &lt;strong&gt;technical and business certifications&lt;/strong&gt;, consistently seeking opportunities to expand my skills.&lt;/p&gt;</description>
       
     </item>
     
