@@ -1,0 +1,219 @@
+<!doctype html><html lang="en-us">
+  <head>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="generator" content="Qubt theme for Hugo" />
+
+
+
+<title>Fil B - Public Hub</title>
+<meta name="title" content="Fil B - Public Hub" />
+
+
+
+  <meta name="author" content="Filotheos Bezerianos" />
+
+
+
+
+  <meta name="description" content="Fil B" />
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/css/main.bundle.min.dc272afac5b728559e70f992c1f41447d3b50ef08702bdec4298be3d71a1022d2a3c9c0fec10a56ca18660034a9e31779b54adb2031d090bd721bd66c5cfad32.css" integrity="sha512-3Ccq&#43;sW3KFWecPmSwfQUR9O1DvCHAr3sQpi&#43;PXGhAi0qPJwP7BClbKGGYANKnjF3m1StsgMdCQvXIb1mxc&#43;tMg==" />
+
+
+
+
+
+
+
+
+
+<script defer src="/js/main.bundle.min.4657c962c90bb42241e3db9c00332ac44a2ff6a901654b8248b4e2f4b586571fd2aa672dcadf728d6f2135b0ea6088f21d1cf5302b4cae8557e0593f70081d72.js" integrity="sha512-RlfJYskLtCJB49ucADMqxEov9qkBZUuCSLTi9LWGVx/Sqmctyt9yjW8hNbDqYIjyHRz1MCtMroVX4Fk/cAgdcg=="></script>
+
+
+
+
+
+
+<meta property="og:url" content="https://filbezerianos.com/posts/2020/service-mesh-at-the-edge/">
+  <meta property="og:site_name" content="Fil B - Public Hub">
+  <meta property="og:title" content="Service Mesh at the Edge">
+  <meta property="og:description" content="As Enterprises are under pressure to increase agility and speed to delivery, microservices and containers adoption continues to grow rapidly and faster than expected. There are many articles about the benefits of containerization, e.g. portability (write once, run anywhere), resource efficiencies and faster application start-up times.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-10-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-10-06T00:00:00+00:00">
+    <meta property="og:image" content="https://filbezerianos.com/filb.jpg">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://filbezerianos.com/filb.jpg">
+  <meta name="twitter:title" content="Service Mesh at the Edge">
+  <meta name="twitter:description" content="As Enterprises are under pressure to increase agility and speed to delivery, microservices and containers adoption continues to grow rapidly and faster than expected. There are many articles about the benefits of containerization, e.g. portability (write once, run anywhere), resource efficiencies and faster application start-up times.">
+
+
+<script>
+  
+  if (localStorage.getItem("color-theme") === "dark" || (!("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+     
+    document.documentElement.classList.add("light");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH1L0WTKQZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XH1L0WTKQZ');
+        }
+      </script>
+
+  </head>
+  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+    <div>
+      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+        
+
+
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+
+<section class="mx-auto flex max-w-screen-xl items-center justify-between p-4" style="margin: 0 auto;">
+  <a href="https://filbezerianos.com/" class="flex items-center space-x-3">
+    
+    <span class="self-center whitespace-nowrap text-2xl font-semibold text-slate-700 dark:text-slate-400">
+       
+    </span>
+  </a>
+  <div class="flex flex-row space-x-8">
+    <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+      
+        <a href="/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Home
+        </a>
+      
+        <a href="/posts/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Posts
+        </a>
+      
+        <a href="/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          About
+        </a>
+      
+        <a href="/credentials/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Credentials
+        </a>
+      
+    </nav>
+    
+  </div>
+</section>
+<section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
+  <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+    
+      <a href="/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Home
+      </a>
+    
+      <a href="/posts/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Posts
+      </a>
+    
+      <a href="/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        About
+      </a>
+    
+      <a href="/credentials/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Credentials
+      </a>
+    
+  </nav>
+</section>
+
+      </header>
+      <main>
+        
+  
+  
+  
+  
+  
+
+
+  <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
+    <article>
+      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+        Service Mesh at the Edge
+      </h1>
+      <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+        Overcoming the Complexities of Microservices. How Service Mesh and Edge Computing can Shape the Future of Enterprise Architecture
+      </h2>
+      <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
+        Oct 6, 2020 - 4 minute read
+      </div>
+
+      
+
+      
+
+      <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
+        <p><img src="../../../images/service-mesh-at-the-edge.png" alt="Image Text"></p>
+<p>As Enterprises are under pressure to increase agility and speed to delivery, microservices and containers adoption continues to grow rapidly and faster than expected. There are many articles about the benefits of containerization, e.g. portability (write once, run anywhere), resource efficiencies and faster application start-up times. However, microservices and containers come with challenges, including operational and log aggregation challenges and difficulty to identify the root cause of performance degradation, to name a few.</p>
+<h1 id="service-mesh">Service Mesh</h1>
+<p>Thus, as the adoption of microservices and containers is rising, the Enterprises must manage and secure an increasing number of endpoints. A solution to these challenges is the Service Mesh technology. The development teams can focus on the application logic, instead of writing code to encrypt traffic, authorize clients, emit telemetry, etc., and let the Service Mesh push this logic into the network. The three main characteristics provided by a Service Mesh are:</p>
+<p>Service Authorization. With Service Mesh we can establish access control across services – for example, we can define in a declarative way, which services are allowed to talk to service A and which services service A is allowed to talk to (e.g. prevent development services sending traffic to production services)
+Traffic Management. With Service Mesh, we can control the traffic between the services. For example, we can have canary deployments where Service A sends 99% of the traffic to Service B version 1 and 1% to Service B version 2, without the application knowing the difference.
+Traffic Telemetry. With Microservices architecture, it becomes difficult to find out where the connections break, why certain requests are failing, where the performance degradation is etc. With Service Mesh, we can collect several metrics, like latency between services, HTTP errors etc. and push these to a metrics server (e.g. Prometheus) for further analysis and investigation.</p>
+<h1 id="containers-at-the-edge">Containers at the Edge</h1>
+<p>Containers have changed the way developers package and run applications and allowed Enterprises running containerised applications virtually anywhere. At the same time, with edge computing, we can reduce latency by putting the compute resources at locations geographically closer to the end-users.</p>
+<p>For specific low latency applications (e.g. mobile applications, online gaming, autonomous cars, multimedia streaming) where decisions must be made quickly, the containers can be few hops away, ready to accept requests, improving the end-user experience.</p>
+<p>Also, as the amount and velocity of data increases (e.g. data produced by IoT devices), pushing these data to the cloud or a data centre for processing becomes inefficient. Enterprises need to take a more decentralized approach, and Edge computing offers near real-time insights and localized data processing.</p>
+<h1 id="service-mesh-at-the-edge">Service Mesh at the Edge</h1>
+<p>As we are moving to a distributed architecture, the microservices and containers move from the cloud to the edge and edge native applications are emerging, the technology which manages their complexities needs to follow them. However, using Service Mesh at the edge to offload infrastructure-related activities brings new challenges.</p>
+<p>As an example, resource constrains become a challenge. While in the Cloud, Service Mesh can scale across multiple nodes, at the edge we might have a single node for our service. Also, in data centres, we might have custom hardware to accelerate applications and networking, while at the edge we might have to use standard edge hardware. Thus, we need to ensure that we are lean on resources like compute and bandwidth.</p>
+<p>Another area that can be challenging for Service Mesh at the edge is that the edge devices might not be physically secure. With the Service Mesh, we can secure the microservices, but at the same time, the additional layer may become a target for exploits. For example, the Service Mesh will provide some hardening at the perimeter of the application. However, if an intruder gets past the Service Mesh’s basic perimeter defence will be able to compromise the edge service.</p>
+<p>These are exciting challenges, and we expect new design patterns to emerge.</p>
+
+      </span>
+    </article>
+  </div>
+
+      </main>
+    </div>
+    <footer>
+      <div class="flex flex-col justify-center p-10">
+  
+  <p class="text-center text-slate-700 dark:text-slate-400">
+    &copy;
+    2024
+    Filotheos Bezerianos
+  </p>
+
+  
+</div>
+
+    </footer>
+  </body>
+</html>

@@ -57,5 +57,33 @@
       <guid>https://filbezerianos.com/posts/ai-product-management/</guid>
       <description>The introduction of AI into product development represents a transformative shift in how products are developed, managed and evolved. AI product phases are integrating into various stages of the product management lifecycle.  Successfully aligning and integrating the AI product management phases into product management lifecycle, will accelerate the pace of innovation and introduce new capabilities, but may also introduce new challenges.</description>
     </item>
+    <item>
+      <title>ML Model Metrics and Transformation</title>
+      <link>https://filbezerianos.com/posts/2023/ml-models-and-transformation/</link>
+      <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://filbezerianos.com/posts/2023/ml-models-and-transformation/</guid>
+      <description>There is not a linear connection between the models in the form of going from Project to Product, and from Product to Platform. The key idea is that the three models could run in parallel depending on the transformation initiatives, serving different purposes and focusing on achieving different goals and outcomes.</description>
+    </item>
+    <item>
+      <title>From Project to Product, from Product to Platform</title>
+      <link>https://filbezerianos.com/posts/2023/project-product-platform/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://filbezerianos.com/posts/2023/project-product-platform/</guid>
+      <description>There is not a linear connection between the models in the form of going from Project to Product, and from Product to Platform. The key idea is that the three models could run in parallel depending on the transformation initiatives, serving different purposes and focusing on achieving different goals and outcomes.</description>
+    </item>
+    <item>
+      <title>System Theory and Enterprise Transformation</title>
+      <link>https://filbezerianos.com/posts/2023/system-theory-and-enterprise-transformation/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://filbezerianos.com/posts/2023/system-theory-and-enterprise-transformation/</guid>
+      <description>Viewing the Enterprise as a System can help an organisation to understand their Transformation (e.g. Business, Digital etc.) better and adopt a more holistic and integrated approach to it. In this article I will expand on this approach and I will provide ideas on how specific frameworks and theories can be leveraged to help understand better the dynamics inside an organisation during a Transformational journey, always in alignment with the view of the Enterprise as a System.</description>
+    </item>
+    <item>
+      <title>Service Mesh at the Edge</title>
+      <link>https://filbezerianos.com/posts/2020/service-mesh-at-the-edge/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://filbezerianos.com/posts/2020/service-mesh-at-the-edge/</guid>
+      <description>As Enterprises are under pressure to increase agility and speed to delivery, microservices and containers adoption continues to grow rapidly and faster than expected. There are many articles about the benefits of containerization, e.g. portability (write once, run anywhere), resource efficiencies and faster application start-up times.</description>
+    </item>
   </channel>
 </rss>

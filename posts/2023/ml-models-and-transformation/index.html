@@ -1,0 +1,278 @@
+<!doctype html><html lang="en-us">
+  <head>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="generator" content="Qubt theme for Hugo" />
+
+
+
+<title>Fil B - Public Hub</title>
+<meta name="title" content="Fil B - Public Hub" />
+
+
+
+  <meta name="author" content="Filotheos Bezerianos" />
+
+
+
+
+  <meta name="description" content="Fil B" />
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/css/main.bundle.min.dc272afac5b728559e70f992c1f41447d3b50ef08702bdec4298be3d71a1022d2a3c9c0fec10a56ca18660034a9e31779b54adb2031d090bd721bd66c5cfad32.css" integrity="sha512-3Ccq&#43;sW3KFWecPmSwfQUR9O1DvCHAr3sQpi&#43;PXGhAi0qPJwP7BClbKGGYANKnjF3m1StsgMdCQvXIb1mxc&#43;tMg==" />
+
+
+
+
+
+
+
+
+
+<script defer src="/js/main.bundle.min.4657c962c90bb42241e3db9c00332ac44a2ff6a901654b8248b4e2f4b586571fd2aa672dcadf728d6f2135b0ea6088f21d1cf5302b4cae8557e0593f70081d72.js" integrity="sha512-RlfJYskLtCJB49ucADMqxEov9qkBZUuCSLTi9LWGVx/Sqmctyt9yjW8hNbDqYIjyHRz1MCtMroVX4Fk/cAgdcg=="></script>
+
+
+
+
+
+
+<meta property="og:url" content="https://filbezerianos.com/posts/2023/ml-models-and-transformation/">
+  <meta property="og:site_name" content="Fil B - Public Hub">
+  <meta property="og:title" content="ML Model Metrics and Transformation">
+  <meta property="og:description" content="There is not a linear connection between the models in the form of going from Project to Product, and from Product to Platform. The key idea is that the three models could run in parallel depending on the transformation initiatives, serving different purposes and focusing on achieving different goals and outcomes.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-07-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-07-05T00:00:00+00:00">
+    <meta property="og:image" content="https://filbezerianos.com/filb.jpg">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://filbezerianos.com/filb.jpg">
+  <meta name="twitter:title" content="ML Model Metrics and Transformation">
+  <meta name="twitter:description" content="There is not a linear connection between the models in the form of going from Project to Product, and from Product to Platform. The key idea is that the three models could run in parallel depending on the transformation initiatives, serving different purposes and focusing on achieving different goals and outcomes.">
+
+
+<script>
+  
+  if (localStorage.getItem("color-theme") === "dark" || (!("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+     
+    document.documentElement.classList.add("light");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH1L0WTKQZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XH1L0WTKQZ');
+        }
+      </script>
+
+  </head>
+  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+    <div>
+      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+        
+
+
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+
+<section class="mx-auto flex max-w-screen-xl items-center justify-between p-4" style="margin: 0 auto;">
+  <a href="https://filbezerianos.com/" class="flex items-center space-x-3">
+    
+    <span class="self-center whitespace-nowrap text-2xl font-semibold text-slate-700 dark:text-slate-400">
+       
+    </span>
+  </a>
+  <div class="flex flex-row space-x-8">
+    <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+      
+        <a href="/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Home
+        </a>
+      
+        <a href="/posts/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Posts
+        </a>
+      
+        <a href="/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          About
+        </a>
+      
+        <a href="/credentials/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Credentials
+        </a>
+      
+    </nav>
+    
+  </div>
+</section>
+<section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
+  <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+    
+      <a href="/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Home
+      </a>
+    
+      <a href="/posts/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Posts
+      </a>
+    
+      <a href="/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        About
+      </a>
+    
+      <a href="/credentials/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Credentials
+      </a>
+    
+  </nav>
+</section>
+
+      </header>
+      <main>
+        
+  
+  
+  
+  
+  
+
+
+  <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
+    <article>
+      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+        ML Model Metrics and Transformation
+      </h1>
+      <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+        Balancing Project, Product, and Platform Models for Effective Enterprise Transformation
+      </h2>
+      <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
+        Jul 5, 2023 - 5 minute read
+      </div>
+
+      
+
+      
+
+      <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
+        <p><img src="../../../images/ml-model-and-transformation.png" alt="Image Text"></p>
+<p>In today’s fast-paced and ever-evolving business landscape, Organisations are embarking on different types of Transformation to stay ahead of the curve. As these Transformations rely heavily on data-driven decision-making, the concept of Satisfying and Optimising metrics in Machine Learning emerges as a powerful approach that is applicable to Enterprise and Digital Transformations.</p>
+<p>In this article, we explore how this approach can be applied to identify the appropriate metrics to satisfy or optimise in the context of Transformation and some risks the Organisations must be aware.</p>
+<blockquote>
+<p>If an Organisation aims to optimise all relevant metrics in a Transformation initiative without considering the associated risks and trade-offs, it can lead to several challenges and potential pitfalls.</p>
+</blockquote>
+<h1 id="satisfying-and-optimising-metrics-in-machine-learning">Satisfying and Optimising Metrics in Machine Learning</h1>
+<p>When developing Machine Learning Models, it is common to require balancing multiple metrics. These metrics will vary depending on the specific problem, but they are generally used to evaluate the performance or effectiveness of the model (how well the model can accomplish its intended task).</p>
+<p>Optimising metrics involves finding the best possible values for those metrics. By adjusting the ML model’s parameters, features, or architecture we try to maximise or minimise a particular metric. The specific metric will depend on the problem, as different metrics capture different aspects of model’s performance. For example, Accuracy (the percentage of correct predictions) is a commonly used metric and in some cases (e.g. classification tasks) we may look to maximise. Similarly, Mean Square Error (MSE) is a metric which we look to minimise, e.g. in regression tasks.</p>
+<p>On the other hand, satisfying metrics refers to ensuring that certain predefined performance criteria or requirements are met. Instead of optimising a metric to its maximum or minimum value, the goal is to achieve a satisfactory level or performance on that metric, while potentially prioritising or balancing other metrics. For example, in some cases we may have a minimum Accuracy requirement (instead of maximising as mentioned previously) to minimise false positives and negatives. Similarly, in some other cases we may require low response times (e.g. in real-time decision making, like autonomous driving) and the model must provide predictions within strict time constraints to enable timely responses.</p>
+<p>Generally, it is not possible to optimise all metrics simultaneously in Machine Learning Models. Trade-offs will arise from various factors, such as the nature of the problem, available resources, conflicting objectives etc. For example, if we assume a Machine Learning Model running on a Mobile or Edge Device we may have specific limitations in memory, processing power, energy consumption etc. Thus, optimising all metrics simultaneously may not be feasible due to these limitations. For example, optimising for maximum Accuracy may lead to excessive computational requirements, making the model unsuitable for deployment on low-resource devices.</p>
+<h1 id="satisfying-and-optimising-metrics-in-transformation-context">Satisfying and Optimising Metrics in Transformation Context</h1>
+<p>One can start seeing how Optimising and Satisfying specific metrics can play a crucial role in driving Organisational growth, efficiency and success in the context of Transformation. The metrics mentioned here are focused on Transformation process and change, and help the Organisation measure its progress towards desired outcomes. If an Organisation aims to optimise all relevant metrics in a Transformation without considering the associated risks and trade-offs, it can lead to several challenges and potential pitfalls.</p>
+<h2 id="conflicting-goals-and-trade-offs">Conflicting Goals and Trade-offs</h2>
+<p>Different Transformation metrics often have conflicting objectives, and optimising one metric may come at the expense of another. For example, consider an Organisation aiming to optimise both Cost Reduction (minimise) and Customer Satisfaction (maximise) metrics simultaneously during a Digital Transformation initiative. While Cost Reduction may involve streamlining processes, reducing expenses throughout the value stream etc., it could lead to reduction in Customer Service quality or Product Quality, which subsequently can lead to reduction in Customer Satisfaction. If the Customer Satisfaction is the metric to optimise, satisfying a specific level of Cost Reduction may be a more appropriate approach.</p>
+<p>Similar relationships will exist across other metrics. For example, if an Organisation looks to optimise Time-to-Market, this will lead to faster product launches, which could be competitive advantage. However, this optimisation may need to happen inside specific constraints for the other metrics. Faster Time-to-Market may require additional resources and investments impacting the Cost Reduction metric. Similarly, the rapid launches may impact product quality and potentially affect Customer Satisfaction.</p>
+<p><img src="../../../images/ml-model-and-transformation-intersection.png" alt="Image Text"></p>
+<p>The Transformation Leaders in an organisation must be aware of the potential side effects of focusing solely on optimising metrics without considering the broader impact, and must also ensure that the optimisation efforts are aligned with organisation’s overall objectives.</p>
+<h1 id="aligning-the-optimising-and-satisfying-approach-across-machine-learning-and-transformation">Aligning the Optimising and Satisfying approach across Machine Learning and Transformation</h1>
+<p>While there are similarities in the approach of Optimising and Satisfying metrics between Machine Learning Models and Transformation, there are also key differences. In Machine Learning Models we focus on improving predictive performance and accuracy by fine-tuning parameters, while in Transformation efforts in Organisations, we focus on goals related to growth, efficiency, success etc.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Aspect</th>
+          <th style="text-align: left">Machine Learning Model</th>
+          <th style="text-align: left">Transformation Initiatives</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Purpose</strong></td>
+          <td style="text-align: left">Predictive Modelling, Pattern Recognition, Decision-Making etc.</td>
+          <td style="text-align: left">Organisation Growth, Efficiency, Success etc.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Optimisation Approach</strong></td>
+          <td style="text-align: left">Adjusting Model Parameters to maximise desired metrics.</td>
+          <td style="text-align: left">Focusing on specific metrics for improvement and optimisation.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Metrics</strong></td>
+          <td style="text-align: left">Accuracy, Precision, Recall, F1 Score etc.</td>
+          <td style="text-align: left">Cost Reduction, Customer Satisfaction, Time-to-Market etc.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Trade-Offs</strong></td>
+          <td style="text-align: left">Optimising one metric may negatively impact others.</td>
+          <td style="text-align: left">Conflicting goals between metrics, resource constraints etc.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Constraints</strong></td>
+          <td style="text-align: left">Model complexity, imbalanced data, resource limitations etc.</td>
+          <td style="text-align: left">Conflicting objectives, domain-specific requirements etc.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Risks</strong></td>
+          <td style="text-align: left">Overfitting, biased models, limited generalization etc.</td>
+          <td style="text-align: left">Unintended consequences, neglecting long-term sustainability etc.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Impact on Decision-Making</strong></td>
+          <td style="text-align: left">Informs model selection and parameter tuning.</td>
+          <td style="text-align: left">Guides Transformation strategies and prioritizes actions.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Contextual Considerations</strong></td>
+          <td style="text-align: left">Data characteristics, problem and task requirements etc.</td>
+          <td style="text-align: left">Organisation goals, industry dynamics, organisational culture etc.</td>
+      </tr>
+  </tbody>
+</table>
+<p>In both cases, there are trade-offs to consider, such as the impact on optimising one metric on others, and the constraints imposed by complexity, resource limitations etc. Additional, risks exist in both cases which must be considered.</p>
+<h1 id="wrapping-up---the-role-of-the-transformation-leader">Wrapping up - The Role of the Transformation Leader</h1>
+<p>By understanding the importance of optimising specific metrics while satisfying others and being prepared to make trade-offs and actively guiding the process, the Transformation Leaders play an important role in ensuring the success of Transformation initiatives and driving a sustainable Organisational change.</p>
+<p>The Transformation Leaders must foster a culture of Continuous Improvement by regularly evaluating the effectiveness of Metric Optimisation Strategies and identifying opportunities for refinement and make adjustment as necessary to minimise negative consequences.</p>
+
+      </span>
+    </article>
+  </div>
+
+      </main>
+    </div>
+    <footer>
+      <div class="flex flex-col justify-center p-10">
+  
+  <p class="text-center text-slate-700 dark:text-slate-400">
+    &copy;
+    2024
+    Filotheos Bezerianos
+  </p>
+
+  
+</div>
+
+    </footer>
+  </body>
+</html>
