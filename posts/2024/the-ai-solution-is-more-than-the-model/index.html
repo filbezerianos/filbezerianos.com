@@ -1,0 +1,216 @@
+<!doctype html><html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="generator" content="Qubt theme for Hugo" />
+
+
+
+<title>Fil B - Public Hub</title>
+<meta name="title" content="Fil B - Public Hub" />
+
+
+
+  <meta name="author" content="Filotheos Bezerianos" />
+
+
+
+
+  <meta name="description" content="Fil B" />
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/css/main.bundle.min.dc272afac5b728559e70f992c1f41447d3b50ef08702bdec4298be3d71a1022d2a3c9c0fec10a56ca18660034a9e31779b54adb2031d090bd721bd66c5cfad32.css" integrity="sha512-3Ccq&#43;sW3KFWecPmSwfQUR9O1DvCHAr3sQpi&#43;PXGhAi0qPJwP7BClbKGGYANKnjF3m1StsgMdCQvXIb1mxc&#43;tMg==" />
+
+
+
+
+
+
+
+
+
+<script defer src="/js/main.bundle.min.4657c962c90bb42241e3db9c00332ac44a2ff6a901654b8248b4e2f4b586571fd2aa672dcadf728d6f2135b0ea6088f21d1cf5302b4cae8557e0593f70081d72.js" integrity="sha512-RlfJYskLtCJB49ucADMqxEov9qkBZUuCSLTi9LWGVx/Sqmctyt9yjW8hNbDqYIjyHRz1MCtMroVX4Fk/cAgdcg=="></script>
+
+
+
+
+
+
+<meta property="og:url" content="http://localhost:1313/posts/2024/the-ai-solution-is-more-than-the-model/">
+  <meta property="og:site_name" content="Fil B - Public Hub">
+  <meta property="og:title" content="Beyond the AI Model">
+  <meta property="og:description" content="The model(s) used by an AI solution are a core component and should be managed accordingly, e.g. through versioning. However, there are some other components that integrate with the AI solution, contributing to its IP and the overall value. These components must also be treated as essential elements of the solution.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-17T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/filb.jpg">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/filb.jpg">
+  <meta name="twitter:title" content="Beyond the AI Model">
+  <meta name="twitter:description" content="The model(s) used by an AI solution are a core component and should be managed accordingly, e.g. through versioning. However, there are some other components that integrate with the AI solution, contributing to its IP and the overall value. These components must also be treated as essential elements of the solution.">
+
+
+<script>
+  
+  if (localStorage.getItem("color-theme") === "dark" || (!("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+     
+    document.documentElement.classList.add("light");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH1L0WTKQZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XH1L0WTKQZ');
+        }
+      </script>
+
+  </head>
+  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+    <div>
+      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+        
+
+
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+
+<section class="mx-auto flex max-w-screen-xl items-center justify-between p-4" style="margin: 0 auto;">
+  <a href="http://localhost:1313/" class="flex items-center space-x-3">
+    
+    <span class="self-center whitespace-nowrap text-2xl font-semibold text-slate-700 dark:text-slate-400">
+       
+    </span>
+  </a>
+  <div class="flex flex-row space-x-8">
+    <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+      
+        <a href="/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Home
+        </a>
+      
+        <a href="/posts" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Posts
+        </a>
+      
+        <a href="/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          About
+        </a>
+      
+        <a href="/credentials/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Credentials
+        </a>
+      
+    </nav>
+    
+  </div>
+</section>
+<section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
+  <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+    
+      <a href="/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Home
+      </a>
+    
+      <a href="/posts" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Posts
+      </a>
+    
+      <a href="/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        About
+      </a>
+    
+      <a href="/credentials/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Credentials
+      </a>
+    
+  </nav>
+</section>
+
+      </header>
+      <main>
+        
+  
+  
+  
+  
+  
+
+
+  <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
+    <article>
+      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+        Beyond the AI Model
+      </h1>
+      <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+        Building a successful AI solution requires more than just deploying an advanced model.
+      </h2>
+      <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
+        Nov 17, 2024 - 3 minute read
+      </div>
+
+      
+
+      
+
+      <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
+        <p><!-- raw HTML omitted -->Prefer listening over reading? 🎧 <a href="https://open.spotify.com/episode/41niN2c6knZXu5qUwjnTnW?si=0f83d9777ea24f18">Listen</a> (AI-Generated Audio Version)<!-- raw HTML omitted --></p>
+<p><img src="../../../images/2024/ai-solution-is-more-than-the-model.png" alt="Image Text"></p>
+<p>The model(s) used by an AI solution are a core component and should be managed accordingly, e.g. through versioning. However, there are some other components that integrate with the AI solution, contributing to its intellectual property (IP) and the overall value. These components must also be treated as essential elements of the solution.</p>
+<h1 id="raw-data-and-processing-pipelines">Raw Data and Processing Pipelines</h1>
+<p>Most organisations recognise that their proprietary data is a critical component of their AI solutions. This data can be a real differentiator from competitors. However, in several cases, the pipelines required to prepare the data for analysis are not managed with the same level of importance and are treated as external tools rather than integral of the core AI solution. Changes in these pipelines can lead to issues within the core AI solution. In addition, any synthetic data created must be considered a core component of the AI solution. Version control and thorough integration testing are crucial to ensure consistency and resolve issues promptly.</p>
+<h1 id="prompt-libraries">Prompt Libraries</h1>
+<p>Prompts integrated within the solution should follow the same management processes as the solution&rsquo;s codebase. For example, changes to prompts or model instructions should be part of the organisation&rsquo;s peer-review process. Even minor changes to prompts can significantly impact results for end-users, making it crucial to track these .e.g user feedback. In addition, prompt changes that lead to poorer results should be easily reversible. Implement easy rollback options to revert to previous prompt versions if necessary.</p>
+<h1 id="post-processing-and-analytics-model">Post-processing and Analytics Model</h1>
+<p>In several solutions, the output of the AI model undergoes further processing to align with organisational guidelines or to formal it appropriately. Similarly, analytics models are used to improve accuracy of end results or compensate for model inaccuracies. These components must be managed as part of the core AI solution. Due to their critical role in the overall output, these tools must be integrated into the core AI solution. Any changes to these tools must undergo end-to-end testing, as they can dramatically impact the end-user experience. Appropriate change management protocols are required in order to maintain output quality.</p>
+<h1 id="fine-tuning-and-dashboards">Fine-Tuning and Dashboards</h1>
+<p>The datasets used for fine-tuning, as well as method(s) employed, must be considered core component of the AI solution. Models should be version-controlled and linked to specific datasets and methods for fine-tuning. In addition, any dashboards or systems to track model accuracy, latency, and other KPIs, must be part of the solution. It is important for the organisation to maintain clear links between model versions and their corresponding fine-tuning datasets and methods.</p>
+<h1 id="putting-everything-together">Putting Everything Together</h1>
+<p>Depending on how organisations are structured and how they perceive their solutions, there may be other components to consider beyond those mentioned here. Organisations should adopt an end-to-end holistic view when developing or adopting AI solutions, ensuring that all components and their interconnections are fully understood. When they develop a strategy all these components must be considered and the relevant departments must be involved.</p>
+
+      </span>
+    </article>
+  </div>
+
+      </main>
+    </div>
+    <footer>
+      <div class="flex flex-col justify-center p-10">
+  
+  <p class="text-center text-slate-700 dark:text-slate-400">
+    &copy;
+    2024
+    Filotheos Bezerianos
+  </p>
+
+  
+</div>
+
+    </footer>
+  </body>
+</html>

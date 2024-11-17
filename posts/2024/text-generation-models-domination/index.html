@@ -1,0 +1,219 @@
+<!doctype html><html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="generator" content="Qubt theme for Hugo" />
+
+
+
+<title>Fil B - Public Hub</title>
+<meta name="title" content="Fil B - Public Hub" />
+
+
+
+  <meta name="author" content="Filotheos Bezerianos" />
+
+
+
+
+  <meta name="description" content="Fil B" />
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="/css/main.bundle.min.dc272afac5b728559e70f992c1f41447d3b50ef08702bdec4298be3d71a1022d2a3c9c0fec10a56ca18660034a9e31779b54adb2031d090bd721bd66c5cfad32.css" integrity="sha512-3Ccq&#43;sW3KFWecPmSwfQUR9O1DvCHAr3sQpi&#43;PXGhAi0qPJwP7BClbKGGYANKnjF3m1StsgMdCQvXIb1mxc&#43;tMg==" />
+
+
+
+
+
+
+
+
+
+<script defer src="/js/main.bundle.min.4657c962c90bb42241e3db9c00332ac44a2ff6a901654b8248b4e2f4b586571fd2aa672dcadf728d6f2135b0ea6088f21d1cf5302b4cae8557e0593f70081d72.js" integrity="sha512-RlfJYskLtCJB49ucADMqxEov9qkBZUuCSLTi9LWGVx/Sqmctyt9yjW8hNbDqYIjyHRz1MCtMroVX4Fk/cAgdcg=="></script>
+
+
+
+
+
+
+<meta property="og:url" content="http://localhost:1313/posts/2024/text-generation-models-domination/">
+  <meta property="og:site_name" content="Fil B - Public Hub">
+  <meta property="og:title" content="The Rise of Task-Specific Models">
+  <meta property="og:description" content="While AI text-generation solutions offer multiple benefits across multiple workflows and can be applied to different solution types, they are not always the optimal choice.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-10-30T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-10-30T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/filb.jpg">
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/filb.jpg">
+  <meta name="twitter:title" content="The Rise of Task-Specific Models">
+  <meta name="twitter:description" content="While AI text-generation solutions offer multiple benefits across multiple workflows and can be applied to different solution types, they are not always the optimal choice.">
+
+
+<script>
+  
+  if (localStorage.getItem("color-theme") === "dark" || (!("color-theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+     
+    document.documentElement.classList.add("light");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+</script>
+
+
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH1L0WTKQZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XH1L0WTKQZ');
+        }
+      </script>
+
+  </head>
+  <body class="flex h-screen flex-col justify-between bg-neutral-100 dark:bg-neutral-800">
+    <div>
+      <header class="sticky top-0 z-10 bg-neutral-100 dark:bg-neutral-800">
+        
+
+
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+
+<section class="mx-auto flex max-w-screen-xl items-center justify-between p-4" style="margin: 0 auto;">
+  <a href="http://localhost:1313/" class="flex items-center space-x-3">
+    
+    <span class="self-center whitespace-nowrap text-2xl font-semibold text-slate-700 dark:text-slate-400">
+       
+    </span>
+  </a>
+  <div class="flex flex-row space-x-8">
+    <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+      
+        <a href="/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Home
+        </a>
+      
+        <a href="/posts" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Posts
+        </a>
+      
+        <a href="/about/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          About
+        </a>
+      
+        <a href="/credentials/" class="px-3 py-2 text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+          Credentials
+        </a>
+      
+    </nav>
+    
+  </div>
+</section>
+<section id="mobile-menu" class="absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-neutral-100 text-4xl dark:bg-neutral-800">
+  <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+    
+      <a href="/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Home
+      </a>
+    
+      <a href="/posts" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Posts
+      </a>
+    
+      <a href="/about/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        About
+      </a>
+    
+      <a href="/credentials/" class="px-3 py-2 text-center text-slate-700 hover:text-indigo-500 md:p-0 dark:text-slate-400">
+        Credentials
+      </a>
+    
+  </nav>
+</section>
+
+      </header>
+      <main>
+        
+  
+  
+  
+  
+  
+
+
+  <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
+    <article>
+      <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
+        The Rise of Task-Specific Models
+      </h1>
+      <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
+        Choosing the right model for your specific needs
+      </h2>
+      <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
+        Oct 30, 2024 - 3 minute read
+      </div>
+
+      
+
+      
+
+      <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
+        <p><img src="../../../images/2024/text-generation-model-domination.png" alt="Image Text"></p>
+<p>LLMs have revolutionised text-based AI solutions, significantly impacting various industries. While AI text-generation solutions offer multiple benefits across multiple workflows and can be applied to different solution types, they are not always the optimal choice.</p>
+<h1 id="the-popularity-of-general-purpose-models">The popularity of General-Purpose Models</h1>
+<p>Several organisations are increasingly adopting AI solutions to improve efficiency and drive innovation, spanning areas like customer service, content creation, and data analysis. Often, organisations begin by exploring available technologies, like general-purpose LLMs for text generation, and then seek relevant use cases within their industry and organisation to apply these technologies.</p>
+<p>However, this approach poses several risks. Organisation may overlook valuable use cases that could benefit more from other types of models. The current landscape is heavily influenced by announcements surrounding these LLMs and their applications. While these models are powerful and versatile, they are not always the best fit for every task.</p>
+<h1 id="task-specific-models">Task-Specific Models</h1>
+<p>Many tasks benefit more from specialised, often smaller, models, tailored for specific functions, like image-processing or task-specific questioning-answering. These models are optimised for particular types of data and tasks, enabling more accurate, efficient, and relevant outcomes in certain applications.</p>
+<p>Moreover, the output of the general-purpose text-generation models may not always be in a format conducive to easy post-processing. Although techniques like prompt engineering can help format outputs to specific structures, this is not guaranteed due to the probabilistic nature of these models. In contrast, the output format of specialised models is often more suitable for further processing, allow for more precise results.</p>
+<h1 id="maintaining-familiar-workflows-for-the-user">Maintaining familiar workflows for the user</h1>
+<p>As discussed in our <a href="../ai-implementation-and-user-experience">previous article</a>, user experience is crucial when integrating AI into a product or workflow. Maintaining a familiar workflow while augmenting it with AI can be highly beneficial. For instance, leveraging a general-purpose text-generation approach, like adding a chatbot, relies on the user to prompt the model in specific ways to get the most accurate results.</p>
+<p>In many cases, it is important to ensure standardised output across different solution workflows, independent from user input. Task-specific models can facilitate this standardisation, providing consistent and reliable outputs that integrating into existing workflows.</p>
+<h1 id="image-processing-and-questioning-answering">Image-processing and questioning-answering</h1>
+<p>Consider a <a href="https://www.youtube.com/watch?v=jrlK6PtMNcY">reference solution</a> designed to assist individuals searching for new properties. The solution maintains a familiar workflow for the users when they search for a new property. While a chatbot could be used, allowing users to describe their ideal home, a &ldquo;visual questioning-answering&rdquo; model was deployed instead. This choice enables the creation of a standardised model and allows for further analysis of the AI results, keeping them independent from user input.</p>
+<p>In addition, leveraging a &ldquo;visual questioning-answering&rdquo; model allows for quicker fine-tuning to meet specific requirements and structuring the output format to further processing. This approach compensates for any inaccuracies of the model, ensuring more accurate results for the end-user.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>While multimodal, general-purpose models are undeniably powerful, organisations must analyse their specific use cases to determine whether this is the best model type for their solutions. Often, leveraging smaller, task-specific models requires less management effort and leads to better results.</p>
+
+      </span>
+    </article>
+  </div>
+
+      </main>
+    </div>
+    <footer>
+      <div class="flex flex-col justify-center p-10">
+  
+  <p class="text-center text-slate-700 dark:text-slate-400">
+    &copy;
+    2024
+    Filotheos Bezerianos
+  </p>
+
+  
+</div>
+
+    </footer>
+  </body>
+</html>
