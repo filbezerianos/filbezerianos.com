@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Fil B - Public Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://filbezerianos.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Rise of Task-Specific Models</title>
+      <link>https://filbezerianos.com/posts/2024/text-generation-models-domination/</link>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://filbezerianos.com/posts/2024/text-generation-models-domination/</guid>
+      <description>While AI text-generation solutions offer multiple benefits across multiple workflows and can be applied to different solution types, they are not always the optimal choice.</description>
+    </item>
     <item>
       <title>Beyond the AI Model</title>
       <link>https://filbezerianos.com/posts/2024/the-ai-solution-is-more-than-the-model/</link>
