@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://filbezerianos.com/about/</loc>
-    <lastmod>2024-12-05T00:00:00+00:00</lastmod>
+    <loc>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/</loc>
+    <lastmod>2025-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/product-transformation-and-delivery/</loc>
+    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/technology-and-product-modernisation/</loc>
+    <lastmod>2025-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</loc>
+    <lastmod>2025-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/about/</loc>
     <lastmod>2024-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2024/text-generation-models-domination/</loc>
@@ -34,9 +49,6 @@
   </url><url>
     <loc>https://filbezerianos.com/posts/2024/ai-product-management/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/portfolio/</loc>
-    <lastmod>2024-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2023/ml-models-and-transformation/</loc>
     <lastmod>2023-07-05T00:00:00+00:00</lastmod>
