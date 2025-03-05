@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</loc>
-    <lastmod>2025-01-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://filbezerianos.com/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/posts/</loc>
+    <lastmod>2025-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</loc>
     <lastmod>2025-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/portfolio/</loc>
@@ -27,9 +30,6 @@
     <lastmod>2024-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2024/text-generation-models-domination/</loc>
-    <lastmod>2024-11-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/posts/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2024/the-ai-solution-is-more-than-the-model/</loc>
