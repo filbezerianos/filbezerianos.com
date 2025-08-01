@@ -6,8 +6,15 @@
     <description>Recent content on Fil Bezerianos | Public Hub</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://filbezerianos.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCP Alignment</title>
+      <link>https://filbezerianos.com/posts/2025/mcp-alignment/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://filbezerianos.com/posts/2025/mcp-alignment/</guid>
+      <description>MCP can help organisations align technical, product and business teams by embedding business context into LLM workflows, standardising integrations and accelerating collaborative development.</description>
+    </item>
     <item>
       <title>Product Work Focus Tool</title>
       <link>https://filbezerianos.com/portfolio/product-work-focus-tool/</link>
@@ -45,9 +52,9 @@
     </item>
     <item>
       <title>AI as a Junior Employee</title>
-      <link>https://filbezerianos.com/posts/2024/ai-as-a-junior-employee/</link>
+      <link>https://filbezerianos.com/posts/2025/ai-as-a-junior-employee/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/posts/2024/ai-as-a-junior-employee/</guid>
+      <guid>https://filbezerianos.com/posts/2025/ai-as-a-junior-employee/</guid>
       <description>AI systems have become very capable but they are like a junior employee, where if left unattended may cause more work than deliver value. The next wave of autonomous AI agents may change this.</description>
     </item>
     <item>
