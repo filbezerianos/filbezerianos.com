@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Products and Solutions on Fil Bezerianos | Public Hub</title>
+    <title>The Lab on Fil Bezerianos - Product &amp; Technology Strategy</title>
     <link>https://filbezerianos.com/portfolio/</link>
-    <description>Recent content in Products and Solutions on Fil Bezerianos | Public Hub</description>
+    <description>Recent content in The Lab on Fil Bezerianos - Product &amp; Technology Strategy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate>
@@ -49,20 +49,6 @@
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</guid>
       <description>PunGPT is personal project built for fun and powered by a lightweight LLaMA model, it delivers puns and dad jokes on demand, and sometimes when you least expect them. All wrapped in a clean, familiar chat UI.</description>
-    </item>
-    <item>
-      <title>Product Transformation and Delivery</title>
-      <link>https://filbezerianos.com/portfolio/product-transformation-and-delivery/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/product-transformation-and-delivery/</guid>
-      <description>Leading impactful initiatives to bring ideas to life. I have worked with diverse organisations across industries to design modern product structures and deliver effective and innovative solutions on time and within budget.</description>
-    </item>
-    <item>
-      <title>Technology and Product Modernisation</title>
-      <link>https://filbezerianos.com/portfolio/technology-and-product-modernisation/</link>
-      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/technology-and-product-modernisation/</guid>
-      <description>Driving innovation and transformation through cutting-edge modernisation programs. I have delivered scalable solutions, enhanced user experiences, and aligned business strategies with evolving market demands.</description>
     </item>
   </channel>
 </rss>
