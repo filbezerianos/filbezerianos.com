@@ -47,7 +47,7 @@
 
 <meta property="og:url" content="https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/">
   <meta property="og:site_name" content="Fil Bezerianos - Product & Technology Strategy">
-  <meta property="og:title" content="AI-Powered Property Photo Analyser">
+  <meta property="og:title" content="What If Property Search Actually Used the Photos?">
   <meta property="og:description" content="Property Visual Finder uses a fine-tuned vision AI model to analyse property photos and identify specific features, enabling advanced, data-driven property ranking, and searches based on visual characteristics.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
@@ -59,7 +59,7 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://filbezerianos.com/filb.jpg">
-  <meta name="twitter:title" content="AI-Powered Property Photo Analyser">
+  <meta name="twitter:title" content="What If Property Search Actually Used the Photos?">
   <meta name="twitter:description" content="Property Visual Finder uses a fine-tuned vision AI model to analyse property photos and identify specific features, enabling advanced, data-driven property ranking, and searches based on visual characteristics.">
 
 
@@ -167,10 +167,10 @@
   <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
     <article>
       <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-        AI-Powered Property Photo Analyser
+        What If Property Search Actually Used the Photos?
       </h1>
       <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
-        An AI-powered application that uses image recognition to detect property features and enable advanced search and ranking based on detailed characteristics.
+        Property Visual Finder uses AI-powered visual analysis to extract features directly from listing images, enabling search and ranking based on what properties actually look like, not just how they're described.
       </h2>
       <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
         
@@ -186,33 +186,37 @@
     </div>
 
 <br>
-<h1 id="challenge">Challenge</h1>
-<p>In real estate market, where renters and buyers begin their property search online, photos are an essential part of the home research journey, and good quality photos play a crucial role in property listings.</p>
+<h1 id="the-challenge">The Challenge</h1>
+<p>Property search has not fundamentally changed in years. Platforms let you filter by bedrooms, price, and location, but the photos, which are often the first and most influential thing a prospective renter or buyer looks at, play no role in how listings are filtered or ranked.</p>
+<p>The result is a familiar frustration: <strong>scrolling through dozens of listings that match on paper but miss completely on feel</strong>. Renters hunting for a bright, open-plan kitchen or a south-facing garden have no way to surface those properties without opening every listing individually.</p>
 <blockquote>
 <p><strong>93%</strong> of home seekers form their first impression based on property images, and <strong>94%</strong> of buyers are more likely to view a property with high-quality photos</p></blockquote>
-<p>Despite the importance of images in the home-search journey, current property search platforms fail to use photos to identify key house features, leaving renters and buyers to navigate an overwhelming number of listings on their own.</p>
-<h1 id="solution">Solution</h1>
-<p>The solution, <strong>The Property Visual Finder application, uses AI-powered visual analysis to extract valuable information directly from property images and rank listings based on specific characteristics</strong>. The goal is not to replace existing real estate platforms but to complement them and integrate where possible. Initially focused on the UK real estate market, the solution will expand to the Greek market, with scalability to adapt to new markets and property dimensions as market needs evolve.</p>
+<p><strong>The photos are everywhere. The intelligence to read them is not</strong>.</p>
+<h1 id="the-solution">The Solution</h1>
+<p><strong>Property Visual Finder uses AI-powered visual analysis to extract valuable information directly from property images and rank listings based on specific property features</strong>. The goal is not to replace existing real estate platforms but to complement them and integrate where possible. Initially focused on the UK real estate market, the solution will expand to the Greek market, with scalability to adapt to new markets and property dimensions as market needs evolve.</p>
 <h4 id="key-components">Key Components</h4>
 <ul>
-<li><strong>Fine-tuned visual AI model</strong> trained to identify specific property features</li>
+<li><strong>A Fine-tuned visual AI model</strong> trained to identify specific property features</li>
 <li><strong>Multi-dimensional ranking model</strong> for property listings</li>
 <li><strong>Tailored prompt engineering</strong> to interpret images and provide highly specific, real estate-relevant analysis</li>
 </ul>
-<p>A presentation of the solution is available here <a href="../../../portfolio/ai-powered-property-photo-analyser/Property-Visual-Finder-Overview-English.pdf">here</a>.</p>
+<p>An overview of the solution is available <a href="../../../portfolio/ai-powered-property-photo-analyser/Property-Visual-Finder-Overview-English.pdf">here</a>.</p>
 <p><img src="../../../portfolio/ai-powered-property-photo-analyser/application-mac-mockups-3.png" alt="Image Text"></p>
 <div style="text-align: center; font-size: 13px; line-height: 1.2;">
 The application features intuitive user journeys and interactions, ensuring a seamless and familiar experience. AI operates in the background, enhancing searching and ranking to guide users in finding their ideal property based on their specific criteria.
 </div>
 <br>
 <br>
-<h1 id="my-role">My Role</h1>
-<p>As the <strong>Product Manager</strong>, I lead market and user research efforts while defining and managing the development roadmap. I also act as the <strong>AI and Technical Lead</strong>, responsible for the solution’s architecture, including developing the AI algorithm and fine-tuning the model. Leading a team of two engineers, I oversee the technical implementation of the solution. Additionally, I manage the communication strategy and promote the solution, pitching it to real estate agents and key stakeholders to drive adoption and success.</p>
+<h1 id="behind-the-build">Behind the Build</h1>
+<p>I led this project as both <strong>Product Manager and AI and Technical Lead</strong>, working with a team of two engineers on implementation.</p>
+<p>The most interesting challenge was the model itself. General-purpose vision models are trained to recognise objects broadly, they can identify a kitchen, but not whether it is open-plan, well-lit or recently refurbished. Getting meaningful, <strong>real estate-relevant outputs</strong> required fine-tuning the model on property-specific images and iterating extensively on the prompt engineering to produce assessments that felt credible to people who work in the industry every day.</p>
+<p>The ranking layer added another layer of complexity. Different users weight features differently, a buyer prioritising natural light ranks listings differently from one focused on outdoor space. <strong>Building a ranking model flexible enough</strong> to reflect those differences, while remaining fast enough to be useful in a live search context, involved significant architectural trade-offs.</p>
+<p>On the product side, I led the <strong>market and user research</strong> that shaped the feature set, defined and managed the development roadmap and took on the commercial side, pitching the solution to real estate agents and negotiating the terms of our first integration.</p>
 <h1 id="results">Results</h1>
 <p>The solution has been integrated into the internal system of a UK-based real estate agency, enabling agents to filter and prioritise properties more effectively and efficiently for their clients.</p>
 <blockquote>
-<p>17% reduction in time spent on properties that are not suitable for renters</p></blockquote>
-<p>My team and I continue to enhance and expand the solution by collaborating closely with key stakeholders in the real estate market.</p>
+<p>Agents report a 17% reduction in time spent on properties that do not meet their clients&rsquo; criteria, time that goes back into higher-value conversations.</p></blockquote>
+<p>The integration also surfaced something unexpected. Agents began using the tool&rsquo;s visual assessments as a structured way to brief clients, giving them a shared language for describing what they were looking for. That was not a designed feature, it emerged from real use.</p>
 <p><img src="../../../portfolio/ai-powered-property-photo-analyser/dashboard-screens-3.png" alt="Image Text"></p>
 <div style="text-align: center; font-size: 13px; line-height: 1.2;">
 The application's back-end features a dashboard that allows the team to monitor model performance across various dimensions and enables fine-tuning parameters and prompts.

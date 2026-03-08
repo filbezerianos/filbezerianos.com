@@ -47,7 +47,7 @@
 
 <meta property="og:url" content="https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/">
   <meta property="og:site_name" content="Fil Bezerianos - Product & Technology Strategy">
-  <meta property="og:title" content="Dad Jokes Chatty">
+  <meta property="og:title" content="An AI With One Job, Make You Smile">
   <meta property="og:description" content="PunGPT is personal project built for fun and powered by a lightweight LLaMA model, it delivers puns and dad jokes on demand, and sometimes when you least expect them. All wrapped in a clean, familiar chat UI.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
@@ -59,7 +59,7 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://filbezerianos.com/filb.jpg">
-  <meta name="twitter:title" content="Dad Jokes Chatty">
+  <meta name="twitter:title" content="An AI With One Job, Make You Smile">
   <meta name="twitter:description" content="PunGPT is personal project built for fun and powered by a lightweight LLaMA model, it delivers puns and dad jokes on demand, and sometimes when you least expect them. All wrapped in a clean, familiar chat UI.">
 
 
@@ -167,10 +167,10 @@
   <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
     <article>
       <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-        Dad Jokes Chatty
+        An AI With One Job, Make You Smile
       </h1>
       <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
-        PunGPT is an AI chatbot with one goal, to deliver a consistent stream of puns and dad jokes. All while doing its best to stay useful.
+        PunGPT is a dad joke chatbot with a surprisingly serious problem to solve, how do you make an AI consistently, contextually, intentionally funny?
       </h2>
       <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
         
@@ -181,26 +181,27 @@
       
 
       <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] md:prose-pre:max-w-screen-md dark:text-slate-200">
-        <p><img src="../../../portfolio/dad-jokes-chatty-pungpt/pungpt-purpose-banner.png" alt="Image Text"></p>
-<h1 id="exploration">Exploration</h1>
-<p>This personal project started as a <strong>playful experience</strong> but was grounded in a real observation:</p>
+        <h1 id="the-idea">The Idea</h1>
+<p>There are thousands of AI chatbots. Almost none of them are trying to make you laugh.</p>
+<p>That felt like a gap worth poking at. Not because the world urgently needs more dad jokes, it does not, but because <strong>designing for humour as a primary goal turned out to be a genuinely interesting constraint</strong>. Helpful is easy to optimise for. Funny is much harder to define, and even harder to sustain across a full conversation.</p>
 <blockquote>
-<p>While there are countless AI chatbots available, very few are designed to be genuinely lighthearted.</p></blockquote>
-<p>I wanted to explore what it might look like if a chatbot&rsquo;s <strong>primary purpose was to entertain, delivering humor, while still feeling responsive, conversational, and engaging</strong>. This experiment allowed me to combine technical exploration with creative intent, pushing the boundaries of what an AI interaction can feel like when fun is the main objective.</p>
-<h1 id="solution">Solution</h1>
-<p>I designed a personality that does not just drop random jokes, but <strong>responds in context and stays consistent throughout the conversation</strong>. The goal was to make the humor feel intentional and engaging rather than just chaotic AI randomness.</p>
-<p>Achieving this required <strong>careful prompt design</strong> and understanding of how tone can subtly shift based on the topic or user input. Running the system on a free LLaMA model introduced technical constraints around content length, so I implemented <strong>strategies to manage conversation history, control prompt size, and monitor usage</strong> to maintain smooth performance without compromising the experience.</p>
+<p>While there are countless AI chatbots available, very few are designed to be genuinely lighthearted. I wanted to find out what that actually takes to build.</p></blockquote>
+<p>PunGPT has one job: deliver puns and dad jokes in context, stay consistent throughout the conversation and make the whole thing <strong>feel intentional rather than like a randomness machine</strong> that occasionally lands a good one.</p>
+<p><img src="../../../portfolio/dad-jokes-chatty-pungpt/pungpt-purpose-banner.png" alt="Image Text"></p>
+<h1 id="the-build">The Build</h1>
+<p>The personality design was the first challenge. A chatbot that drops random jokes regardless of context is easy to build and immediately annoying to use. Getting PunGPT to respond in context, to pick up on what the user said and find the angle from there, required careful, iterative prompt engineering to establish <strong>a tone that stayed consistent without feeling rigid</strong>.</p>
+<p>The second challenge was purely technical. Running the system on a free LLaMA model meant working within real constraints on content length and processing. Managing conversation history without letting the prompt balloon, controlling token usage and keeping performance smooth enough that the experience did not break the joke, all of that required deliberate architectural decisions that had nothing to do with humour and everything to do with making the humour possible.</p>
+<p>It is a silly project built on <strong>a set of problems that were not silly at all to solve</strong>.</p>
 <p><img src="../../../portfolio/dad-jokes-chatty-pungpt/pungpt-laptop-screen.png" alt="Image Text"></p>
 <div style="text-align: center; font-size: 13px; line-height: 1.2;">
 The application uses a familiar layout, consistent with the design of similar chat-based tools. Users can clear the chat history and start a new conversation at any time.
 </div>
 <br>
 <br>
-<h1 id="my-role">My Role</h1>
-<p>I led this project from concept to completion, <strong>designing and developing the chatbot entirely end-to-end</strong>. This included everything from defining its playful, joke-driven personality to building the technical foundations that keep conversations contextual, engaging and performant.</p>
-<p>This project reflects my approach to creative technology, blending <strong>product thinking, design intuition, and technical expertise</strong> to bring experimental ideas to life. It was an opportunity to push the boundaries of what a chatbot can be, transforming a simple dad-joke generator into a consistent, context-aware conversational experience.</p>
+<h1 id="behind-the-build">Behind the Build</h1>
+<p>Designed, built and prompted end-to-end by me. From defining PunGPT&rsquo;s personality to the technical foundations that keep conversations contextual and performant, <strong>all of it solo</strong>.</p>
 <blockquote>
-<p>This project reflects what I enjoy the most; hands-on experimentation with emerging tools, guided by curiosity and a strong sense of how product, design and technology intersect.</p></blockquote>
+<p>This project reflects what I enjoy most; hands-on experimentation with emerging tools, guided by curiosity and a clear sense of how product design and technology intersect. Sometimes the most interesting problems are hiding inside the most ridiculous ideas.</p></blockquote>
 <p><img src="../../../portfolio/dad-jokes-chatty-pungpt/pungpt-phone-screen.png" alt="Image Text"></p>
 <div style="text-align: center; font-size: 13px; line-height: 1.2;">
 The application is also accessible on mobile, with UI elements remaining consistent to ensure a cohesive experience across platforms.
@@ -208,8 +209,9 @@ The application is also accessible on mobile, with UI elements remaining consist
 <br>
 <br>
 <h1 id="results">Results</h1>
-<p>While PunGPT is not designed for productivity, it successfully delivers what it set out to achieve, a steady stream of puns, dad jokes and the occasional eye-roll, creating a <strong>lighthearted and entertaining chat experience exactly as intended</strong>.</p>
+<p>PunGPT delivers exactly what it set out to; a steady stream of contextual puns, well-timed dad jokes and the occasional eye-roll. It is not going to replace your productivity tools. It was never supposed to.</p>
 <p><img src="../../../portfolio/dad-jokes-chatty-pungpt/pungpt-results.png" alt="Image Text"></p>
+<p>What it did do was sharpen how I think about personality design in AI, how tone is established, how it drifts under pressure and how much careful work goes into making something feel effortlessly light. Constraints that seem trivial on the surface have a way of revealing interesting things about the medium. Dad jokes included.</p>
 
       </span>
     </article>

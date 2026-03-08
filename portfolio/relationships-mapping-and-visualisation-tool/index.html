@@ -47,7 +47,7 @@
 
 <meta property="og:url" content="https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/">
   <meta property="og:site_name" content="Fil Bezerianos - Product & Technology Strategy">
-  <meta property="og:title" content="Relationships Mapping and Visualisation Tool">
+  <meta property="og:title" content="The Diagram That Takes Three Days to Draw">
   <meta property="og:description" content="A tool that leverages AI to transform unstructured interview data into a visual overview diagram, expediting the analysis of structures and processes and enabling the identification of inefficiencies.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
@@ -59,7 +59,7 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://filbezerianos.com/filb.jpg">
-  <meta name="twitter:title" content="Relationships Mapping and Visualisation Tool">
+  <meta name="twitter:title" content="The Diagram That Takes Three Days to Draw">
   <meta name="twitter:description" content="A tool that leverages AI to transform unstructured interview data into a visual overview diagram, expediting the analysis of structures and processes and enabling the identification of inefficiencies.">
 
 
@@ -167,10 +167,10 @@
   <div class="justify-left mx-auto mt-8 flex max-w-screen-md px-4">
     <article>
       <h1 class="text-4xl font-extrabold text-slate-700 dark:text-slate-200">
-        Relationships Mapping and Visualisation Tool
+        The Diagram That Takes Three Days to Draw
       </h1>
       <h2 class="mt-4 text-2xl text-slate-500 dark:text-slate-400">
-        An AI-powered solution that transforms unstructured interview data into a visual overview diagram by identifying relationships and interactions among participants, enabling quick detection of bottlenecks and improvement opportunities.
+        An AI-powered solution that transforms unstructured interview data into a visual overview diagram by identifying relationships and interactions among participants, giving consultants and organisations a faster path from discovery to insight.
       </h2>
       <div class="mb-4 mt-2 text-sm text-slate-500 dark:text-slate-400">
         
@@ -186,25 +186,30 @@
     </div>
 
 <br>
-<h1 id="challenge">Challenge</h1>
-<p>Organisations looking to gain an in-depth understanding of their current processes and how value is delivered often conduct multiple interviews with employees across various teams. However, <strong>consolidating information from these interviews and creating a holistic diagram that facilitates the identification of bottlenecks and inefficiencies requires significant time</strong>.</p>
-<p>This challenge is exacerbated for Consulting organisations, where multiple consultants conduct interviews, and the time needed to consolidate the information and present it to the client is often seen as an &ldquo;additional cost&rdquo; with no immediate value.</p>
+<h1 id="the-challenge">The Challenge</h1>
+<p>Understanding how value moves through an organisation requires talking to people. Teams conduct rounds of interviews across departments, gathering perspectives on how work flows, who depends on whom, and where things slow down or break down.</p>
+<p>The interviews themselves are not the hard part. What comes after is.</p>
+<p>Synthesising notes from multiple interviews, often conducted by different consultants with different shorthand, different interpretations, different levels of detail, into a single coherent diagram is <strong>slow, subjective and surprisingly fragile</strong>. A diagram that one consultant reads as showing a clear bottleneck might look like normal workflow friction to another. By the time the team has agreed on what the data is actually saying, significant time has passed and the client is already questioning the cost of the engagement.</p>
 <blockquote>
 <p>Understanding team interactions is crucial for organisations seeking to streamline and optimise their processes and structures. However, <strong>evaluating how value is currently delivered can often be both time-consuming and costly</strong>.</p></blockquote>
-<h1 id="solution">Solution</h1>
-<p>Our goal is to provide a tool that takes unstructured information collected during interviews, analyses it to identify participants and their interactions, and creates a holistic diagram of interactions across teams and tools.</p>
-<p>Our solution, Relationships Mapping Visualiser, <strong>expedites the analysis and visualisation of entire processes</strong> by leveraging a text-generation AI model alongside tailored prompts specific to the use case. In addition, it follows a <strong>human-in-the-loop approach</strong> to mitigate any pitfalls of the AI. Users can edit the underlying data, such as team names and interactions, to ensure the diagram accurately reflects reality. They can also <strong>export the Mermaid code</strong> to directly edit the diagram in the <a href="https://mermaid.live/">Mermaid liver editor</a>.</p>
-<p>Additionally, a <a href="../../../portfolio/relationships-mapping-and-visualisation-tool/Relationships-Mapping-Visualiser-Questionnaire-Guide.pdf">questionnaire guide</a> has been created to help users conduct structured interviews and capture information in a format optimal for input into the tool.</p>
+<h1 id="the-solution">The Solution</h1>
+<p>Relationships Mapping Visualiser takes raw interview notes, unstructured, messy, written exactly the way people actually write field notes, and analyses them to identify participants, relationships and interactions. It then generates a <strong>visual diagram of how value flows across teams and tools</strong>, ready to <strong>review in minutes rather than days</strong>.</p>
+<p>The tool was deliberately designed with a <strong>human-in-the-loop approach</strong> and that decision matters. AI models are good at pattern recognition across large amounts of text, but they make mistakes, misattributing a relationship, conflating two teams, missing a nuance that only makes sense in context. Rather than hiding that limitation, <strong>the tool surfaces the underlying data</strong> and makes it easy to correct; team names, interactions and relationships are all editable through a simple interface, with the <strong>diagram updating in real time</strong>. Users can also export the Mermaid code directly to the <a href="https://mermaid.live/">Mermaid liver editor</a> for deeper customisation.</p>
+<p>The tool works best when the <strong>interview inputs are structured consistently</strong>. A <a href="../../../portfolio/relationships-mapping-and-visualisation-tool/Relationships-Mapping-Visualiser-Questionnaire-Guide.pdf">questionnaire guide</a> is available to help teams capture information in a format that produces the most accurate outputs.</p>
 <p><img src="../../../portfolio/relationships-mapping-and-visualisation-tool/application-mac-mockup.png" alt="Image Text"></p>
 <div style="text-align: center; font-size: 13px; line-height: 1.2;">
 The application offers a user-friendly experience with seamless AI integration working in the background. When needed, users can modify the data through a simple interface, with the diagram updating in real time.
 </div>
 <br>
 <br>
-<h1 id="my-role">My Role</h1>
-<p>As the <strong>Product Manager</strong>, I develop the application roadmap. I also serve as the <strong>AI and Technical Lead</strong>, driving the optimisation and customisation of the AI model. I work closely with a team of consultants to drive tool adoption and gather feedback, ensuring that the results remain accurate and consistently deliver value.</p>
+<h1 id="behind-the-build">Behind the Build</h1>
+<p><strong>Designed and built end-to-end by me</strong>, from the AI integration and prompt engineering to the interface and diagram rendering. I work closely with a group of consultants who use the tool in active engagements, which provides a continuous feedback loop for improving accuracy and usability.</p>
+<p>The most interesting design challenge was the human-in-the-loop layer. Getting the AI to produce a good first-pass diagram was the tractable problem, prompt engineering and iterative testing got the outputs to a reliable baseline relatively quickly. The harder question was how to make corrections fast and intuitive enough that consultants would actually make them rather than abandoning the tool when the AI got something wrong. <strong>If fixing an error takes longer than drawing the diagram by hand, the tool has failed</strong>. Getting that edit experience right took more iteration than the AI work itself.</p>
 <h1 id="results">Results</h1>
-<p>From its initial implementation in small and medium-sized organisations, it has been observed that the tool can reduce the time required to assess a value delivery process by <strong>15%</strong> and the time needed to create the interactions diagram by <strong>80%</strong>.</p>
+<p>Deployed in small and medium-sized organisations, the tool has demonstrably changed how long the discovery-to-diagram process takes.</p>
+<blockquote>
+<p>Initial deployments show an <strong>80% reduction in time spent creating the interactions diagram</strong> and a <strong>15% reduction in overall process assessment time</strong>.</p></blockquote>
+<p>The 80% figure is the one that lands with consultants. It turns a task that used to consume most of a working day into something that happens before the debrief meeting ends. That time goes back into analysis and client conversation, which is where the real value of a consulting engagement sits.</p>
 
       </span>
     </article>
