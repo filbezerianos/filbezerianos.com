@@ -2,47 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://filbezerianos.com/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/portfolio/news-titles-shift/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://filbezerianos.com/posts/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/</loc>
+    <lastmod>2026-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2026/the-headline-you-read-was-written-for-you/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/portfolio/</loc>
-    <lastmod>2026-06-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2026/faster-to-build-harder-to-get-right/</loc>
     <lastmod>2026-03-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://filbezerianos.com/home/</loc>
+    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/home/posts-start-here/</loc>
+    <lastmod>2025-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/home/portfolio-start-here/</loc>
+    <lastmod>2025-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/home/get-in-touch/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://filbezerianos.com/posts/2025/mcp-alignment/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://filbezerianos.com/portfolio/product-work-focus-tool/</loc>
-    <lastmod>2025-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</loc>
-    <lastmod>2025-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</loc>
-    <lastmod>2025-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/portfolio/agents-duo/</loc>
-    <lastmod>2025-04-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://filbezerianos.com/posts/2025/ai-as-a-junior-employee/</loc>
     <lastmod>2025-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/</loc>
-    <lastmod>2025-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</loc>
-    <lastmod>2025-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/about/</loc>
     <lastmod>2024-12-05T00:00:00+00:00</lastmod>
@@ -63,7 +51,7 @@
     <lastmod>2024-07-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2024/ai-challenges-accelerator/</loc>
-    <lastmod>2024-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2024/ai-product-management/</loc>
     <lastmod>2024-07-14T00:00:00+00:00</lastmod>
@@ -78,6 +66,30 @@
     <lastmod>2023-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2020/service-mesh-at-the-edge/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/news-titles-shift/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/product-work-focus-tool/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/agents-duo/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/technology-and-product-modernisation/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/product-transformation-and-delivery/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/categories/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/tags/</loc>
   </url>
 </urlset>

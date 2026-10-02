@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Fil Bezerianos - Product and Technology Director</title>
+    <link>https://filbezerianos.com/home/</link>
+    <description>Recent content in Homes on Fil Bezerianos - Product and Technology Director</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What I write</title>
+      <link>https://filbezerianos.com/home/posts-start-here/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/home/posts-start-here/</guid>
+      <description>&lt;p&gt;A few articles to start with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2026/faster-to-build-harder-to-get-right/&#34;&gt;Faster to Build, Harder to Get Right&lt;/a&gt;: AI speeds up building software, not deciding what is worth building.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2025/ai-as-a-junior-employee/&#34;&gt;AI as a Junior Employee&lt;/a&gt;: capable, useful and in need of supervision.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2024/ai-challenges-accelerator/&#34;&gt;A.I. = Accelerate Inefficiencies&lt;/a&gt;: why AI amplifies the problems an organisation already has.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2024/ai-product-management/&#34;&gt;Blending AI and Product Management&lt;/a&gt;: how the AI product phases fit into the traditional product lifecycle.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2023/project-product-platform/&#34;&gt;From Project to Product, from Product to Platform&lt;/a&gt;: three operating models that run in parallel, not in sequence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://filbezerianos.com/posts/&#34;&gt;All articles →&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I build</title>
+      <link>https://filbezerianos.com/home/portfolio-start-here/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/home/portfolio-start-here/</guid>
+      <description>&lt;p&gt;I still build things. These are the projects I would start with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/&#34;&gt;Property Visual Finder&lt;/a&gt;: a fine-tuned vision model that ranks property listings by what is in the photos.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/&#34;&gt;AI Cloud Migrator&lt;/a&gt;: recommends the right Cloud migration strategy for each application, fast.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/product-work-focus-tool/&#34;&gt;Product Work Focus Tool&lt;/a&gt;: AI-assisted feature prioritisation that keeps the Product Manager in control.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/news-titles-shift/&#34;&gt;News Titles Shift&lt;/a&gt;: an experiment that rewrites news headlines for a reader&amp;rsquo;s profile, then shows exactly how it did it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/&#34;&gt;All projects →&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Find me elsewhere</title>
+      <link>https://filbezerianos.com/home/get-in-touch/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/home/get-in-touch/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/filbezerianos/&#34;&gt;LinkedIn&lt;/a&gt;: the best way to reach me&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/show/2oTxlJM50Ro07q3VKhxpdJ?si=00ec1f39c29b42cc&#34;&gt;Spotify&lt;/a&gt;: audio versions of my articles&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@filb&#34;&gt;Medium&lt;/a&gt;: where I publish my writing&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

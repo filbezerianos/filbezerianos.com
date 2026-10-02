@@ -1,61 +1,203 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Lab on Fil Bezerianos - Product &amp; Technology Strategy</title>
+    <title>Fil Bezerianos - Product and Technology Director</title>
     <link>https://filbezerianos.com/portfolio/</link>
-    <description>Recent content in The Lab on Fil Bezerianos - Product &amp; Technology Strategy</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://filbezerianos.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content on Fil Bezerianos - Product and Technology Director</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://filbezerianos.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Personalised Headlines Tailored To You</title>
+      <title>1. Personalised Headlines Tailored to You</title>
       <link>https://filbezerianos.com/portfolio/news-titles-shift/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/portfolio/news-titles-shift/</guid>
-      <description>News Titles Shift is an experiment in personalised manipulation. A tool that rewrites news headlines in real time based on a reader&amp;rsquo;s profile, then shows you exactly how it did it.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;personalised-headlines-tailored-to-you&#34; --&gt;
+
+&lt;h1&gt;Personalised Headlines Tailored to You&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-idea&#34; --&gt;
+
+&lt;h2&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;Every time we open a news app or scroll a social feed, someone has already made decisions about how to present what we see. &lt;strong&gt;The headline is rarely neutral&lt;/strong&gt;. It has been optimised for engagement, for reach, for the emotional reaction most likely to make us stop scrolling.&lt;/p&gt;
+&lt;p&gt;What most people do not realise is how precise that optimisation can be. Not just &amp;ldquo;make it sound urgent&amp;rdquo; or &amp;ldquo;make it sound alarming&amp;rdquo;, but &lt;strong&gt;calibrated to specific psychological signals&lt;/strong&gt; like political identity, current emotional state, level of institutional trust, how we typically respond when a headline challenges something we already believe etc.&lt;/p&gt;</description>
     </item>
+    
     <item>
-      <title>Rethinking How Product Teams Prioritise</title>
+      <title>2. Rethinking How Product Teams Prioritise</title>
       <link>https://filbezerianos.com/portfolio/product-work-focus-tool/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/portfolio/product-work-focus-tool/</guid>
-      <description>An AI-powered tool that reduces cognitive load in product decision-making. It automatically evaluates new features, calculating their overall impact and priority, saving product teams time and effort.</description>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/MILFiM5KHS0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;rethinking-how-product-teams-prioritise&#34; --&gt;
+
+&lt;h1&gt;Rethinking How Product Teams Prioritise&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-challenge&#34; --&gt;
+
+&lt;h2&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Product Managers face the ongoing challenge of ruthless prioritisation throughout the product lifecycle.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For Product Managers, &lt;strong&gt;ruthless prioritisation is a constant balancing act&lt;/strong&gt;, making tough calls while ensuring every decision stays true to the product vision.&lt;/p&gt;</description>
     </item>
+    
     <item>
-      <title>What If Property Search Actually Used the Photos?</title>
+      <title>3. What If Property Search Actually Used the Photos?</title>
       <link>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</guid>
-      <description>Property Visual Finder uses a fine-tuned vision AI model to analyse property photos and identify specific features, enabling advanced, data-driven property ranking, and searches based on visual characteristics.</description>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/vB9PFRh-DTw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;what-if-property-search-actually-used-the-photos&#34; --&gt;
+
+&lt;h1&gt;What If Property Search Actually Used the Photos?&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-challenge&#34; --&gt;
+
+&lt;h2&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Property search has not fundamentally changed in years. Platforms let you filter by bedrooms, price, and location, but the photos, which are often the first and most influential thing a prospective renter or buyer looks at, play no role in how listings are filtered or ranked.&lt;/p&gt;</description>
     </item>
+    
     <item>
-      <title>Skipping the Part Clients Hate</title>
+      <title>4. Skipping the Part Clients Hate</title>
       <link>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</link>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</guid>
-      <description>An AI-powered tool designed to determine the optimal Cloud migration strategy for applications. It analyses application details and aligns them with the organisation&amp;rsquo;s Cloud goals to deliver tailored recommendations.</description>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/hnzY3AYKNeU?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;skipping-the-part-clients-hate&#34; --&gt;
+
+&lt;h1&gt;Skipping the Part Clients Hate&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-challenge&#34; --&gt;
+
+&lt;h2&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Cloud migrations rarely fail in the execution. They fail before they begin.&lt;/p&gt;
+&lt;p&gt;Consulting companies specialising in Cloud migrations often face challenges when &lt;strong&gt;clients resist paying for initial Cloud assessment&lt;/strong&gt;. The main issue stems from the perception that the assessment is an &amp;ldquo;additional cost&amp;rdquo; with no immediate value to the core goal of migration, which is the transfer of the applications to the Cloud.&lt;/p&gt;</description>
     </item>
+    
     <item>
-      <title>What Happens When Two AIs Talk to Each Other?</title>
-      <link>https://filbezerianos.com/portfolio/agents-duo/</link>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/agents-duo/</guid>
-      <description>A personal project where two AI chat agents engage in real-time discussions and debates on various topics. Users can customize the tone, style and LLM model of each agent to make things even more engaging.</description>
-    </item>
-    <item>
-      <title>The Diagram That Takes Three Days to Draw</title>
+      <title>5. The Diagram That Takes Three Days to Draw</title>
       <link>https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/</link>
-      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/</guid>
-      <description>A tool that leverages AI to transform unstructured interview data into a visual overview diagram, expediting the analysis of structures and processes and enabling the identification of inefficiencies.</description>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/zS8J_MW1HxA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-diagram-that-takes-three-days-to-draw&#34; --&gt;
+
+&lt;h1&gt;The Diagram That Takes Three Days to Draw&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-challenge&#34; --&gt;
+
+&lt;h2&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Understanding how value moves through an organisation requires talking to people. Teams conduct rounds of interviews across departments, gathering perspectives on how work flows, who depends on whom, and where things slow down or break down.&lt;/p&gt;</description>
     </item>
+    
     <item>
-      <title>An AI With One Job, Make You Smile</title>
-      <link>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</guid>
-      <description>PunGPT is personal project built for fun and powered by a lightweight LLaMA model, it delivers puns and dad jokes on demand, and sometimes when you least expect them. All wrapped in a clean, familiar chat UI.</description>
+      <title>6. What Happens When Two AIs Talk to Each Other?</title>
+      <link>https://filbezerianos.com/portfolio/agents-duo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/agents-duo/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;what-happens-when-two-ais-talk-to-each-other&#34; --&gt;
+
+&lt;h1&gt;What Happens When Two AIs Talk to Each Other?&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-idea&#34; --&gt;
+
+&lt;h2&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;Most AI interactions follow the same pattern: a human asks, a model responds. Agents Duo flips that. The human steps back after the setup, choosing the models, configuring their personalities, picking a topic or letting the agents choose one themselves, and then lets the conversation run.&lt;/p&gt;</description>
     </item>
+    
+    <item>
+      <title>7. Technology and Product Modernisation</title>
+      <link>https://filbezerianos.com/portfolio/technology-and-product-modernisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/technology-and-product-modernisation/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;technology-and-product-modernisation&#34; --&gt;
+
+&lt;h1&gt;Technology and Product Modernisation&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;challenges&#34; --&gt;
+
+&lt;h2&gt;Challenges&lt;/h2&gt;
+
+&lt;p&gt;Many organisations struggle with the limitations of outdated technologies and legacy products that hinder their ability to scale, innovate and remain competitive. These challenges often present themselves in various areas, including operational inefficiencies, suboptimal customer experience and increased costs for maintenance and integration. These challenges are compounded by misaligned strategies, technical debt, and resistance to change within organisations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>8. Product Transformation and Delivery</title>
+      <link>https://filbezerianos.com/portfolio/product-transformation-and-delivery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/product-transformation-and-delivery/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;product-transformation-and-delivery&#34; --&gt;
+
+&lt;h1&gt;Product Transformation and Delivery&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;challenges&#34; --&gt;
+
+&lt;h2&gt;Challenges&lt;/h2&gt;
+
+&lt;p&gt;Across industries many organisations struggle with &lt;strong&gt;legacy product structures&lt;/strong&gt; and ways of working that &lt;strong&gt;hinder their ability to adopt new technologies and innovate at scale&lt;/strong&gt;. These challenges are particularly relevant to industries where agility and operational efficiency are critical to maintain a competitive edge, like financial services and pharmaceuticals.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../images/portfolio/product-transformation-and-delivery/product-transformation-challenges.png&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>9. An AI With One Job, Make You Smile</title>
+      <link>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;an-ai-with-one-job-make-you-smile&#34; --&gt;
+
+&lt;h1&gt;An AI With One Job, Make You Smile&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-idea&#34; --&gt;
+
+&lt;h2&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;There are thousands of AI chatbots. Almost none of them are trying to make you laugh.&lt;/p&gt;
+&lt;p&gt;That felt like a gap worth poking at. Not because the world urgently needs more dad jokes, it does not, but because &lt;strong&gt;designing for humour as a primary goal turned out to be a genuinely interesting constraint&lt;/strong&gt;. Helpful is easy to optimise for. Funny is much harder to define, and even harder to sustain across a full conversation.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,173 +1,514 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fil Bezerianos - Product &amp; Technology Strategy</title>
+    <title>Home on Fil Bezerianos - Product and Technology Director</title>
     <link>https://filbezerianos.com/</link>
-    <description>Recent content on Fil Bezerianos - Product &amp; Technology Strategy</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Home on Fil Bezerianos - Product and Technology Director</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://filbezerianos.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Personalised Headlines Tailored To You</title>
-      <link>https://filbezerianos.com/portfolio/news-titles-shift/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/news-titles-shift/</guid>
-      <description>News Titles Shift is an experiment in personalised manipulation. A tool that rewrites news headlines in real time based on a reader&amp;rsquo;s profile, then shows you exactly how it did it.</description>
-    </item>
+    <lastBuildDate>Sun, 14 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Headline You Read Was Written for You</title>
       <link>https://filbezerianos.com/posts/2026/the-headline-you-read-was-written-for-you/</link>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2026/the-headline-you-read-was-written-for-you/</guid>
-      <description>AI makes it possible to rewrite news headlines based on who you are, not what happened. The capability already exists, it is already being used and most readers have no idea.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-headline-you-read-was-written-for-you&#34; --&gt;
+
+&lt;h1&gt;The Headline You Read Was Written for You&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There is a version of the news that was written for everyone. And &lt;strong&gt;there is the version that was written for you&lt;/strong&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Those two things used to be the same article. A headline was a headline; well-written or poorly written, sensational or restrained, but it was the same string of words whether you were anxious or calm, conservative or progressive, a habitual news reader or someone who only catches headlines on a social feed.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Faster to Build, Harder to Get Right</title>
       <link>https://filbezerianos.com/posts/2026/faster-to-build-harder-to-get-right/</link>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2026/faster-to-build-harder-to-get-right/</guid>
-      <description>AI accelerates how software is built, but the hardest product challenges, what to build, for whom and why, remain unchanged. Building faster only creates value when you are building the right thing.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Prefer listening over reading? 🎧 &lt;a href=&#34;https://open.spotify.com/episode/1N8frhUd7boHCJHVcq757E?si=u7vA7pyqT9C-PMe81RYRDg&amp;amp;nd=1&amp;amp;dlsi=ac210f0bbb2846c2&#34;&gt;Listen&lt;/a&gt; (AI-Generated Audio Version)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;faster-to-build-harder-to-get-right&#34; --&gt;
+
+&lt;h1&gt;Faster to Build, Harder to Get Right&lt;/h1&gt;
+
+&lt;p&gt;There is a growing confidence in the market that AI will replace software development. The narrative is straightforward:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;AI can generate code, therefore software development, and the teams behind it, are at risk of being replaced. This conclusion is being treated as inevitable and it is beginning to shape how organisations invest, hire and plan.&lt;/p&gt;</description>
     </item>
+    
+    <item>
+      <title>What I write</title>
+      <link>https://filbezerianos.com/home/posts-start-here/</link>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/home/posts-start-here/</guid>
+      <description>&lt;p&gt;A few articles to start with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2026/faster-to-build-harder-to-get-right/&#34;&gt;Faster to Build, Harder to Get Right&lt;/a&gt;: AI speeds up building software, not deciding what is worth building.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2025/ai-as-a-junior-employee/&#34;&gt;AI as a Junior Employee&lt;/a&gt;: capable, useful and in need of supervision.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2024/ai-challenges-accelerator/&#34;&gt;A.I. = Accelerate Inefficiencies&lt;/a&gt;: why AI amplifies the problems an organisation already has.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2024/ai-product-management/&#34;&gt;Blending AI and Product Management&lt;/a&gt;: how the AI product phases fit into the traditional product lifecycle.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/posts/2023/project-product-platform/&#34;&gt;From Project to Product, from Product to Platform&lt;/a&gt;: three operating models that run in parallel, not in sequence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://filbezerianos.com/posts/&#34;&gt;All articles →&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What I build</title>
+      <link>https://filbezerianos.com/home/portfolio-start-here/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/home/portfolio-start-here/</guid>
+      <description>&lt;p&gt;I still build things. These are the projects I would start with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/&#34;&gt;Property Visual Finder&lt;/a&gt;: a fine-tuned vision model that ranks property listings by what is in the photos.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/&#34;&gt;AI Cloud Migrator&lt;/a&gt;: recommends the right Cloud migration strategy for each application, fast.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/product-work-focus-tool/&#34;&gt;Product Work Focus Tool&lt;/a&gt;: AI-assisted feature prioritisation that keeps the Product Manager in control.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/news-titles-shift/&#34;&gt;News Titles Shift&lt;/a&gt;: an experiment that rewrites news headlines for a reader&amp;rsquo;s profile, then shows exactly how it did it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://filbezerianos.com/portfolio/&#34;&gt;All projects →&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Find me elsewhere</title>
+      <link>https://filbezerianos.com/home/get-in-touch/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/home/get-in-touch/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/filbezerianos/&#34;&gt;LinkedIn&lt;/a&gt;: the best way to reach me&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://open.spotify.com/show/2oTxlJM50Ro07q3VKhxpdJ?si=00ec1f39c29b42cc&#34;&gt;Spotify&lt;/a&gt;: audio versions of my articles&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@filb&#34;&gt;Medium&lt;/a&gt;: where I publish my writing&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
     <item>
       <title>MCP Alignment</title>
       <link>https://filbezerianos.com/posts/2025/mcp-alignment/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2025/mcp-alignment/</guid>
-      <description>MCP can help organisations align technical, product and business teams by embedding business context into LLM workflows, standardising integrations and accelerating collaborative development.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Prefer listening over reading? 🎧 &lt;a href=&#34;https://open.spotify.com/episode/77YI4a85dNJsO2KfMsJ9fQ?si=9NQBAeq-RdOGxAoUwaWijA&#34;&gt;Listen&lt;/a&gt; (AI-Generated Audio Version)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;mcp-alignment&#34; --&gt;
+
+&lt;h1&gt;MCP Alignment&lt;/h1&gt;
+
+&lt;p&gt;Organisations developing LLM applications often face recurring challenges with aligning technical, product and business teams. Too often, technical teams build tools or applications in isolation, leading to fragmented efforts, communication gaps and slower development cycles. A significant contributor to these inefficiencies is the persistence of information silos, where teams fail to share knowledge effectively. These silos lead to &lt;strong&gt;duplicated work, redundant data and misaligned priorities&lt;/strong&gt;, further complicating the already complex process of building and integrating LLM applications.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Rethinking How Product Teams Prioritise</title>
-      <link>https://filbezerianos.com/portfolio/product-work-focus-tool/</link>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/product-work-focus-tool/</guid>
-      <description>An AI-powered tool that reduces cognitive load in product decision-making. It automatically evaluates new features, calculating their overall impact and priority, saving product teams time and effort.</description>
-    </item>
-    <item>
-      <title>What If Property Search Actually Used the Photos?</title>
-      <link>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</guid>
-      <description>Property Visual Finder uses a fine-tuned vision AI model to analyse property photos and identify specific features, enabling advanced, data-driven property ranking, and searches based on visual characteristics.</description>
-    </item>
-    <item>
-      <title>Skipping the Part Clients Hate</title>
-      <link>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</link>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</guid>
-      <description>An AI-powered tool designed to determine the optimal Cloud migration strategy for applications. It analyses application details and aligns them with the organisation&amp;rsquo;s Cloud goals to deliver tailored recommendations.</description>
-    </item>
-    <item>
-      <title>What Happens When Two AIs Talk to Each Other?</title>
-      <link>https://filbezerianos.com/portfolio/agents-duo/</link>
-      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/agents-duo/</guid>
-      <description>A personal project where two AI chat agents engage in real-time discussions and debates on various topics. Users can customize the tone, style and LLM model of each agent to make things even more engaging.</description>
-    </item>
+    
     <item>
       <title>AI as a Junior Employee</title>
       <link>https://filbezerianos.com/posts/2025/ai-as-a-junior-employee/</link>
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2025/ai-as-a-junior-employee/</guid>
-      <description>AI systems have become very capable but they are like a junior employee, where if left unattended may cause more work than deliver value. The next wave of autonomous AI agents may change this.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Prefer listening over reading? 🎧 &lt;a href=&#34;https://open.spotify.com/episode/6Nnzri5ljVryxjkLyUMw1j?si=VnvJtWDZRlStxUTNAoxscg&#34;&gt;Listen&lt;/a&gt; (AI-Generated Audio Version)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;ai-as-a-junior-employee&#34; --&gt;
+
+&lt;h1&gt;AI as a Junior Employee&lt;/h1&gt;
+
+&lt;p&gt;The AI landscape is evolving rapidly, and despite the fact that the AI systems have become very powerful and capable, they still resemble a junior employee within an organisation - very useful but requiring oversight and guidance in order to succeed.&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-role-of-ai-as-a-junior-employee&#34; --&gt;
+
+&lt;h2&gt;The Role of AI as a Junior Employee&lt;/h2&gt;
+
+&lt;p&gt;When I think of AI as a junior employee, I consider it as a specialised tool, that is efficient at performing well-defined tasks but still in the early stages of its potential.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>The Diagram That Takes Three Days to Draw</title>
-      <link>https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/</link>
-      <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/</guid>
-      <description>A tool that leverages AI to transform unstructured interview data into a visual overview diagram, expediting the analysis of structures and processes and enabling the identification of inefficiencies.</description>
-    </item>
-    <item>
-      <title>An AI With One Job, Make You Smile</title>
-      <link>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</guid>
-      <description>PunGPT is personal project built for fun and powered by a lightweight LLaMA model, it delivers puns and dad jokes on demand, and sometimes when you least expect them. All wrapped in a clean, familiar chat UI.</description>
-    </item>
+    
     <item>
       <title>About Me</title>
       <link>https://filbezerianos.com/about/</link>
       <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../images/about/filb-about.png&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-i-am&#34;&gt;Who I am&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;I started as an engineer. I stayed because the problems got more interesting.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;My career began in the technical trenches, building systems, architecting cloud platforms, and getting close to the code. Over time, I realised that the harder problems weren&amp;rsquo;t in the technology itself, but in the gap between what technology could do and what organisations were able to use it for.&lt;/p&gt;&#xA;&lt;p&gt;That gap is where I now live. As a Product Manager and Technical Lead, I work across the full stack of a product&amp;rsquo;s life. From strategy and stakeholder alignment through to architecture decisions and delivery. I am comfortable in the boardroom and in the sprint review and I think that dual fluency is what makes the difference between a technically correct solution and one that actually drives change.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;../../../images/about/filb-about.png&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;a-product-leader-who-still-builds&#34; --&gt;
+
+&lt;h1&gt;A product leader who still builds.&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;who-i-am&#34; --&gt;
+
+&lt;h2&gt;Who I am&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I started as an engineer. I stayed because the problems got more interesting.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;My career began in the technical trenches, building systems, architecting cloud platforms, and getting close to the code. Over time, I realised that the harder problems weren&amp;rsquo;t in the technology itself, but in the gap between what technology could do and what organisations were able to use it for.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>The Rise of Task-Specific Models</title>
       <link>https://filbezerianos.com/posts/2024/text-generation-models-domination/</link>
       <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2024/text-generation-models-domination/</guid>
-      <description>While AI text-generation solutions offer multiple benefits across multiple workflows and can be applied to different solution types, they are not always the optimal choice.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Prefer listening over reading? 🎧 &lt;a href=&#34;https://open.spotify.com/episode/3gVmqNCmseoMe1evtKs3PD?si=e79e92be8d224491&#34;&gt;Listen&lt;/a&gt; (AI-Generated Audio Version)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-rise-of-task-specific-models&#34; --&gt;
+
+&lt;h1&gt;The Rise of Task-Specific Models&lt;/h1&gt;
+
+&lt;p&gt;LLMs have revolutionised text-based AI solutions, significantly impacting various industries. While AI text-generation solutions offer multiple benefits across multiple workflows and can be applied to different solution types, they are not always the optimal choice.&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-popularity-of-general-purpose-models&#34; --&gt;
+
+&lt;h2&gt;The popularity of general-purpose Models&lt;/h2&gt;
+
+&lt;p&gt;Several organisations are increasingly adopting AI solutions to improve efficiency and drive innovation, spanning areas like customer service, content creation, and data analysis. Often, organisations begin by exploring available technologies, like general-purpose LLMs for text generation, and then seek relevant use cases within their industry and organisation to apply these technologies.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Beyond the AI Model</title>
       <link>https://filbezerianos.com/posts/2024/the-ai-solution-is-more-than-the-model/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2024/the-ai-solution-is-more-than-the-model/</guid>
-      <description>The model(s) used by an AI solution are a core component and should be managed accordingly, e.g. through versioning. However, there are some other components that integrate with the AI solution, contributing to its IP and the overall value. These components must also be treated as essential elements of the solution.</description>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Prefer listening over reading? 🎧 &lt;a href=&#34;https://open.spotify.com/episode/41niN2c6knZXu5qUwjnTnW?si=0f83d9777ea24f18&#34;&gt;Listen&lt;/a&gt; (AI-Generated Audio Version)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;beyond-the-ai-model&#34; --&gt;
+
+&lt;h1&gt;Beyond the AI Model&lt;/h1&gt;
+
+&lt;p&gt;The model(s) used by an AI solution are a core component and should be managed accordingly, e.g. through versioning. However, there are some other components that integrate with the AI solution, contributing to its intellectual property (IP) and the overall value. These components must also be treated as essential elements of the solution.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>AI Implementation and User Experience</title>
       <link>https://filbezerianos.com/posts/2024/ai-implementation-and-user-experience/</link>
       <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2024/ai-implementation-and-user-experience/</guid>
-      <description>Many organisations have rushed into &amp;ldquo;integrating&amp;rdquo; AI into their processes and products. However the successful integration of AI into existing workflows requires careful planning and an intentional approach. Without this, organisations risking disrupting the user experience, potentially becoming an additional tool that users must manage, rather than genuinely helpful enhancement.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;ai-implementation-and-user-experience&#34; --&gt;
+
+&lt;h1&gt;AI Implementation and User Experience&lt;/h1&gt;
+
+&lt;p&gt;Many organisations have rushed into &amp;ldquo;integrating&amp;rdquo; AI into their processes and products. However, the successful integration of AI into existing workflows requires careful planning and an intentional approach. Without this, organisations risk disrupting the user experience, potentially becoming an additional tool that users must manage, rather than genuinely helpful enhancement.&lt;/p&gt;
+&lt;p&gt;A common implementation approach involves deploying chatbots, which require users&amp;rsquo; input queries and validation of AI-generated responses. While this can be effective for certain workflows, it is often not the ideal approach across all contexts.&lt;/p&gt;</description>
     </item>
+    
     <item>
-      <title>Embedding AI Into Enterprise</title>
+      <title>Embedding AI Into the Enterprise</title>
       <link>https://filbezerianos.com/posts/2024/embedding-ai-into-enterprise-workflows/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2024/embedding-ai-into-enterprise-workflows/</guid>
-      <description>Embedding AI into enterprise workflows can be a complex and presents several unique challenges, with of them being AI&amp;rsquo;s non-deterministic nature. Unlike traditional systems that produce predictable, rule-based outputs, AI systems operate with a level of uncertainty and variability. This non-determinism can introduce issues when integrating AI into established workflows. The adoption approach and the leadership team play an important role in successfully adopting AI within the organisation.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;embedding-ai-into-the-enterprise&#34; --&gt;
+
+&lt;h1&gt;Embedding AI Into the Enterprise&lt;/h1&gt;
+
+&lt;p&gt;Embedding AI into enterprise workflows can be a complex and presents several unique challenges, one of them being &lt;strong&gt;AI&amp;rsquo;s non-deterministic nature&lt;/strong&gt;. Unlike traditional systems that produce predictable, rule-based outputs, AI systems operate with a level of uncertainty and variability. This non-determinism can introduce issues when integrating AI into established workflows. The adoption approach and the leadership team play an important role in successfully adopting AI within the organisation.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>The Dominant Strategy in Game Theory and AI</title>
       <link>https://filbezerianos.com/posts/2024/ai-dominant-strategy/</link>
       <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2024/ai-dominant-strategy/</guid>
-      <description>One of the most classic examples of Game Theory is the Prisoner&amp;rsquo;s Dilemma, which illustrates the conflict between individual rationality and collective rationality. In this article, we will explore what game theory acn teach us about AI adoption and how the dominant strategy may lead to a race to the bottom.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-dominant-strategy-in-game-theory-and-ai&#34; --&gt;
+
+&lt;h1&gt;The Dominant Strategy in Game Theory and AI&lt;/h1&gt;
+
+&lt;p&gt;One of the most classic examples of &lt;a href=&#34;https://en.wikipedia.org/wiki/Game_theory&#34;&gt;Game Theory&lt;/a&gt; is the &lt;a href=&#34;https://en.wikipedia.org/wiki/Prisoner%27s_dilemma&#34;&gt;Prisoner&amp;rsquo;s Dilemma&lt;/a&gt;, which illustrates the conflict between individual rationality and collective rationality.&lt;/p&gt;
+&lt;p&gt;In this article, we will explore what game theory can teach us about AI adoption and how the dominant strategy may lead to a race to the bottom.&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-prisoners-dilemma&#34; --&gt;
+
+&lt;h2&gt;The Prisoner&amp;rsquo;s Dilemma&lt;/h2&gt;
+
+&lt;p&gt;The Prisoner&amp;rsquo;s Dilemma involves two prisoners suspected of committing a crime together. They are interrogated in separate rooms and cannot communicate with each other. Each prisoner has two options: to remain silent or confess. The potential outcomes are as follows:&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>A.I. = Accelerate Inefficiencies</title>
       <link>https://filbezerianos.com/posts/2024/ai-challenges-accelerator/</link>
-      <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2024/ai-challenges-accelerator/</guid>
-      <description>AI is transforming the business and technology landscape, promising efficiency, innovation and better decision-making. However, for organisations already struggling with technology-business misalignment, structural and operational inefficiencies and lack of governance, AI will accelerate and amplify these challenges.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;ai--accelerate-inefficiencies&#34; --&gt;
+
+&lt;h1&gt;A.I. = Accelerate Inefficiencies&lt;/h1&gt;
+
+&lt;p&gt;AI is transforming the business and technology landscape, promising efficiency, innovation and better decision-making. However, for organisations already struggling with technology-business misalignment, structural and operational inefficiencies and lack of governance, AI will accelerate and amplify these challenges.&lt;/p&gt;
+&lt;p&gt;In this article, we will explore how AI can accelerate some challenges currently faced by the organisations and outline some approaches to avoid and address these.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Blending AI and Product Management</title>
       <link>https://filbezerianos.com/posts/2024/ai-product-management/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2024/ai-product-management/</guid>
-      <description>The introduction of AI into product development represents a transformative shift in how products are developed, managed and evolved. AI product phases are integrating into various stages of the product management lifecycle.  Successfully aligning and integrating the AI product management phases into product management lifecycle, will accelerate the pace of innovation and introduce new capabilities, but may also introduce new challenges.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;blending-ai-and-product-management&#34; --&gt;
+
+&lt;h1&gt;Blending AI and Product Management&lt;/h1&gt;
+
+&lt;p&gt;The introduction of AI into product development represents a transformative shift in how products are developed, managed and evolved. AI product phases are integrating into various stages of the product management lifecycle. Successfully aligning and integrating the AI product management phases into product management lifecycle will accelerate the pace of innovation and introduce new capabilities, but may also introduce new challenges.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>ML Model Metrics and Transformation</title>
       <link>https://filbezerianos.com/posts/2023/ml-models-and-transformation/</link>
       <pubDate>Wed, 05 Jul 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2023/ml-models-and-transformation/</guid>
-      <description>The concept of Satisfying and Optimising metrics in Machine Learning emerges as a powerful approach that is applicable to Enterprise and Digital Transformations. In this article, we explore how this approach can be applied to identify the appropriate metrics to satisfy or optimise in the context of Transformation and some risks the Organisations must be aware.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;ml-model-metrics-and-transformation&#34; --&gt;
+
+&lt;h1&gt;ML Model Metrics and Transformation&lt;/h1&gt;
+
+&lt;p&gt;In today’s fast-paced and ever-evolving business landscape, Organisations are embarking on different types of Transformation to stay ahead of the curve. As these Transformations rely heavily on data-driven decision-making, the concept of Satisfying and Optimising metrics in Machine Learning emerges as a powerful approach that is applicable to Enterprise and Digital Transformations.&lt;/p&gt;
+&lt;p&gt;In this article, we explore how this approach can be applied to identify the appropriate metrics to satisfy or optimise in the context of Transformation and some risks the Organisations must be aware of.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>From Project to Product, from Product to Platform</title>
       <link>https://filbezerianos.com/posts/2023/project-product-platform/</link>
       <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2023/project-product-platform/</guid>
-      <description>There is not a linear connection between the models in the form of going from Project to Product, and from Product to Platform. The key idea is that the three models could run in parallel depending on the transformation initiatives, serving different purposes and focusing on achieving different goals and outcomes.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;from-project-to-product-from-product-to-platform&#34; --&gt;
+
+&lt;h1&gt;From Project to Product, from Product to Platform&lt;/h1&gt;
+
+&lt;p&gt;While there are several articles available which discuss Project and Product-oriented models (e.g. &lt;a href=&#34;https://projecttoproduct.org/&#34;&gt;Project to Product&lt;/a&gt;) or Product and Platform-oriented models (e.g. &lt;a href=&#34;https://hbr.org/2016/04/products-to-platforms-making-the-leap&#34;&gt;HBR, Products to Platforms&lt;/a&gt;), I believe it is interesting when we look at all three models (project-oriented, product-oriented and platform-oriented) simultaneously in the context of Transformation in an organisation.&lt;/p&gt;
+&lt;p&gt;There is not a linear connection between the models in the form of going from Project to Product, and from Product to Platform. The key idea is that the three models could run in parallel depending on the transformation initiatives, serving different purposes and focusing on achieving different goals and outcomes.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>System Theory and Enterprise Transformation</title>
       <link>https://filbezerianos.com/posts/2023/system-theory-and-enterprise-transformation/</link>
       <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2023/system-theory-and-enterprise-transformation/</guid>
-      <description>Viewing the Enterprise as a System can help an organisation to understand their Transformation (e.g. Business, Digital etc.) better and adopt a more holistic and integrated approach to it. In this article I will expand on this approach and I will provide ideas on how specific frameworks and theories can be leveraged to help understand better the dynamics inside an organisation during a Transformational journey, always in alignment with the view of the Enterprise as a System.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;system-theory-and-enterprise-transformation&#34; --&gt;
+
+&lt;h1&gt;System Theory and Enterprise Transformation&lt;/h1&gt;
+
+&lt;p&gt;How can viewing the Enterprise as a System can help an organisation to understand their Transformation (e.g. Business, Digital etc.) better and adopt a more holistic and integrated approach to it? In this article I will expand on this approach and I will provide ideas on how specific frameworks and theories can be leveraged to help understand better the dynamics inside an organisation during a Transformational journey, always in alignment with the view of the Enterprise as a System.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Service Mesh at the Edge</title>
       <link>https://filbezerianos.com/posts/2020/service-mesh-at-the-edge/</link>
-      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
       <guid>https://filbezerianos.com/posts/2020/service-mesh-at-the-edge/</guid>
-      <description>As Enterprises are under pressure to increase agility and speed to delivery, microservices and containers adoption continues to grow rapidly and faster than expected. There are many articles about the benefits of containerization, e.g. portability (write once, run anywhere), resource efficiencies and faster application start-up times.</description>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;service-mesh-at-the-edge&#34; --&gt;
+
+&lt;h1&gt;Service Mesh at the Edge&lt;/h1&gt;
+
+&lt;p&gt;As Enterprises are under pressure to increase agility and speed to delivery, microservices and containers adoption continues to grow rapidly and faster than expected. There are many articles about the benefits of containerization, e.g. portability (write once, run anywhere), resource efficiencies and faster application start-up times. However, microservices and containers come with challenges, including operational and log aggregation challenges and difficulty to identify the root cause of performance degradation, to name a few.&lt;/p&gt;</description>
     </item>
+    
+    <item>
+      <title>1. Personalised Headlines Tailored to You</title>
+      <link>https://filbezerianos.com/portfolio/news-titles-shift/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/news-titles-shift/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;personalised-headlines-tailored-to-you&#34; --&gt;
+
+&lt;h1&gt;Personalised Headlines Tailored to You&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-idea&#34; --&gt;
+
+&lt;h2&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;Every time we open a news app or scroll a social feed, someone has already made decisions about how to present what we see. &lt;strong&gt;The headline is rarely neutral&lt;/strong&gt;. It has been optimised for engagement, for reach, for the emotional reaction most likely to make us stop scrolling.&lt;/p&gt;
+&lt;p&gt;What most people do not realise is how precise that optimisation can be. Not just &amp;ldquo;make it sound urgent&amp;rdquo; or &amp;ldquo;make it sound alarming&amp;rdquo;, but &lt;strong&gt;calibrated to specific psychological signals&lt;/strong&gt; like political identity, current emotional state, level of institutional trust, how we typically respond when a headline challenges something we already believe etc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2. Rethinking How Product Teams Prioritise</title>
+      <link>https://filbezerianos.com/portfolio/product-work-focus-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/product-work-focus-tool/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/MILFiM5KHS0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;rethinking-how-product-teams-prioritise&#34; --&gt;
+
+&lt;h1&gt;Rethinking How Product Teams Prioritise&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-challenge&#34; --&gt;
+
+&lt;h2&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Product Managers face the ongoing challenge of ruthless prioritisation throughout the product lifecycle.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For Product Managers, &lt;strong&gt;ruthless prioritisation is a constant balancing act&lt;/strong&gt;, making tough calls while ensuring every decision stays true to the product vision.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>3. What If Property Search Actually Used the Photos?</title>
+      <link>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/vB9PFRh-DTw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;what-if-property-search-actually-used-the-photos&#34; --&gt;
+
+&lt;h1&gt;What If Property Search Actually Used the Photos?&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-challenge&#34; --&gt;
+
+&lt;h2&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Property search has not fundamentally changed in years. Platforms let you filter by bedrooms, price, and location, but the photos, which are often the first and most influential thing a prospective renter or buyer looks at, play no role in how listings are filtered or ranked.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>4. Skipping the Part Clients Hate</title>
+      <link>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/hnzY3AYKNeU?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;skipping-the-part-clients-hate&#34; --&gt;
+
+&lt;h1&gt;Skipping the Part Clients Hate&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-challenge&#34; --&gt;
+
+&lt;h2&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Cloud migrations rarely fail in the execution. They fail before they begin.&lt;/p&gt;
+&lt;p&gt;Consulting companies specialising in Cloud migrations often face challenges when &lt;strong&gt;clients resist paying for initial Cloud assessment&lt;/strong&gt;. The main issue stems from the perception that the assessment is an &amp;ldquo;additional cost&amp;rdquo; with no immediate value to the core goal of migration, which is the transfer of the applications to the Cloud.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>5. The Diagram That Takes Three Days to Draw</title>
+      <link>https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/zS8J_MW1HxA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-diagram-that-takes-three-days-to-draw&#34; --&gt;
+
+&lt;h1&gt;The Diagram That Takes Three Days to Draw&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-challenge&#34; --&gt;
+
+&lt;h2&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;Understanding how value moves through an organisation requires talking to people. Teams conduct rounds of interviews across departments, gathering perspectives on how work flows, who depends on whom, and where things slow down or break down.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>6. What Happens When Two AIs Talk to Each Other?</title>
+      <link>https://filbezerianos.com/portfolio/agents-duo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/agents-duo/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;what-happens-when-two-ais-talk-to-each-other&#34; --&gt;
+
+&lt;h1&gt;What Happens When Two AIs Talk to Each Other?&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-idea&#34; --&gt;
+
+&lt;h2&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;Most AI interactions follow the same pattern: a human asks, a model responds. Agents Duo flips that. The human steps back after the setup, choosing the models, configuring their personalities, picking a topic or letting the agents choose one themselves, and then lets the conversation run.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>7. Technology and Product Modernisation</title>
+      <link>https://filbezerianos.com/portfolio/technology-and-product-modernisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/technology-and-product-modernisation/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;technology-and-product-modernisation&#34; --&gt;
+
+&lt;h1&gt;Technology and Product Modernisation&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;challenges&#34; --&gt;
+
+&lt;h2&gt;Challenges&lt;/h2&gt;
+
+&lt;p&gt;Many organisations struggle with the limitations of outdated technologies and legacy products that hinder their ability to scale, innovate and remain competitive. These challenges often present themselves in various areas, including operational inefficiencies, suboptimal customer experience and increased costs for maintenance and integration. These challenges are compounded by misaligned strategies, technical debt, and resistance to change within organisations.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>8. Product Transformation and Delivery</title>
+      <link>https://filbezerianos.com/portfolio/product-transformation-and-delivery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/product-transformation-and-delivery/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;product-transformation-and-delivery&#34; --&gt;
+
+&lt;h1&gt;Product Transformation and Delivery&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;challenges&#34; --&gt;
+
+&lt;h2&gt;Challenges&lt;/h2&gt;
+
+&lt;p&gt;Across industries many organisations struggle with &lt;strong&gt;legacy product structures&lt;/strong&gt; and ways of working that &lt;strong&gt;hinder their ability to adopt new technologies and innovate at scale&lt;/strong&gt;. These challenges are particularly relevant to industries where agility and operational efficiency are critical to maintain a competitive edge, like financial services and pharmaceuticals.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../../images/portfolio/product-transformation-and-delivery/product-transformation-challenges.png&#34; alt=&#34;Image Text&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>9. An AI With One Job, Make You Smile</title>
+      <link>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;an-ai-with-one-job-make-you-smile&#34; --&gt;
+
+&lt;h1&gt;An AI With One Job, Make You Smile&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-idea&#34; --&gt;
+
+&lt;h2&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;There are thousands of AI chatbots. Almost none of them are trying to make you laugh.&lt;/p&gt;
+&lt;p&gt;That felt like a gap worth poking at. Not because the world urgently needs more dad jokes, it does not, but because &lt;strong&gt;designing for humour as a primary goal turned out to be a genuinely interesting constraint&lt;/strong&gt;. Helpful is easy to optimise for. Funny is much harder to define, and even harder to sustain across a full conversation.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
