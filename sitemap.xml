@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://filbezerianos.com/posts/</loc>
-    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://filbezerianos.com/posts/2026/cheap-to-start-expensive-to-own/</loc>
     <lastmod>2026-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/</loc>
+    <lastmod>2026-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://filbezerianos.com/posts/</loc>
     <lastmod>2026-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://filbezerianos.com/posts/2026/the-headline-you-read-was-written-for-you/</loc>
@@ -74,8 +74,6 @@
     <loc>https://filbezerianos.com/posts/2020/service-mesh-at-the-edge/</loc>
     <lastmod>2020-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://filbezerianos.com/portfolio/</loc>
-  </url><url>
     <loc>https://filbezerianos.com/portfolio/news-titles-shift/</loc>
   </url><url>
     <loc>https://filbezerianos.com/portfolio/product-work-focus-tool/</loc>
@@ -95,6 +93,8 @@
     <loc>https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/</loc>
   </url><url>
     <loc>https://filbezerianos.com/categories/</loc>
+  </url><url>
+    <loc>https://filbezerianos.com/portfolio/</loc>
   </url><url>
     <loc>https://filbezerianos.com/tags/</loc>
   </url>
