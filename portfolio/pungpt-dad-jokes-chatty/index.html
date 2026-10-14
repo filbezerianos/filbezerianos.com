@@ -29,10 +29,10 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href='https://filbezerianos.com/favicon.ico' type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>9. An AI With One Job, Make You Smile - Fil Bezerianos - Product and Technology Director</title>
+    <title>7. PunGPT, Designing AI Personality Under Constraints - Fil Bezerianos - Product and Technology Director</title>
 
     
-    <meta name="description" content="PunGPT is a personal project built for fun and powered by a lightweight LLaMA model, it delivers puns and dad jokes on demand, and sometimes when you least expect them. All wrapped in a clean, familiar chat UI." />
+    <meta name="description" content="A small experiment in keeping an AI&#39;s tone consistent across a conversation, and in managing context and token use on a free, lightweight model." />
     
 
     
@@ -42,8 +42,8 @@
     
         <meta property="og:url" content="https://filbezerianos.com/portfolio/pungpt-dad-jokes-chatty/">
   <meta property="og:site_name" content="Fil Bezerianos - Product and Technology Director">
-  <meta property="og:title" content="9. An AI With One Job, Make You Smile">
-  <meta property="og:description" content="PunGPT is a personal project built for fun and powered by a lightweight LLaMA model, it delivers puns and dad jokes on demand, and sometimes when you least expect them. All wrapped in a clean, familiar chat UI.">
+  <meta property="og:title" content="7. PunGPT, Designing AI Personality Under Constraints">
+  <meta property="og:description" content="A small experiment in keeping an AI&#39;s tone consistent across a conversation, and in managing context and token use on a free, lightweight model.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="portfolio">
@@ -53,8 +53,8 @@
     
         
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="9. An AI With One Job, Make You Smile">
-  <meta name="twitter:description" content="PunGPT is a personal project built for fun and powered by a lightweight LLaMA model, it delivers puns and dad jokes on demand, and sometimes when you least expect them. All wrapped in a clean, familiar chat UI.">
+  <meta name="twitter:title" content="7. PunGPT, Designing AI Personality Under Constraints">
+  <meta name="twitter:description" content="A small experiment in keeping an AI&#39;s tone consistent across a conversation, and in managing context and token use on a free, lightweight model.">
 
     <link rel="stylesheet" href="/style.min.77e298e9a130a60f6e176e07bb09ff971b8b648e5087248d839699aa01eeb80a.css" integrity="sha256-d&#43;KY6aEwpg9uF24Huwn/lxuLZI5QhySNg5aZqgHuuAo=">
 
@@ -242,10 +242,10 @@
             
             
         
-        <section id="an-ai-with-one-job-make-you-smile">
+        <section id="pungpt-designing-ai-personality-under-constraints">
 
 
-<h1>An AI With One Job, Make You Smile</h1>
+<h1>PunGPT, Designing AI Personality Under Constraints</h1>
 
 </section>
     
@@ -260,11 +260,11 @@
 
 <h2>The Idea</h2>
 
-<p>There are thousands of AI chatbots. Almost none of them are trying to make you laugh.</p>
-<p>That felt like a gap worth poking at. Not because the world urgently needs more dad jokes, it does not, but because <strong>designing for humour as a primary goal turned out to be a genuinely interesting constraint</strong>. Helpful is easy to optimise for. Funny is much harder to define, and even harder to sustain across a full conversation.</p>
+<p>Most AI assistants are optimised to be helpful. Very few are designed around tone as the primary goal.</p>
+<p>I wanted to find out what that takes. Helpful is easy to measure and easy to optimise for. A consistent personality is much harder to define, and harder still to sustain across a full conversation. To test it, I picked a deliberately small brief: a chatbot with one job, delivering puns and dad jokes in context.</p>
 <blockquote>
-<p>While there are countless AI chatbots available, very few are designed to be genuinely lighthearted. I wanted to find out what that actually takes to build.</p></blockquote>
-<p>PunGPT has one job: deliver puns and dad jokes in context, stay consistent throughout the conversation and make the whole thing <strong>feel intentional rather than like a randomness machine</strong> that occasionally lands a good one.</p>
+<p>The goal was not the jokes. It was to see how tone is established, how it drifts under pressure and what it costs to keep it consistent.</p></blockquote>
+<p>PunGPT responds to what the user actually said, finds the angle from there and stays in character, so it feels <strong>intentional rather than like a randomness machine</strong> that occasionally lands a good one.</p>
 <p><img src="../../../images/portfolio/dad-jokes-chatty-pungpt/pungpt-purpose-banner.png" alt="Image Text"></p>
 </section>
     
@@ -279,12 +279,11 @@
 
 <h2>The Build</h2>
 
-<p>The personality design was the first challenge. A chatbot that drops random jokes regardless of context is easy to build and immediately annoying to use. Getting PunGPT to respond in context, to pick up on what the user said and find the angle from there, required careful, iterative prompt engineering to establish <strong>a tone that stayed consistent without feeling rigid</strong>.</p>
-<p>The second challenge was purely technical. Running the system on a free LLaMA model meant working within real constraints on content length and processing. Managing conversation history without letting the prompt balloon, controlling token usage and keeping performance smooth enough that the experience did not break the joke, all of that required deliberate architectural decisions that had nothing to do with humour and everything to do with making the humour possible.</p>
-<p>It is a silly project built on <strong>a set of problems that were not silly at all to solve</strong>.</p>
+<p>The first challenge was personality design. A chatbot that drops random jokes regardless of context is easy to build and immediately annoying to use. Responding in context required careful, iterative prompt engineering to establish <strong>a tone that stayed consistent without feeling rigid</strong>.</p>
+<p>The second challenge was technical. Running on a free, lightweight LLaMA model meant working within real limits on content length and processing. Managing conversation history without letting the prompt balloon, controlling token usage and keeping responses fast enough for the timing to work all required deliberate architectural decisions. Those decisions had little to do with humour and everything to do with making it possible.</p>
 <p><img src="../../../images/portfolio/dad-jokes-chatty-pungpt/pungpt-laptop-screen.png" alt="Image Text"></p>
 <blockquote>
-<p><em>The application uses a familiar layout, consistent with the design of similar chat-based tools. Users can clear the chat history and start a new conversation at any time.</em></p></blockquote>
+<p><em>The application uses a familiar chat layout, consistent with similar tools. Users can clear the history and start a new conversation at any time.</em></p></blockquote>
 </section>
     
         
@@ -298,12 +297,10 @@
 
 <h2>Behind the Build</h2>
 
-<p>Designed, built and prompted end-to-end by me. From defining PunGPT&rsquo;s personality to the technical foundations that keep conversations contextual and performant, <strong>all of it solo</strong>.</p>
-<blockquote>
-<p>This project reflects what I enjoy most; hands-on experimentation with emerging tools, guided by curiosity and a clear sense of how product design and technology intersect. Sometimes the most interesting problems are hiding inside the most ridiculous ideas.</p></blockquote>
+<p>I designed, built and prompted PunGPT end-to-end on my own, from defining the personality to the technical foundations that keep conversations contextual and performant.</p>
 <p><img src="../../../images/portfolio/dad-jokes-chatty-pungpt/pungpt-phone-screen.png" alt="Image Text"></p>
 <blockquote>
-<p><em>The application is also accessible on mobile, with UI elements remaining consistent to ensure a cohesive experience across platforms.</em></p></blockquote>
+<p><em>The application is also available on mobile, with a consistent experience across platforms.</em></p></blockquote>
 </section>
     
         
@@ -317,9 +314,15 @@
 
 <h2>Results</h2>
 
-<p>PunGPT delivers exactly what it set out to; a steady stream of contextual puns, well-timed dad jokes and the occasional eye-roll. It is not going to replace your productivity tools. It was never supposed to.</p>
+<p>PunGPT delivers a steady stream of contextual puns, which was the point. It is an experiment, not a productivity tool.</p>
 <p><img src="../../../images/portfolio/dad-jokes-chatty-pungpt/pungpt-results.png" alt="Image Text"></p>
-<p>What it did do was sharpen how I think about personality design in AI, how tone is established, how it drifts under pressure and how much careful work goes into making something feel effortlessly light. Constraints that seem trivial on the surface have a way of revealing interesting things about the medium. Dad jokes included.</p>
+<p>What I took from it is useful well beyond jokes:</p>
+<ul>
+<li><strong>Tone is a design decision, not a side effect.</strong> It has to be specified, tested and defended against drift, like any other product requirement.</li>
+<li><strong>Constraints shape the product.</strong> Limits on context and compute forced choices about what the system remembers, and those choices determined the quality of the experience.</li>
+<li><strong>Small experiments teach quickly.</strong> A low-stakes project is a cheap way to learn how a medium behaves before applying the lessons to higher-stakes work.</li>
+</ul>
+<p>It is also a reminder that sometimes the most interesting problems are hiding inside the most ridiculous ideas.</p>
 </section>
     
 </article>
