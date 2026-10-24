@@ -6,7 +6,24 @@
     <description>Recent content in Posts on Fil Bezerianos - Product and Technology Director</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Mistakes Should Not Be Allowed to Travel</title>
+      <link>https://filbezerianos.com/posts/2026/ai-mistakes-should-not-be-allowed-to-travel/</link>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/posts/2026/ai-mistakes-should-not-be-allowed-to-travel/</guid>
+      <description>&lt;p&gt;Prefer listening over reading? 🎧 &lt;a href=&#34;https://open.spotify.com/episode/2okqPLfjl4bHinrr6bQx4p?si=2RrXaUZmTnKqjwcZ7KDeag&#34;&gt;Brief (01:25 min)&lt;/a&gt; for the key ideas, or &lt;a href=&#34;https://open.spotify.com/episode/4pTWNe4gdPqAnfoR6YmoUa?si=0V-MpO7gSrOIcioW8jU8YQ&#34;&gt;Deep-dive (27:03 min)&lt;/a&gt; for the full discussion. (AI-Generated Audio Versions)&lt;/p&gt;
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;design-ai-workflows-for-reliability&#34; --&gt;
+
+&lt;h1&gt;Design AI Workflows for Reliability&lt;/h1&gt;
+
+&lt;p&gt;When I discuss the reliability of an AI workflow, the point usually raised is this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Suppose each step in an agentic workflow is right 99% of the time. In a workflow of 10 steps, the chance that everything is right drops to about 90%, and in a workflow of 50 steps it drops to about 60%. So, the &lt;em&gt;&amp;ldquo;1% error rate&amp;rdquo;&lt;/em&gt; turns into a failure rate that you can feel in production.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>When Growth Stops, Platforms Have to Earn Their Place</title>
       <link>https://filbezerianos.com/posts/2026/platforms-in-flat-growth-environment/</link>

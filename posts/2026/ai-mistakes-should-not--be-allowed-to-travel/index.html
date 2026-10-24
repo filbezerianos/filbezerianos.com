@@ -1,0 +1,647 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='en-us'><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='http://localhost:1313/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Mistakes Should Not Be Allowed to Travel - Fil Bezerianos - Product and Technology Director</title>
+
+    
+    <meta name="description" content="A 1% error rate per step can sink a long AI workflow. Here is how to decide where checks, undo options and deliberate gaps belong." />
+    
+
+    
+
+    
+
+    
+        <meta property="og:url" content="http://localhost:1313/posts/2026/ai-mistakes-should-not--be-allowed-to-travel/">
+  <meta property="og:site_name" content="Fil Bezerianos - Product and Technology Director">
+  <meta property="og:title" content="AI Mistakes Should Not Be Allowed to Travel">
+  <meta property="og:description" content="A 1% error rate per step can sink a long AI workflow. Here is how to decide where checks, undo options and deliberate gaps belong.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-10-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-10-24T00:00:00+00:00">
+
+    
+
+    
+        
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AI Mistakes Should Not Be Allowed to Travel">
+  <meta name="twitter:description" content="A 1% error rate per step can sink a long AI workflow. Here is how to decide where checks, undo options and deliberate gaps belong.">
+
+    <link rel="stylesheet" href="/style.css" integrity="">
+
+
+
+
+
+    
+    <script>
+        if (!('theme' in localStorage)) {
+            localStorage.theme = 'dark';
+        }
+
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="/js/theme-switch.js" integrity=""></script>
+
+
+
+    <script defer src="/js/hide-navbar-on-scroll.js" integrity=""></script>
+
+
+
+
+
+    <script defer src="/js/zooming.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <script defer src="/js/search-en-us.js" integrity=""></script>
+
+
+
+
+
+
+    
+</head>
+<body><header>
+    <div id="header_content" class="wide">
+        <div id="header_left">
+            <div id="sidebar_btn">
+                <input type="checkbox" id="sidebar_btn_input" class="hidden" />
+                <label id="sidebar_btn_label" for="sidebar_btn_input">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+</label>
+                <label id="sidebar_canvas_overlay_wrapper" for="sidebar_btn_input">
+                    <div id="sidebar_canvas_overlay"></div>
+                </label>
+                <div id="sidebar">
+                    <ul><li>
+                                <a href="/posts/">Posts</a></li><li>
+                                <a href="/portfolio/">Portfolio</a></li><li>
+                                <a href="/about/">About</a></li></ul>
+                </div>
+            </div>
+        
+            <div class="brand">
+                <div>
+                    <a href="/">Fil Bezerianos</a>
+                </div>
+            </div><nav id="header_navbar" class="pure-menu header-menu">
+    <ul class="pure-menu-list"><li class="header-menu-item pure-menu-item insection">
+                    
+                        <a href="/posts/" class="pure-menu-link">Posts</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/portfolio/" class="pure-menu-link">Portfolio</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/about/" class="pure-menu-link">About</a>
+                    
+                </li></ul>
+</nav>
+</div>
+
+        <div id="header_right">
+            
+
+            <div id="theme_tool">
+                <button id="dark_mode_btn" class="header-menu-btn outline-button" title='Switch to dark mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+
+</button>
+                <button id="light_mode_btn" class="header-menu-btn outline-button" title='Switch to light mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+</svg>
+
+</button>
+            </div>
+
+            
+                <div id="search_tool">
+                    <button id="search_btn" class="header-menu-btn outline-button" title='Search Posts' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg>
+
+</button>
+                </div>
+            
+        </div>
+    </div>
+</header><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Search Posts'>
+            </div>
+            <div id="search_menu_close_btn">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.25rem" height="1.25rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+</div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+<main>
+            <div id="content" class="content-margin">
+                
+
+
+    <div class="content-margin">
+
+
+
+
+<article class="line-numbers">
+    
+    
+
+    
+    
+        
+        
+            
+        
+        <section><p>Prefer listening over reading? 🎧 <a href="https://open.spotify.com/episode/7hJBCnraw04UY0g50k2bp3?si=zlIKms8oRSamN-Ez52TU-w">Listen</a> (AI-Generated Audio Version)</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="design-ai-workflows-for-reliability">
+
+
+<h1>Design AI Workflows for Reliability</h1>
+
+<p>When I discuss the reliability of an AI workflow, the point usually raised is this:</p>
+<blockquote>
+<p>Suppose each step in an agentic workflow is right 99% of the time. In a workflow of 10 steps, the chance that everything is right drops to about 90%, and in a workflow of 50 steps it drops to about 60%. So, the <em>&ldquo;1% error rate&rdquo;</em> turns into a failure rate that you can feel in production.</p></blockquote>
+<p>While this is true, I believe it makes the problem sound like a verdict on AI (e.g. <em>&ldquo;the agents are unreliable&rdquo;</em>) when it is really a statement about structure. Two teams can build on the same model with the same per-step accuracy and ship very different products. One lets small mistakes travel quietly through the whole chain and surface as a confident wrong answer, while the other decides where a mistake is allowed to travel and where it is stopped.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="why-errors-compound-and-when-they-dont">
+
+
+<h2>Why errors compound (and when they don&rsquo;t)</h2>
+
+<p>Errors usually compound when three conditions hold at once:</p>
+<ol>
+<li>The steps run in sequence</li>
+<li>Each step trusts the output of the one before it</li>
+<li>Nothing in between can tell a good output from a bad one</li>
+</ol>
+<p>If we remove any of the three, the math changes. When I design an AI workflow, there are multiple areas I discuss with my teams. For example:</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="sequential-versus-parallel">
+
+
+<h3>Sequential versus parallel</h3>
+
+<p>When agents work on independent pieces in parallel, mistakes add up roughly in line with the amount of work, but each one stays contained. When agents are chained, each step builds on the last, so one early mistake becomes the foundation for everything after it.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="loud-versus-silent">
+
+
+<h3>Loud versus silent</h3>
+
+<p>A crash, a malformed output or an empty field may be a cheap failure, because someone notices at the step where it happens. The expensive failure is the plausible wrong answer, such as a classification that looks reasonable, a number that is slightly off or a policy that sounds right but does not exist. This failure passes through every later step as if it were true.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="wrong-in-a-way-that-matters">
+
+
+<h3>Wrong in a way that matters</h3>
+
+<p>The &ldquo;1%&rdquo; needs a definition that everyone is aligned with. For example, a reply that is slightly stiff may be wrong in a way no one cares about. But a refund sent to the wrong customer may be wrong in a way that matters a great deal. The compounding math applies to the second kind, not the first, so a team that counts every imperfection will overestimate its problem and a team that counts none will underestimate it.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="why-add-a-reviewer-agent-is-a-weaker-fix-than-it-sounds">
+
+
+<h3>Why &ldquo;add a reviewer agent&rdquo; is a weaker fix than it sounds</h3>
+
+<p>Adding a <em>reviewer agent</em> is a common first move, and its value depends on how independent the reviewer really is. A reviewer built on the same model, with a similar prompt, can share the blind spots of the agent it reviews. When both agents are wrong in the same way, the check agrees with the mistake. Cross-checking will work far better on independent errors than on correlated ones. A check earns its keep when it is different in kind from the step it guards, such as plain code, a schema, a test, a lookup against a source of truth or a person with context the agent does not have.</p>
+<p>The good news is that, because <strong>the end-to-end result depends on structure</strong>, you can change it without waiting for a better model.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="three-questions-to-ask-at-every-step">
+
+
+<h2>Three questions to ask at every step</h2>
+
+<p>While the instruction <em>&ldquo;check the AI&rsquo;s output at every step&rdquo;</em> may sound right, it is not very useful, as checking everything is slow and expensive, and defeats much of the point of automation. In addition, when people do the checking, attention usually fades and review turns into approval by habit. <strong>A better instruction is to decide deliberately, for each step, where a check goes and what kind it is</strong>. What has helped me make that decision concrete in the past is asking these questions:</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="what-does-a-wrong-output-look-like-here-and-would-anyone-notice">
+
+
+<h3>What does a wrong output look like here, and would anyone notice?</h3>
+
+<p>This is about <strong>detectability</strong>. If a wrong output is loud, the workflow will usually take care of it. If it is plausible and silent, it needs a check or a redesign.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="what-does-it-cost-if-the-error-flows-downstream">
+
+
+<h3>What does it cost if the error flows downstream?</h3>
+
+<p>This is about <strong>blast radius and reversibility</strong>. A draft that a person will read is cheap to get wrong. A payment that is made or a record that is overwritten is not. Put the strongest checks in front of the actions you cannot take back.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="what-is-the-cheapest-check-that-is-different-in-kind-from-the-step-itself">
+
+
+<h3>What is the cheapest check that is different in kind from the step itself?</h3>
+
+<p><strong>Different in kind</strong> is the important part. Prefer a rule, a schema, a test or a lookup against a source of truth. Use a second model only when the first two are impossible, and use a human where judgement or context is truly needed.</p>
+<p>I usually discuss these three questions for each step of the workflow, write the answers down, and the workflow stops being a black box. What we usually find out is that some steps need a strong check, while others need a light one, and a few need none (that is allowed, as long as it is a choice we made and can explain).</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="examples">
+
+
+<h2>Examples</h2>
+
+<p>Let&rsquo;s walk through the framework using two examples.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="a-support-ticket-workflow">
+
+
+<h3>A support-ticket workflow</h3>
+
+<p>Assume a support workflow with three agent steps:</p>
+<ol>
+<li>Classify the incoming ticket</li>
+<li>Draft a reply based on company policy</li>
+<li>Issue a refund when the policy allows it</li>
+</ol>
+<p>The risk is not spread evenly across the three steps, and the checks should not be either.</p>
+<table class="mc-table">
+  <thead>
+      <tr>
+          <th>Step</th>
+          <th>What a wrong output looks like</th>
+          <th>Check that is different in kind</th>
+          <th>Cost of the check</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1. Classify the ticket</td>
+          <td>A billing dispute tagged &ldquo;general question&rdquo;. Silent, and it routes everything after it wrongly.</td>
+          <td>Code rules that force high-risk words (chargeback, legal, cancel) to the right queue regardless of the agent. A small weekly sample audit by a person.</td>
+          <td>Low, e.g. a rules file and a small weekly sample review.</td>
+      </tr>
+      <tr>
+          <td>2. Draft a reply from policy</td>
+          <td>A refund policy that sounds right but does not exist.</td>
+          <td>Require the draft to cite the policy clause, then confirm in code that the cited text exists in the real policy document.</td>
+          <td>Low, e.g. a string match, no second agent.</td>
+      </tr>
+      <tr>
+          <td>3. Issue the refund</td>
+          <td>The wrong amount or the wrong customer. Irreversible.</td>
+          <td>Hard limits in code (amount cap, order belongs to the customer). A human approves only above a threshold.</td>
+          <td>Highest, but it fires only on the small share of cases above the threshold.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Three things are worth mentioning.</p>
+<ol>
+<li>The error in the first step is the dangerous one even though it looks harmless, because nobody sees it and every later step inherits it.</li>
+<li>The policy check works because it compares the agent&rsquo;s claim to a real document. A reviewer agent reading the same draft could easily accept a convincing invention.</li>
+<li>The human sits only where an error cannot be undone, not on every ticket.</li>
+</ol>
+<p>In this example, the tone of replies on low-risk tickets can be <strong>deliberately unchecked</strong>. A slightly stiff reply costs almost nothing, and checking it would cost more than it saves.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="a-document-generation-workflow">
+
+
+<h3>A document-generation workflow</h3>
+
+<p>Now, assume a workflow that generates a client proposal. An agent extracts figures and facts from source files, drafts the sections, assembles the document, and sends it to the client.</p>
+<table class="mc-table">
+  <thead>
+      <tr>
+          <th>Step</th>
+          <th>What a wrong output looks like</th>
+          <th>Check that is different in kind</th>
+          <th>Cost of the check</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1. Extract figures and facts</td>
+          <td>A transposed number or a wrong date. Plausible and baked into everything after.</td>
+          <td>Validate against a schema, reconcile totals in code, spot-check a sample against the source files.</td>
+          <td>Low to medium. This is where most of the checking budget should go.</td>
+      </tr>
+      <tr>
+          <td>2. Draft the sections</td>
+          <td>Mostly harmless variation in wording, except where the text restates a number or a commitment.</td>
+          <td>Automatically confirm that every number and date in the draft matches the extracted data.</td>
+          <td>Low, e.g. a comparison script.</td>
+      </tr>
+      <tr>
+          <td>3. Assemble the document</td>
+          <td>Leftover placeholders, a missing section, totals that do not match.</td>
+          <td>A checklist in code. Nothing here needs an agent.</td>
+          <td>Near zero.</td>
+      </tr>
+      <tr>
+          <td>4. Send to the client</td>
+          <td>A wrong price or commitment, sent outside the company. It cannot be recalled.</td>
+          <td>A person reviews a short list of risky items (prices, dates, commitments) pulled out of the document, not the whole document.</td>
+          <td>Human time, kept small by narrowing what the person looks at.</td>
+      </tr>
+  </tbody>
+</table>
+<p>In these two examples the pattern is the same: the strongest checks sit at the start of the workflow, where facts enter, and at the end, where an irreversible action happens. The middle stays light, because mistakes there are either harmless or caught by the checks on either side. Notice also that most of the checks are ordinary code. The agents do the work that needs flexibility, and deterministic checks guard the places where flexibility would be dangerous.</p>
+<p>As before, we have left <strong>deliberately unchecked</strong> the stylistic phrasing in the drafted sections. Two reasonable ways of writing the same paragraph are not an error, and reviewing them would burn the attention that the final risky-items review needs.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="make-mistakes-cheap-to-undo">
+
+
+<h2>Make mistakes cheap to undo</h2>
+
+<p>While checks try to stop errors before they land, in many cases <strong>reversibility reduces what the error costs after it lands, and it is often the cheaper fix</strong>. For example:</p>
+<ul>
+<li><strong>Hold before acting.</strong> Delay sends, refunds and publishes by a short window so a bad one can be cancelled.</li>
+<li><strong>Make the action undoable.</strong> Prefer soft deletes, versioned records and drafts over irreversible writes and sends.</li>
+<li><strong>Limit the blast radius.</strong> Caps on amount, scope or volume mean a mistake that gets through is a small one.</li>
+<li><strong>Detect after the fact.</strong> Log what each agent did, sample outputs for audit, and alert on odd patterns such as a spike in refunds. Not every error has to be caught inline if it can be found and fixed quickly.</li>
+</ul>
+<p>None of these is meant to replace checks. Their aim is to change which steps need a hard check, because a step whose output can be undone cheaply needs less guarding than one that cannot.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="checks-have-a-cost-too">
+
+
+<h2>Checks have a cost too</h2>
+
+<p>Every check we add has a price, such as:</p>
+<ul>
+<li><strong>Latency.</strong> Each check adds time, and some add a wait for a person.</li>
+<li><strong>Money and compute.</strong> A second model call on every step can double the cost of a workflow.</li>
+<li><strong>Maintenance.</strong> Rules, schemas and test sets drift as policies, products and documents change. A stale check fails quietly.</li>
+<li><strong>Attention.</strong> A person has a limited number of careful reviews in a day. Spend them on the risky ones.</li>
+</ul>
+<p>A team that ignores the price of checks will either skip checks entirely or add so many that the workflow becomes slow, expensive and eventually ignored. <strong>I treat checks as a budget, not as a virtue</strong>.</p>
+<p>When designing AI workflows and discussing what checks are required, it is worth keeping in mind:</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="checks-fail-in-their-own-ways">
+
+
+<h3>Checks fail in their own ways</h3>
+
+<p>A check that raises too many false alarms teaches people to override it. A person approving hundreds of outputs a day is unlikely to stay a careful checker, because the next output looks like the last hundred. A noisy check can end up worse than none, because it adds friction while people learn to ignore it.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="a-rough-heuristic-for-deciding">
+
+
+<h3>A rough heuristic for deciding</h3>
+
+<p>As a rough guide, a check earns its place when the likelihood of an error, multiplied by the cost of its impact, multiplied by how hard the error is to spot, is larger than the cost of running the check. Where that is not true, leaving the step unchecked is a decision, not an oversight. These factors are not in common units, so use the idea to structure a discussion, not as a calculation. Rough ratings of low, medium and high will separate the steps that need a hard check from the ones that do not.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="fewer-steps-often-beat-more-checks">
+
+
+<h3>Fewer steps often beat more checks</h3>
+
+<p>The cheapest way to remove a failure point is to remove the step, for example by merging agents or replacing one with plain code.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="write-down-what-you-chose-not-to-check">
+
+
+<h3>Write down what you chose not to check</h3>
+
+<p>A line in the design doc (e.g. <em>&ldquo;tone of low-risk replies: not checked, cost exceeds benefit&rdquo;</em>) turns a hidden risk into a recorded decision. It also tells the next person that the gap is on purpose, and gives you something to revisit if the stakes change.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="closing">
+
+
+<h2>Closing</h2>
+
+<p>I am not aiming to make my agentic workflows perfect. A 1% error rate is only a problem when nothing in the workflow can see it, stop it or limit what it can touch. The teams that build reliable AI products are not the ones with the most accurate model; they are the ones who decided, step by step, where mistakes are allowed to travel, who put strong checks of different kinds in front of the actions that cannot be undone, and who were honest about what they chose to leave unchecked.</p>
+</section>
+    
+</article>
+</div>
+
+
+                
+                    
+                
+
+                
+            </div>
+        </main>
+<footer>
+    <article>Copyright © 2026 Fil Bezerianos</article>
+</footer>
+
+</body>
+</html>
