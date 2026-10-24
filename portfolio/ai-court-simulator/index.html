@@ -1,0 +1,352 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='en-us'><head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='https://filbezerianos.com/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Putting a Courtroom on a Language Model - Fil Bezerianos - Product and Technology Director</title>
+
+    
+    <meta name="description" content="A courtroom drama game where you play the lawyer and a judge, an opposing attorney and a jury of twelve are all played by an AI running locally on your own machine. A project about deciding what a model should write and what plain code should decide." />
+    
+
+    
+
+    
+
+    
+        <meta property="og:url" content="https://filbezerianos.com/portfolio/ai-court-simulator/">
+  <meta property="og:site_name" content="Fil Bezerianos - Product and Technology Director">
+  <meta property="og:title" content="Putting a Courtroom on a Language Model">
+  <meta property="og:description" content="A courtroom drama game where you play the lawyer and a judge, an opposing attorney and a jury of twelve are all played by an AI running locally on your own machine. A project about deciding what a model should write and what plain code should decide.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="portfolio">
+
+    
+
+    
+        
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Putting a Courtroom on a Language Model">
+  <meta name="twitter:description" content="A courtroom drama game where you play the lawyer and a judge, an opposing attorney and a jury of twelve are all played by an AI running locally on your own machine. A project about deciding what a model should write and what plain code should decide.">
+
+    <link rel="stylesheet" href="/style.min.77e298e9a130a60f6e176e07bb09ff971b8b648e5087248d839699aa01eeb80a.css" integrity="sha256-d&#43;KY6aEwpg9uF24Huwn/lxuLZI5QhySNg5aZqgHuuAo=">
+
+
+
+
+
+    
+    <script>
+        if (!('theme' in localStorage)) {
+            localStorage.theme = 'dark';
+        }
+
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="/js/theme-switch.7c57075675400a1a12bc3fcfc744dd74e1e417b8db11fdef378d7a7ef1cc9e3f.js" integrity="sha256-fFcHVnVAChoSvD/Px0TddOHkF7jbEf3vN416fvHMnj8="></script>
+
+
+
+    <script defer src="/js/hide-navbar-on-scroll.b5f3414715b82a9bc2c9086fc860ad5d0a63f67251e4dd4fa61e9dfce91ebdb6.js" integrity="sha256-tfNBRxW4KpvCyQhvyGCtXQpj9nJR5N1Pph6d/OkevbY="></script>
+
+
+
+
+
+    <script defer src="/js/zooming.10d718ecdb4a98eab370ed60963ea87f1c612ac225609eadc52f0e536bc1517c.js" integrity="sha256-ENcY7NtKmOqzcO1glj6ofxxhKsIlYJ6txS8OU2vBUXw="></script>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <script defer src="/js/search-en-us.737a63c9ef05dc2b91df49a8d46f56cc5f9d2395849887c5b75b8e2cef4493bf.js" integrity="sha256-c3pjye8F3CuR30mo1G9WzF&#43;dI5WEmIfFt1uOLO9Ek78="></script>
+
+
+
+
+
+
+    
+</head>
+<body><header>
+    <div id="header_content" class="wide">
+        <div id="header_left">
+            <div id="sidebar_btn">
+                <input type="checkbox" id="sidebar_btn_input" class="hidden" />
+                <label id="sidebar_btn_label" for="sidebar_btn_input">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+</label>
+                <label id="sidebar_canvas_overlay_wrapper" for="sidebar_btn_input">
+                    <div id="sidebar_canvas_overlay"></div>
+                </label>
+                <div id="sidebar">
+                    <ul><li>
+                                <a href="/posts/">Posts</a></li><li>
+                                <a href="/portfolio/">Portfolio</a></li><li>
+                                <a href="/about/">About</a></li></ul>
+                </div>
+            </div>
+        
+            <div class="brand">
+                <div>
+                    <a href="/">Fil Bezerianos</a>
+                </div>
+            </div><nav id="header_navbar" class="pure-menu header-menu">
+    <ul class="pure-menu-list"><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/posts/" class="pure-menu-link">Posts</a>
+                    
+                </li><li class="header-menu-item pure-menu-item insection">
+                    
+                        <a href="/portfolio/" class="pure-menu-link">Portfolio</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/about/" class="pure-menu-link">About</a>
+                    
+                </li></ul>
+</nav>
+</div>
+
+        <div id="header_right">
+            
+
+            <div id="theme_tool">
+                <button id="dark_mode_btn" class="header-menu-btn outline-button" title='Switch to dark mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+
+</button>
+                <button id="light_mode_btn" class="header-menu-btn outline-button" title='Switch to light mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+</svg>
+
+</button>
+            </div>
+
+            
+                <div id="search_tool">
+                    <button id="search_btn" class="header-menu-btn outline-button" title='Search Posts' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg>
+
+</button>
+                </div>
+            
+        </div>
+    </div>
+</header><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Search Posts'>
+            </div>
+            <div id="search_menu_close_btn">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.25rem" height="1.25rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+</div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+<main>
+            <div id="content" class="content-margin">
+                
+
+
+    <div class="content-margin">
+
+
+
+
+<article class="line-numbers">
+    
+    
+
+    
+    
+        
+        
+        
+    
+        
+        
+            
+            
+            
+        
+        <section id="putting-a-courtroom-on-a-language-model">
+
+
+<h1>Putting a Courtroom on a Language Model</h1>
+
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="the-idea">
+
+
+<h2>The Idea</h2>
+
+<p>Most LLM demos are one person talking to one model. I wanted to see what happens when a single human has to share the room with several AI characters who must stay consistent with each other over a long session.</p>
+<p>A courtroom turned out to be a good place to try it. It has clear roles, a fixed order of events, a lot of talking and a decision at the end.</p>
+<blockquote>
+<p>The interesting question was not whether a model can play a judge. It was which parts of a trial the model should be trusted with, and which parts it should not.</p></blockquote>
+<p>You are handed a freshly generated fictional criminal case, choose to prosecute or defend, argue it in your own words and wait for the jury to decide.</p>
+<p><img src="../../../images/portfolio/ai-court-simulator/mac-case-screen.png" alt="Image Text"></p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="the-build">
+
+
+<h2>The Build</h2>
+
+<p>Every game starts with a case invented by the model from a random topic and setting: a charge, a defendant, evidence, witnesses and a twist. The case is written to leave room for both guilt and reasonable doubt, so neither side has an easy win.</p>
+<p>From there the trial follows a fixed script. The judge opens the court, you and your AI opponent give opening statements and present your evidence, and the judge instructs the jury. You write your own statements. The opponent and the judge respond in character, and each one sees everything that has been said so far.</p>
+<p>Then twelve jurors vote independently. Each has a name, age and occupation, and gives a written rationale alongside their decision. A majority decides, and a 6-6 tie is a hung jury that votes again. You can edit the jurors in the app, and a juror who &ldquo;deeply distrusts authority figures&rdquo; makes for a very different trial.</p>
+<p>The whole thing runs on a local model through Ollama, so there are <strong>no accounts, no API keys and no usage costs</strong>. Twelve simultaneous model calls would be expensive on a hosted API. Here they are free to try, which shaped how the jury works.</p>
+<p><img src="../../../images/portfolio/ai-court-simulator/mac-jury-screen.png" alt="Image Text"></p>
+<blockquote>
+<p><em>Each juror&rsquo;s rationale is shown next to their vote, so you can see why the jury decided as it did, not just what it decided.</em></p></blockquote>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="behind-the-build">
+
+
+<h2>Behind the Build</h2>
+
+<p><strong>Designed and built end-to-end by me</strong>, from the trial flow and prompts to the data model and interface. It is a personal project with no commercial deployment, and it is open source under the MIT licence.</p>
+<p>The design choice I would point to is a simple division of labour. <strong>The model writes. Code decides.</strong> The model produces the case, the speeches and the jurors&rsquo; reasoning, but it never counts a vote, never tracks where the trial is up to and never gets to decide what counts as valid output. Cases and votes have to fit a schema or they are retried. The tally is a plain function. The position in the trial is worked out from the saved transcript, so a refresh or a crash cannot leave the game in an impossible state.</p>
+<p>Two smaller decisions made a visible difference. Jurors have to give their rationale <strong>before</strong> their decision, so the vote is justified rather than rationalised after the fact. And the randomness in each case comes from a topic picked by code, because a model asked to &ldquo;be random&rdquo; keeps producing the same few cases.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="what-i-took-from-it">
+
+
+<h2>What I Took From It</h2>
+
+<p>This is a small a game, not a model of real juries. All twelve jurors are the same model with different personas, so their votes are correlated. What does carry over to product work is the pattern. Models are very good at producing things that read well, such as a story, a speech or an opinion. They are not what you want counting votes or guaranteeing a format. <strong>Let the model write, and let validated structure and plain code decide what is accepted, what happens next and who wins.</strong></p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="under-the-hood">
+
+
+<h2>Under the Hood</h2>
+
+<p><a href="https://github.com/filbezerianos/portfolio-deep-dives/blob/main/projects/ai-court-simulator-deep-dive.md">Read the technical deep dive on GitHub →</a></p>
+<p><a href="https://github.com/filbezerianos/ai-court-simulator">View the code on GitHub →</a></p>
+</section>
+    
+</article>
+</div>
+
+
+                
+                    
+                
+
+                
+            </div>
+        </main>
+<footer>
+    <article>Copyright © 2026 Fil Bezerianos</article>
+</footer>
+
+</body>
+</html>

@@ -32,6 +32,26 @@
     </item>
     
     <item>
+      <title>Putting a Courtroom on a Language Model</title>
+      <link>https://filbezerianos.com/portfolio/ai-court-simulator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/ai-court-simulator/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;putting-a-courtroom-on-a-language-model&#34; --&gt;
+
+&lt;h1&gt;Putting a Courtroom on a Language Model&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-idea&#34; --&gt;
+
+&lt;h2&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;Most LLM demos are one person talking to one model. I wanted to see what happens when a single human has to share the room with several AI characters who must stay consistent with each other over a long session.&lt;/p&gt;
+&lt;p&gt;A courtroom turned out to be a good place to try it. It has clear roles, a fixed order of events, a lot of talking and a decision at the end.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Skipping the Part Clients Hate</title>
       <link>https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
