@@ -8,6 +8,26 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Keeping AI Agent Skills in Order</title>
+      <link>https://filbezerianos.com/portfolio/skillscop-keep-ai-agent-skills-in-order/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/portfolio/skillscop-keep-ai-agent-skills-in-order/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;keeping-ai-agent-skills-in-order&#34; --&gt;
+
+&lt;h1&gt;Keeping AI Agent Skills in Order&lt;/h1&gt;
+
+&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;the-idea&#34; --&gt;
+
+&lt;h2&gt;The Idea&lt;/h2&gt;
+
+&lt;p&gt;Skills are the plain Markdown files that tell AI agents how to behave. They pile up fast. Teams copy each other&amp;rsquo;s, people write personal variants, and sooner or later a personal skill quietly disagrees with a team or enterprise policy.&lt;/p&gt;
+&lt;p&gt;That is a small governance problem, and it looks more like a document problem than a code problem. I wanted to see how much of it a simple tool could make visible before it causes confusion.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Rethinking How Product Teams Prioritise</title>
       <link>https://filbezerianos.com/portfolio/product-work-focus-tool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

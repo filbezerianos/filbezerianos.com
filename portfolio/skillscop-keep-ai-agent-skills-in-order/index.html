@@ -1,0 +1,358 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='en-us'><head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='https://filbezerianos.com/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keeping AI Agent Skills in Order - Fil Bezerianos - Product and Technology Director</title>
+
+    
+    <meta name="description" content="A command line tool that finds near-duplicate AI agent skills and lower level skills that contradict the rules set above them, running entirely on your own machine. A project about using the cheapest method that works and keeping the model for the question that needs judgement." />
+    
+
+    
+
+    
+
+    
+        <meta property="og:url" content="https://filbezerianos.com/portfolio/skillscop-keep-ai-agent-skills-in-order/">
+  <meta property="og:site_name" content="Fil Bezerianos - Product and Technology Director">
+  <meta property="og:title" content="Keeping AI Agent Skills in Order">
+  <meta property="og:description" content="A command line tool that finds near-duplicate AI agent skills and lower level skills that contradict the rules set above them, running entirely on your own machine. A project about using the cheapest method that works and keeping the model for the question that needs judgement.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="portfolio">
+
+    
+
+    
+        
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Keeping AI Agent Skills in Order">
+  <meta name="twitter:description" content="A command line tool that finds near-duplicate AI agent skills and lower level skills that contradict the rules set above them, running entirely on your own machine. A project about using the cheapest method that works and keeping the model for the question that needs judgement.">
+
+    <link rel="stylesheet" href="/style.min.77e298e9a130a60f6e176e07bb09ff971b8b648e5087248d839699aa01eeb80a.css" integrity="sha256-d&#43;KY6aEwpg9uF24Huwn/lxuLZI5QhySNg5aZqgHuuAo=">
+
+
+
+
+
+    
+    <script>
+        if (!('theme' in localStorage)) {
+            localStorage.theme = 'dark';
+        }
+
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="/js/theme-switch.7c57075675400a1a12bc3fcfc744dd74e1e417b8db11fdef378d7a7ef1cc9e3f.js" integrity="sha256-fFcHVnVAChoSvD/Px0TddOHkF7jbEf3vN416fvHMnj8="></script>
+
+
+
+    <script defer src="/js/hide-navbar-on-scroll.b5f3414715b82a9bc2c9086fc860ad5d0a63f67251e4dd4fa61e9dfce91ebdb6.js" integrity="sha256-tfNBRxW4KpvCyQhvyGCtXQpj9nJR5N1Pph6d/OkevbY="></script>
+
+
+
+
+
+    <script defer src="/js/zooming.10d718ecdb4a98eab370ed60963ea87f1c612ac225609eadc52f0e536bc1517c.js" integrity="sha256-ENcY7NtKmOqzcO1glj6ofxxhKsIlYJ6txS8OU2vBUXw="></script>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <script defer src="/js/search-en-us.737a63c9ef05dc2b91df49a8d46f56cc5f9d2395849887c5b75b8e2cef4493bf.js" integrity="sha256-c3pjye8F3CuR30mo1G9WzF&#43;dI5WEmIfFt1uOLO9Ek78="></script>
+
+
+
+
+
+
+    
+</head>
+<body><header>
+    <div id="header_content" class="wide">
+        <div id="header_left">
+            <div id="sidebar_btn">
+                <input type="checkbox" id="sidebar_btn_input" class="hidden" />
+                <label id="sidebar_btn_label" for="sidebar_btn_input">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+</label>
+                <label id="sidebar_canvas_overlay_wrapper" for="sidebar_btn_input">
+                    <div id="sidebar_canvas_overlay"></div>
+                </label>
+                <div id="sidebar">
+                    <ul><li>
+                                <a href="/posts/">Posts</a></li><li>
+                                <a href="/portfolio/">Portfolio</a></li><li>
+                                <a href="/about/">About</a></li></ul>
+                </div>
+            </div>
+        
+            <div class="brand">
+                <div>
+                    <a href="/">Fil Bezerianos</a>
+                </div>
+            </div><nav id="header_navbar" class="pure-menu header-menu">
+    <ul class="pure-menu-list"><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/posts/" class="pure-menu-link">Posts</a>
+                    
+                </li><li class="header-menu-item pure-menu-item insection">
+                    
+                        <a href="/portfolio/" class="pure-menu-link">Portfolio</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/about/" class="pure-menu-link">About</a>
+                    
+                </li></ul>
+</nav>
+</div>
+
+        <div id="header_right">
+            
+
+            <div id="theme_tool">
+                <button id="dark_mode_btn" class="header-menu-btn outline-button" title='Switch to dark mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+
+</button>
+                <button id="light_mode_btn" class="header-menu-btn outline-button" title='Switch to light mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+</svg>
+
+</button>
+            </div>
+
+            
+                <div id="search_tool">
+                    <button id="search_btn" class="header-menu-btn outline-button" title='Search Posts' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg>
+
+</button>
+                </div>
+            
+        </div>
+    </div>
+</header><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Search Posts'>
+            </div>
+            <div id="search_menu_close_btn">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.25rem" height="1.25rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+</div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+<main>
+            <div id="content" class="content-margin">
+                
+
+
+    <div class="content-margin">
+
+
+
+
+<article class="line-numbers">
+    
+    
+
+    
+    
+        
+        
+        
+    
+        
+        
+            
+            
+            
+        
+        <section id="keeping-ai-agent-skills-in-order">
+
+
+<h1>Keeping AI Agent Skills in Order</h1>
+
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="the-idea">
+
+
+<h2>The Idea</h2>
+
+<p>Skills are the plain Markdown files that tell AI agents how to behave. They pile up fast. Teams copy each other&rsquo;s, people write personal variants, and sooner or later a personal skill quietly disagrees with a team or enterprise policy.</p>
+<p>That is a small governance problem, and it looks more like a document problem than a code problem. I wanted to see how much of it a simple tool could make visible before it causes confusion.</p>
+<blockquote>
+<p>The interesting question was not whether a model can spot a contradiction. It was which questions deserve a model at all, and which can be answered by something cheaper and more predictable.</p></blockquote>
+<p>You point SkillsCop at your folders of skills, and it tells you which ones say nearly the same thing and which lower level skills break the rules above them.</p>
+<p><img src="../../../images/portfolio/skillscop-keep-ai-agent-skills-in-order/cli-similarity-check.png" alt="Image Text"></p>
+<blockquote>
+<p><em>The similarity check compares every pair of skills on both their full text and their description, and lists the pairs that cross the threshold. It uses no model, so it is fast and gives the same answer on every run.</em></p></blockquote>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="the-build">
+
+
+<h2>The Build</h2>
+
+<p>Skills belong to one of three levels, and the higher level always wins: enterprise, then team, then personal. That hierarchy shapes the whole tool.</p>
+<p>Finding <strong>near duplicates</strong> is a question about wording, so SkillsCop does not use a model for it. It compares every pair of skills with TF-IDF and cosine similarity, once on the full text and once on the description, and reports any pair that crosses a threshold. It is fast, free and gives the same answer every time.</p>
+<p>Finding <strong>conflicts</strong> is a question about meaning, so this is where a model earns its place. SkillsCop only compares across levels, higher against lower, because &ldquo;does the lower one contradict the higher one?&rdquo; has a clear answer. A local model first screens each pair with a closed question and returns a probability. Only the pairs above the threshold go to a second model, which writes a short explanation of what conflicts and why.</p>
+<p>The results land in a timestamped CSV, with the score and the explanation next to the two file paths, so a reviewer can sort it, filter it and go straight to the files. Every model call is written to a log.</p>
+<p>Everything runs locally through Ollama. Skill files are internal policy, exactly the kind of text an organisation does not want to send to a third party, so <strong>nothing leaves the machine and there is no per-token cost</strong>.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="behind-the-build">
+
+
+<h2>Behind the Build</h2>
+
+<p><strong>Designed and built end-to-end by me</strong>, from the hierarchy model and the two-stage conflict check to the prompts, settings and reports. It is a personal project with no commercial deployment, and it is open source under the Apache 2.0 licence.</p>
+<p>The design choice I would point to is the order of the work. <strong>Cheap and deterministic first, the model only where judgement is needed.</strong> A lot of duplication is plain copy and paste, and a method that costs nothing should catch it before anything expensive is involved. For conflicts, the model is asked a closed question that returns a number, because a number can be thresholded, sorted and compared across runs, and a paragraph cannot. The long explanation is only paid for on the few pairs that look like a problem.</p>
+<p>Two smaller decisions made a difference. The prompts give the model a precise definition of a conflict, and of what is not one, because models over-flag if you let them: two skills about the same topic are not in conflict, and a stricter rule that also satisfies a looser one is not either. And the tool checks its settings before it starts, so a wrong path fails in a second and not an hour into a run.</p>
+<p><img src="../../../images/portfolio/skillscop-keep-ai-agent-skills-in-order/cli-conflicts-check.png" alt="Image Text"></p>
+<blockquote>
+<p><em>The conflict check only compares skills across levels, higher against lower. The progress bar shows how many pairs are left, because each one is a call to a local model. Only the pairs a first model flags go on to get a written explanation.</em></p></blockquote>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="what-i-took-from-it">
+
+
+<h2>What I Took From It</h2>
+
+<p>Conflict detection is a screening aid, not a verdict. A local model can miss a real conflict and flag a compatible pair, so the default thresholds are starting points and not tuned values. Similarity compares words, not meaning, so a rewritten duplicate can score low. It is also slow on large collections, because every cross-level pair is a model call and there is no cache yet.</p>
+<p>What does carry over to product work is the pattern. Use the cheapest method that is good enough first, and keep the model for the question that really needs judgement. Ask it a closed question, and let a threshold you can see and change decide what goes forward. And since the person reading the result is the one who has to act on it, give them a spreadsheet of evidence, not a verdict.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="under-the-hood">
+
+
+<h2>Under the Hood</h2>
+
+<p>
+<a href="https://github.com/filbezerianos/portfolio-deep-dives/blob/main/projects/skillscop-deep-dive.md" target="_blank" rel="noopener noreferrer">Read the technical deep dive on GitHub →</a></p>
+<p>
+<a href="https://github.com/filbezerianos/skillscop" target="_blank" rel="noopener noreferrer">View the code on GitHub →</a></p>
+</section>
+    
+</article>
+</div>
+
+
+                
+                    
+                
+
+                
+            </div>
+        </main>
+<footer>
+    <article>Copyright © 2026 Fil Bezerianos</article>
+</footer>
+
+</body>
+</html>
