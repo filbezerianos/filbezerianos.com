@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "C:/Users/filb/Documents/git-projects/filbezerianos.com-website-code/v2",
+	"sourceRoot": "/Users/filb/Documents/git-projects/filbezerianos.com-website-code/v2",
 	"sources": [
 		"themes/monochrome/assets/scss/core.scss",
 		"themes/monochrome/assets/scss/purecss/_base.scss",
