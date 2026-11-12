@@ -34,6 +34,10 @@
       <description>&lt;p&gt;A few articles to start with:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
+&lt;a href=&#34;https://filbezerianos.com/posts/2026/agents-in-the-middle-judgement-at-both-ends/&#34;&gt;Agents in the Middle, Judgement at Both Ends&lt;/a&gt;: when agents do the middle of the work, the value of a product team moves to what happens before it and after it.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://filbezerianos.com/posts/2026/ai-mistakes-should-not-be-allowed-to-travel/&#34;&gt;AI Mistakes Should Not Be Allowed to Travel&lt;/a&gt;: a 1% error rate per step can sink a long AI workflow, so checks and undo options have to be placed deliberately.&lt;/li&gt;
+&lt;li&gt;
 &lt;a href=&#34;https://filbezerianos.com/posts/2026/faster-to-build-harder-to-get-right/&#34;&gt;Faster to Build, Harder to Get Right&lt;/a&gt;: AI speeds up building software, not deciding what is worth building.&lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://filbezerianos.com/posts/2026/cheap-to-start-expensive-to-own/&#34;&gt;Cheap to Start, Expensive to Own&lt;/a&gt;: AI made starting almost free, so strategy has to become rules that govern the work.&lt;/li&gt;
@@ -41,10 +45,6 @@
 &lt;a href=&#34;https://filbezerianos.com/posts/2026/platforms-in-flat-growth-environment/&#34;&gt;When Growth Stops, Platforms Have to Earn Their Place&lt;/a&gt;: when growth slows, platforms are judged on cost and on who would notice if they were switched off.&lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://filbezerianos.com/posts/2023/project-product-platform/&#34;&gt;From Project to Product, from Product to Platform&lt;/a&gt;: three operating models that run in parallel, not in sequence.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://filbezerianos.com/posts/2024/ai-product-management/&#34;&gt;Blending AI and Product Management&lt;/a&gt;: how the AI product phases fit into the traditional product lifecycle.&lt;/li&gt;
-&lt;li&gt;
-&lt;a href=&#34;https://filbezerianos.com/posts/2025/ai-as-a-junior-employee/&#34;&gt;AI as a Junior Employee&lt;/a&gt;: capable, useful and in need of supervision.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://filbezerianos.com/posts/&#34;&gt;All articles →&lt;/a&gt;&lt;/p&gt;</description>
@@ -59,11 +59,13 @@
       <description>&lt;p&gt;I still build things. These are the projects I would start with:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
+&lt;a href=&#34;https://filbezerianos.com/portfolio/skillscop-keep-ai-agent-skills-in-order/&#34;&gt;SkillsCop&lt;/a&gt;: a command line tool that finds near-duplicate AI agent skills and skills that contradict the rules above them, running entirely on your own machine.&lt;/li&gt;
+&lt;li&gt;
 &lt;a href=&#34;https://filbezerianos.com/portfolio/product-work-focus-tool/&#34;&gt;Product Work Focus Tool&lt;/a&gt;: AI-assisted feature prioritisation that keeps the Product Manager in control. Early testing cut prioritisation time by up to 50%.&lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/&#34;&gt;AI Cloud Migrator&lt;/a&gt;: recommends the right Cloud migration strategy for each application, with 60% shorter assessments in early deployments.&lt;/li&gt;
+&lt;a href=&#34;https://filbezerianos.com/portfolio/ai-court-simulator/&#34;&gt;AI Court Simulator&lt;/a&gt;: a courtroom game where the judge, opposing attorney and jury are played by a model running locally, and plain code decides what the model should not.&lt;/li&gt;
 &lt;li&gt;
-&lt;a href=&#34;https://filbezerianos.com/portfolio/relationships-mapping-and-visualisation-tool/&#34;&gt;Relationships Mapping Visualiser&lt;/a&gt;: turns raw interview notes into a diagram of how value flows, cutting diagram creation time by 80%.&lt;/li&gt;
+&lt;a href=&#34;https://filbezerianos.com/portfolio/cloud-migration-strategy-ai-tool/&#34;&gt;AI Cloud Migrator&lt;/a&gt;: recommends the right Cloud migration strategy for each application, with 60% shorter assessments in early deployments.&lt;/li&gt;
 &lt;li&gt;
 &lt;a href=&#34;https://filbezerianos.com/portfolio/ai-powered-property-photo-analyser/&#34;&gt;Property Visual Finder&lt;/a&gt;: a fine-tuned vision model that ranks property listings by what is in the photos, integrated into a UK agency&amp;rsquo;s workflow.&lt;/li&gt;
 &lt;/ul&gt;

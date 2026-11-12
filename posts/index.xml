@@ -41,8 +41,7 @@
 
 &lt;p&gt;When I discuss the reliability of an AI workflow, the point usually raised is this:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Suppose each step in an agentic workflow is right 99% of the time. In a workflow of 10 steps, the chance that everything is right drops to about 90%, and in a workflow of 50 steps it drops to about 60%. So, the &lt;em&gt;&amp;ldquo;1% error rate&amp;rdquo;&lt;/em&gt; turns into a failure rate that you can feel in production.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;p&gt;Suppose each step in an agentic workflow is right 99% of the time. In a workflow of 10 steps, the chance that everything is right drops to about 90%, and in a workflow of 50 steps it drops to about 60%. So, the &lt;em&gt;&amp;ldquo;1% error rate&amp;rdquo;&lt;/em&gt; turns into a failure rate that you can feel in production.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -77,8 +76,7 @@
 
 &lt;p&gt;For years I have described my approach in two sentences.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Strategy without delivery is fiction. Delivery without strategy is just expensive activity.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Strategy without delivery is fiction. Delivery without strategy is just expensive activity.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Recently I am noticing that &lt;strong&gt;the second part no longer holds as written&lt;/strong&gt;. Delivery without strategy used to be expensive, but AI made it cheap and that turned out to be worse.&lt;/p&gt;</description>
     </item>
     
@@ -94,8 +92,7 @@
 &lt;h1&gt;The Headline You Read Was Written for You&lt;/h1&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;There is a version of the news that was written for everyone. And &lt;strong&gt;there is the version that was written for you&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;There is a version of the news that was written for everyone. And &lt;strong&gt;there is the version that was written for you&lt;/strong&gt;.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Those two things used to be the same article. A headline was a headline; well-written or poorly written, sensational or restrained, but it was the same string of words whether you were anxious or calm, conservative or progressive, a habitual news reader or someone who only catches headlines on a social feed.&lt;/p&gt;</description>
     </item>
     
@@ -114,8 +111,7 @@
 
 &lt;p&gt;There is a growing confidence in the market that AI will replace software development. The narrative is straightforward:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;AI can generate code, therefore software development, and the teams behind it, are at risk of being replaced. This conclusion is being treated as inevitable and it is beginning to shape how organisations invest, hire and plan.&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;p&gt;AI can generate code, therefore software development, and the teams behind it, are at risk of being replaced. This conclusion is being treated as inevitable and it is beginning to shape how organisations invest, hire and plan.&lt;/p&gt;</description>
     </item>
     
     <item>

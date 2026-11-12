@@ -41,24 +41,24 @@
 
     
         <meta property="og:url" content="https://filbezerianos.com/posts/2026/ai-mistakes-should-not-be-allowed-to-travel/">
-	<meta property="og:site_name" content="Fil Bezerianos - Product and Technology Director">
-	<meta property="og:title" content="AI Mistakes Should Not Be Allowed to Travel">
-	<meta property="og:description" content="A 1% error rate per step can sink a long AI workflow. Here is how to decide where checks, undo options and deliberate gaps belong.">
-	<meta property="og:locale" content="en_us">
-	<meta property="og:type" content="article">
-		<meta property="article:section" content="posts">
-		<meta property="article:published_time" content="2026-10-24T00:00:00+00:00">
-		<meta property="article:modified_time" content="2026-10-24T00:00:00+00:00">
+  <meta property="og:site_name" content="Fil Bezerianos - Product and Technology Director">
+  <meta property="og:title" content="AI Mistakes Should Not Be Allowed to Travel">
+  <meta property="og:description" content="A 1% error rate per step can sink a long AI workflow. Here is how to decide where checks, undo options and deliberate gaps belong.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-10-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-10-24T00:00:00+00:00">
 
     
 
     
         
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="AI Mistakes Should Not Be Allowed to Travel">
-	<meta name="twitter:description" content="A 1% error rate per step can sink a long AI workflow. Here is how to decide where checks, undo options and deliberate gaps belong.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AI Mistakes Should Not Be Allowed to Travel">
+  <meta name="twitter:description" content="A 1% error rate per step can sink a long AI workflow. Here is how to decide where checks, undo options and deliberate gaps belong.">
 
-    <link rel="stylesheet" href="/style.min.799215e69961135225fd404408b814412977525e24d16080279f8fe67c93f6ed.css" integrity="sha256-eZIV5plhE1Il/UBECLgUQSl3Ul4k0WCAJ5&#43;P5nyT9u0=">
+    <link rel="stylesheet" href="/style.min.77e298e9a130a60f6e176e07bb09ff971b8b648e5087248d839699aa01eeb80a.css" integrity="sha256-d&#43;KY6aEwpg9uF24Huwn/lxuLZI5QhySNg5aZqgHuuAo=">
 
 
 
@@ -86,7 +86,7 @@
 
 
 
-    <script defer src="/js/zooming.74d9f5f8f463599618b195b1c4d8a8104e5ae82c88d226ed3eef6ff48e9ba4db.js" integrity="sha256-dNn1&#43;PRjWZYYsZWxxNioEE5a6CyI0ibtPu9v9I6bpNs="></script>
+    <script defer src="/js/zooming.10d718ecdb4a98eab370ed60963ea87f1c612ac225609eadc52f0e536bc1517c.js" integrity="sha256-ENcY7NtKmOqzcO1glj6ofxxhKsIlYJ6txS8OU2vBUXw="></script>
 
 
 
@@ -256,8 +256,7 @@
 
 <p>When I discuss the reliability of an AI workflow, the point usually raised is this:</p>
 <blockquote>
-<p>Suppose each step in an agentic workflow is right 99% of the time. In a workflow of 10 steps, the chance that everything is right drops to about 90%, and in a workflow of 50 steps it drops to about 60%. So, the <em>&ldquo;1% error rate&rdquo;</em> turns into a failure rate that you can feel in production.</p>
-</blockquote>
+<p>Suppose each step in an agentic workflow is right 99% of the time. In a workflow of 10 steps, the chance that everything is right drops to about 90%, and in a workflow of 50 steps it drops to about 60%. So, the <em>&ldquo;1% error rate&rdquo;</em> turns into a failure rate that you can feel in production.</p></blockquote>
 <p>While this is true, I believe it makes the problem sound like a verdict on AI (e.g. <em>&ldquo;the agents are unreliable&rdquo;</em>) when it is really a statement about structure. Two teams can build on the same model with the same per-step accuracy and ship very different products. One lets small mistakes travel quietly through the whole chain and surface as a confident wrong answer, while the other decides where a mistake is allowed to travel and where it is stopped.</p>
 </section>
     
@@ -428,34 +427,34 @@
 </ol>
 <p>The risk is not spread evenly across the three steps, and the checks should not be either.</p>
 <table class="mc-table">
-	<thead>
-			<tr>
-					<th>Step</th>
-					<th>What a wrong output looks like</th>
-					<th>Check that is different in kind</th>
-					<th>Cost of the check</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>1. Classify the ticket</td>
-					<td>A billing dispute tagged &ldquo;general question&rdquo;. Silent, and it routes everything after it wrongly.</td>
-					<td>Code rules that force high-risk words (chargeback, legal, cancel) to the right queue regardless of the agent. A small weekly sample audit by a person.</td>
-					<td>Low, e.g. a rules file and a small weekly sample review.</td>
-			</tr>
-			<tr>
-					<td>2. Draft a reply from policy</td>
-					<td>A refund policy that sounds right but does not exist.</td>
-					<td>Require the draft to cite the policy clause, then confirm in code that the cited text exists in the real policy document.</td>
-					<td>Low, e.g. a string match, no second agent.</td>
-			</tr>
-			<tr>
-					<td>3. Issue the refund</td>
-					<td>The wrong amount or the wrong customer. Irreversible.</td>
-					<td>Hard limits in code (amount cap, order belongs to the customer). A human approves only above a threshold.</td>
-					<td>Highest, but it fires only on the small share of cases above the threshold.</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>Step</th>
+          <th>What a wrong output looks like</th>
+          <th>Check that is different in kind</th>
+          <th>Cost of the check</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1. Classify the ticket</td>
+          <td>A billing dispute tagged &ldquo;general question&rdquo;. Silent, and it routes everything after it wrongly.</td>
+          <td>Code rules that force high-risk words (chargeback, legal, cancel) to the right queue regardless of the agent. A small weekly sample audit by a person.</td>
+          <td>Low, e.g. a rules file and a small weekly sample review.</td>
+      </tr>
+      <tr>
+          <td>2. Draft a reply from policy</td>
+          <td>A refund policy that sounds right but does not exist.</td>
+          <td>Require the draft to cite the policy clause, then confirm in code that the cited text exists in the real policy document.</td>
+          <td>Low, e.g. a string match, no second agent.</td>
+      </tr>
+      <tr>
+          <td>3. Issue the refund</td>
+          <td>The wrong amount or the wrong customer. Irreversible.</td>
+          <td>Hard limits in code (amount cap, order belongs to the customer). A human approves only above a threshold.</td>
+          <td>Highest, but it fires only on the small share of cases above the threshold.</td>
+      </tr>
+  </tbody>
 </table>
 <p>Three things are worth mentioning.</p>
 <ol>
@@ -479,40 +478,40 @@
 
 <p>Now, assume a workflow that generates a client proposal. An agent extracts figures and facts from source files, drafts the sections, assembles the document, and sends it to the client.</p>
 <table class="mc-table">
-	<thead>
-			<tr>
-					<th>Step</th>
-					<th>What a wrong output looks like</th>
-					<th>Check that is different in kind</th>
-					<th>Cost of the check</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>1. Extract figures and facts</td>
-					<td>A transposed number or a wrong date. Plausible and baked into everything after.</td>
-					<td>Validate against a schema, reconcile totals in code, spot-check a sample against the source files.</td>
-					<td>Low to medium. This is where most of the checking budget should go.</td>
-			</tr>
-			<tr>
-					<td>2. Draft the sections</td>
-					<td>Mostly harmless variation in wording, except where the text restates a number or a commitment.</td>
-					<td>Automatically confirm that every number and date in the draft matches the extracted data.</td>
-					<td>Low, e.g. a comparison script.</td>
-			</tr>
-			<tr>
-					<td>3. Assemble the document</td>
-					<td>Leftover placeholders, a missing section, totals that do not match.</td>
-					<td>A checklist in code. Nothing here needs an agent.</td>
-					<td>Near zero.</td>
-			</tr>
-			<tr>
-					<td>4. Send to the client</td>
-					<td>A wrong price or commitment, sent outside the company. It cannot be recalled.</td>
-					<td>A person reviews a short list of risky items (prices, dates, commitments) pulled out of the document, not the whole document.</td>
-					<td>Human time, kept small by narrowing what the person looks at.</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>Step</th>
+          <th>What a wrong output looks like</th>
+          <th>Check that is different in kind</th>
+          <th>Cost of the check</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1. Extract figures and facts</td>
+          <td>A transposed number or a wrong date. Plausible and baked into everything after.</td>
+          <td>Validate against a schema, reconcile totals in code, spot-check a sample against the source files.</td>
+          <td>Low to medium. This is where most of the checking budget should go.</td>
+      </tr>
+      <tr>
+          <td>2. Draft the sections</td>
+          <td>Mostly harmless variation in wording, except where the text restates a number or a commitment.</td>
+          <td>Automatically confirm that every number and date in the draft matches the extracted data.</td>
+          <td>Low, e.g. a comparison script.</td>
+      </tr>
+      <tr>
+          <td>3. Assemble the document</td>
+          <td>Leftover placeholders, a missing section, totals that do not match.</td>
+          <td>A checklist in code. Nothing here needs an agent.</td>
+          <td>Near zero.</td>
+      </tr>
+      <tr>
+          <td>4. Send to the client</td>
+          <td>A wrong price or commitment, sent outside the company. It cannot be recalled.</td>
+          <td>A person reviews a short list of risky items (prices, dates, commitments) pulled out of the document, not the whole document.</td>
+          <td>Human time, kept small by narrowing what the person looks at.</td>
+      </tr>
+  </tbody>
 </table>
 <p>In these two examples the pattern is the same: the strongest checks sit at the start of the workflow, where facts enter, and at the end, where an irreversible action happens. The middle stays light, because mistakes there are either harmless or caught by the checks on either side. Notice also that most of the checks are ordinary code. The agents do the work that needs flexibility, and deterministic checks guard the places where flexibility would be dangerous.</p>
 <p>As before, we have left <strong>deliberately unchecked</strong> the stylistic phrasing in the drafted sections. Two reasonable ways of writing the same paragraph are not an error, and reviewing them would burn the attention that the final risky-items review needs.</p>
