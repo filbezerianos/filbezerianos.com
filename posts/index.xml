@@ -6,7 +6,22 @@
     <description>Recent content in Posts on Fil Bezerianos - Product and Technology Director</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://filbezerianos.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One Source of Truth, Two Kinds of Readers</title>
+      <link>https://filbezerianos.com/posts/2026/one-source-of-truth-two-kinds-of-readers/</link>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://filbezerianos.com/posts/2026/one-source-of-truth-two-kinds-of-readers/</guid>
+      <description>&lt;!-- end-chunk --&gt;
+&lt;!-- begin-chunk data-anchor=&#34;one-source-of-truth-two-kinds-of-readers&#34; --&gt;
+
+&lt;h1&gt;One Source of Truth, Two Kinds of Readers&lt;/h1&gt;
+
+&lt;p&gt;In my recent conversations about AI adoption a question came up several times: &lt;em&gt;&amp;ldquo;Now that AI agents use our knowledge as much as people do, do we need one knowledge source for humans and another one for AI?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;My short answer is no. A second, AI-specific knowledge base looks like the clean engineering answer, but it is the one most likely to produce the failure we are all trying to avoid: a confident answer that is plausible and wrong. What we need is &lt;strong&gt;one authoritative source for each area of knowledge, written once, with different ways of reading it&lt;/strong&gt; for people and for AI agents.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Agents in the Middle, Judgement at Both Ends</title>
       <link>https://filbezerianos.com/posts/2026/agents-in-the-middle-judgement-at-both-ends/</link>

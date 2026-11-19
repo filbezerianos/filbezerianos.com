@@ -1,0 +1,436 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang='en-us'><head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href='https://filbezerianos.com/favicon.ico' type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>One Source of Truth, Two Kinds of Readers - Fil Bezerianos - Product and Technology Director</title>
+
+    
+    <meta name="description" content="Organisations are asking whether AI needs its own knowledge base, separate from the one people use. A second copy is the wrong answer. The knowledge should be written once, and only the way it is read should differ." />
+    
+
+    
+
+    
+
+    
+        <meta property="og:url" content="https://filbezerianos.com/posts/2026/one-source-of-truth-two-kinds-of-readers/">
+  <meta property="og:site_name" content="Fil Bezerianos - Product and Technology Director">
+  <meta property="og:title" content="One Source of Truth, Two Kinds of Readers">
+  <meta property="og:description" content="Organisations are asking whether AI needs its own knowledge base, separate from the one people use. A second copy is the wrong answer. The knowledge should be written once, and only the way it is read should differ.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-11-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-11-19T00:00:00+00:00">
+
+    
+
+    
+        
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="One Source of Truth, Two Kinds of Readers">
+  <meta name="twitter:description" content="Organisations are asking whether AI needs its own knowledge base, separate from the one people use. A second copy is the wrong answer. The knowledge should be written once, and only the way it is read should differ.">
+
+    <link rel="stylesheet" href="/style.min.77e298e9a130a60f6e176e07bb09ff971b8b648e5087248d839699aa01eeb80a.css" integrity="sha256-d&#43;KY6aEwpg9uF24Huwn/lxuLZI5QhySNg5aZqgHuuAo=">
+
+
+
+
+
+    
+    <script>
+        if (!('theme' in localStorage)) {
+            localStorage.theme = 'dark';
+        }
+
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+            document.documentElement.setAttribute("data-theme", "light");
+        }
+    </script>
+<script defer src="/js/theme-switch.7c57075675400a1a12bc3fcfc744dd74e1e417b8db11fdef378d7a7ef1cc9e3f.js" integrity="sha256-fFcHVnVAChoSvD/Px0TddOHkF7jbEf3vN416fvHMnj8="></script>
+
+
+
+    <script defer src="/js/hide-navbar-on-scroll.b5f3414715b82a9bc2c9086fc860ad5d0a63f67251e4dd4fa61e9dfce91ebdb6.js" integrity="sha256-tfNBRxW4KpvCyQhvyGCtXQpj9nJR5N1Pph6d/OkevbY="></script>
+
+
+
+
+
+    <script defer src="/js/zooming.10d718ecdb4a98eab370ed60963ea87f1c612ac225609eadc52f0e536bc1517c.js" integrity="sha256-ENcY7NtKmOqzcO1glj6ofxxhKsIlYJ6txS8OU2vBUXw="></script>
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    <script defer src="/js/search-en-us.737a63c9ef05dc2b91df49a8d46f56cc5f9d2395849887c5b75b8e2cef4493bf.js" integrity="sha256-c3pjye8F3CuR30mo1G9WzF&#43;dI5WEmIfFt1uOLO9Ek78="></script>
+
+
+
+
+
+
+    
+</head>
+<body><header>
+    <div id="header_content" class="wide">
+        <div id="header_left">
+            <div id="sidebar_btn">
+                <input type="checkbox" id="sidebar_btn_input" class="hidden" />
+                <label id="sidebar_btn_label" for="sidebar_btn_input">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+</svg>
+
+</label>
+                <label id="sidebar_canvas_overlay_wrapper" for="sidebar_btn_input">
+                    <div id="sidebar_canvas_overlay"></div>
+                </label>
+                <div id="sidebar">
+                    <ul><li>
+                                <a href="/posts/">Posts</a></li><li>
+                                <a href="/portfolio/">Portfolio</a></li><li>
+                                <a href="/about/">About</a></li></ul>
+                </div>
+            </div>
+        
+            <div class="brand">
+                <div>
+                    <a href="/">Fil Bezerianos</a>
+                </div>
+            </div><nav id="header_navbar" class="pure-menu header-menu">
+    <ul class="pure-menu-list"><li class="header-menu-item pure-menu-item insection">
+                    
+                        <a href="/posts/" class="pure-menu-link">Posts</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/portfolio/" class="pure-menu-link">Portfolio</a>
+                    
+                </li><li class="header-menu-item pure-menu-item ">
+                    
+                        <a href="/about/" class="pure-menu-link">About</a>
+                    
+                </li></ul>
+</nav>
+</div>
+
+        <div id="header_right">
+            
+
+            <div id="theme_tool">
+                <button id="dark_mode_btn" class="header-menu-btn outline-button" title='Switch to dark mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+</svg>
+
+</button>
+                <button id="light_mode_btn" class="header-menu-btn outline-button" title='Switch to light mode' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+</svg>
+
+</button>
+            </div>
+
+            
+                <div id="search_tool">
+                    <button id="search_btn" class="header-menu-btn outline-button" title='Search Posts' type="button">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+</svg>
+
+</button>
+                </div>
+            
+        </div>
+    </div>
+</header><div id="search_menu_wrapper" class="hidden">
+    <div id="search_menu">
+        <div id="search_menu_toolbar">
+            <div id="search_menu_input_wrapper">
+                <input id="search_menu_input" type="text" placeholder='Search Posts'>
+            </div>
+            <div id="search_menu_close_btn">
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1.25rem" height="1.25rem" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+    stroke-linejoin="round">
+    <line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>
+</svg>
+
+</div>
+        </div>
+        <div id="search_menu_results">
+        </div>
+    </div>
+</div>
+<main>
+            <div id="content" class="content-margin">
+                
+
+
+    <div class="content-margin">
+
+
+
+
+<article class="line-numbers">
+    
+    
+
+    
+    
+        
+        
+        
+    
+        
+        
+            
+            
+            
+        
+        <section id="one-source-of-truth-two-kinds-of-readers">
+
+
+<h1>One Source of Truth, Two Kinds of Readers</h1>
+
+<p>In my recent conversations about AI adoption a question came up several times: <em>&ldquo;Now that AI agents use our knowledge as much as people do, do we need one knowledge source for humans and another one for AI?&rdquo;</em></p>
+<p>My short answer is no. A second, AI-specific knowledge base looks like the clean engineering answer, but it is the one most likely to produce the failure we are all trying to avoid: a confident answer that is plausible and wrong. What we need is <strong>one authoritative source for each area of knowledge, written once, with different ways of reading it</strong> for people and for AI agents.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="the-second-copy-is-tempting">
+
+
+<h2>The second copy is tempting</h2>
+
+<p>Knowledge bases were designed for people. A typical flow is that a person searches, skims a few articles, ignores the ones that look outdated and asks a colleague when something feels off. However, an agent does none of that and it retrieves the closest match, treats it as true and acts on it. In most cases AI tools are pulling from the same scattered documents we have struggled with for years, but people are at least more likely to notice when something is off.</p>
+<p>So the instinct is to build a clean, structured, &ldquo;AI-ready&rdquo; version and leave the human wiki as it is. There is a fair argument behind the instinct, as human-written pages are often summaries, and a summary tends to leave out the operational constraints that matter, which is exactly what an agent needs. That is a reason to be careful about what the source is (the policy or contract itself, with the human summary derived from it), not a reason to maintain two.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="two-copies-fail">
+
+
+<h2>Two copies fail</h2>
+
+<p><strong>The two knowledge versions will drift</strong>. Someone will update the policy page on Monday and the AI copy is refreshed on the next sync, or even worse, never. Stale data is one of the best-documented ways a retrieval system goes wrong. And while a person reading the old page may notice something is off, an agent will not.</p>
+<p><strong>Two copies mean two owners and two truths.</strong> In 
+<a href="../../../posts/2026/cheap-to-start-expensive-to-own/">Cheap to Start, Expensive to Own</a> I described the risk of ten dashboards with ten meanings of &ldquo;revenue&rdquo;. Two knowledge bases create the same problem for policies, processes and product facts. When an agent and a colleague give different answers, the question becomes whose version is right, and nobody owns the answer.</p>
+<p><strong>In addition, these mistakes travel.</strong> An agent&rsquo;s answer rarely stays where it was produced, it becomes the input to the next step. In 
+<a href="../../../posts/2026/ai-mistakes-should-not-be-allowed-to-travel/">AI Mistakes Should Not Be Allowed to Travel</a> I argued that the expensive error is the plausible wrong one, and an out-of-date source is one of the most reliable ways to create it.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="what-actually-differs">
+
+
+<h2>What actually differs</h2>
+
+<p>Humans and agents do read differently, so some things should be different. The point is that they sit on top of the source and do not replace it.</p>
+<table class="mc-table">
+  <thead>
+      <tr>
+          <th>Layer</th>
+          <th>What it is</th>
+          <th>Shared or separate</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>The knowledge itself</td>
+          <td>Policies, product facts, decisions, authored and owned once per domain</td>
+          <td><strong>Shared</strong></td>
+      </tr>
+      <tr>
+          <td>Metadata</td>
+          <td>Owner, last reviewed, status, whether it is approved for use</td>
+          <td><strong>Shared</strong>, but agents depend on it more than people do</td>
+      </tr>
+      <tr>
+          <td>Retrieval</td>
+          <td>Search, embeddings, and where it helps, a graph. Derived from the source and rebuilt when it changes</td>
+          <td><strong>Separate</strong>, and never edited by hand</td>
+      </tr>
+      <tr>
+          <td>Access</td>
+          <td>A search page and navigation for people, an API or MCP server for agents</td>
+          <td><strong>Separate</strong>, different doors to the same content</td>
+      </tr>
+      <tr>
+          <td>Permissions</td>
+          <td>An agent should see what the person it works for is allowed to see</td>
+          <td><strong>Shared</strong> rules</td>
+      </tr>
+      <tr>
+          <td>Agent memory and session context</td>
+          <td>What an agent has learned or is doing right now</td>
+          <td><strong>Separate</strong>, it is working state and not curated knowledge</td>
+      </tr>
+      <tr>
+          <td>Agent instructions</td>
+          <td>Skills, prompts and rules for how an agent should use the knowledge, e.g. what to do when sources conflict</td>
+          <td><strong>Separate</strong>, authored for agents and versioned, but they point to the source instead of restating facts</td>
+      </tr>
+  </tbody>
+</table>
+<p>The test I normally use is that facts in the AI layer should be generated from the source, never authored. If someone is fixing a fact inside the AI layer, then the source has already failed and the fix needs to go back to it.</p>
+<p>Here it is worth noting that the agent instructions are different. They tell an agent how to use knowledge and not what is true, so they can be written for agents, as long as they reference the source and do not copy it.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="one-source-per-domain-not-one-system">
+
+
+<h2>One source per domain, not one system</h2>
+
+<p>One thing to clarify is that a single source of truth does not necessarily mean a single platform. For example, contracts will usually live in a contract system, HR policy in the HR system and product and engineering knowledge somewhere else. The more useful approach would be to link knowledge to the systems where it lives instead of copying it, with one owner per domain and everything else pointing at it.</p>
+<p>Some copying may be unavoidable, because search indexes should be derived copies. The difference is that they are rebuilt from the source automatically and nobody edits them.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="rules-instead-of-a-platform-decision">
+
+
+<h2>Rules instead of a platform decision</h2>
+
+<p>As with strategy, I find rules more useful here than a big platform choice. A small set, published in advance, that teams can apply without asking permission:</p>
+<ol>
+<li>Every piece of knowledge has a named owner and a review date</li>
+<li>Knowledge is authored once, and anything an agent reads is derived from it</li>
+<li>Agents read through the same permissions as the people they work for</li>
+<li>Anything unowned or past its review date is flagged or retired, not served</li>
+<li>When an agent is wrong, the correction goes to the source and not into a prompt</li>
+</ol>
+<p>The fourth rule is the one that gets skipped. As I wrote in 
+<a href="../../../posts/2026/platforms-in-flat-growth-environment/">When Growth Stops, Platforms Have to Earn Their Place</a>, most organisations keep far more than they need and nobody is paid to retire it. When only people read the content, an outdated page was an annoyance. When agents read it, an outdated page is a risk.</p>
+<p>However, it is also an expensive rule to follow. Content that is unowned or outdated is often content people still rely on, e.g. an old runbook nobody has touched but everyone uses. Stopping agents from serving it means answers will get worse before they get better. Flagging it first, and serving it with a visible warning, is the gentler route. I would still do it, but as a conscious trade-off, because the alternative is agents confidently serving things nobody has checked.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="what-i-still-find-hard">
+
+
+<h2>What I still find hard</h2>
+
+<p><strong>Writing for two readers is not easy</strong>. People write for people, for example shorthand, implied context, &ldquo;ask Sarah&rdquo;, etc. Agents on the other side need explicit definitions, instructions and scope, such as what a rule applies to and when. I think we have to write a little differently, but I am not sure how much structure you can ask for before people stop writing at all.</p>
+<p><strong>Ownership is a challenge.</strong> From experience, a lot of organisational knowledge has no owner, and nobody noticed because people worked around it. Agents will surface these gaps and contradictions quickly, and an owner should carry real consequences for what is wrong.</p>
+<p><strong>Knowledge is not the same as context.</strong> A knowledge source is one input. The harder design question is which knowledge belongs in the model and what is supplied dynamically, and I do not think anyone has settled that yet.</p>
+</section>
+    
+        
+        
+            
+            
+            
+        
+        <section id="conclusion">
+
+
+<h2>Conclusion</h2>
+
+<p>I do not start from <em>&ldquo;How many knowledge sources do we need?&rdquo;</em>, I start from <em>&ldquo;who owns this, and when was it last true?&rdquo;</em> An organisation that can answer that for each domain can serve people and agents from the same source. One that cannot will get the same problem twice, once for the people and once for the agents, and the agents will be more confident about it.</p>
+</section>
+    
+</article>
+</div>
+
+
+                
+                    
+                
+
+                
+            </div>
+        </main>
+<footer>
+    <article>Copyright © 2026 Fil Bezerianos</article>
+</footer>
+
+</body>
+</html>
